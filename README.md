@@ -1,36 +1,44 @@
 # ONS Trade Data API
 
-A SvelteKit-based client-side API serving UK trade data from the Office for National Statistics (ONS).
+A SvelteKit-based **fully static** query engine for UK trade data from the Office for National Statistics (ONS). All queries run in the browser — no server required.
 
 ## Overview
 
-This project provides a lightweight, file-based API for querying UK trade data. Data is pre-processed and stored as JSON files, enabling fast, stateless API responses without a database.
+This project pre-processes ONS trade data into JSON files and ships a **client-side `QueryEngine`** that fetches and analyses those files entirely in the browser. It deploys to any static host (GitHub Pages, Netlify, Cloudflare Pages) with zero server cost.
 
 ## Features
 
-- 📊 **Pre-generated data files** - Fast, efficient JSON responses
-- 🗂️ **Multiple query dimensions** - Query by commodity, country, time period, or top results
-- 🔧 **Easy data processing** - TypeScript scripts for parsing and aggregating data
-- 🚀 **Deployable anywhere** - Runs on Node.js or serverless platforms (Vercel, Netlify)
+- 📊 **Pre-generated data files** — Fast JSON files served from any CDN
+- 🔍 **Multidimensional client-side queries** — Filter by commodity, country, flow, and date range simultaneously
+- 📈 **Built-in analytics** — Partner reliance, growth discovery, trade balance breakdown, anomaly detection
+- 🌐 **Fully static** — `adapter-static` build, no Node.js server required
+- 🔧 **Easy data processing** — TypeScript scripts for parsing and aggregating data
+- 🚀 **Deployable anywhere** — GitHub Pages, Netlify, Cloudflare Pages, or any CDN
 
 ## Project Structure
 
 ```
 ├── src/
 │   ├── routes/
-│   │   ├── api/
-│   │   │   └── [...path]/        # Dynamic API route handler
-│   │   └── +page.svelte          # Homepage
+│   │   ├── +layout.ts            # prerender = true
+│   │   └── +page.svelte          # Interactive query demo
 │   ├── lib/
-│   │   ├── server/
-│   │   │   └── data-loader.ts    # File loading utilities
+│   │   ├── query-engine.ts       # Client-side multidimensional query engine
 │   │   └── types/
-│   │       └── trade.ts           # TypeScript types
+│   │       └── trade.ts          # TypeScript types + query result types
 │   └── app.html
 ├── scripts/
 │   ├── parse-excel.ts            # Excel file parser
-│   └── generate-files.ts         # Data aggregation script
+│   └── generate-files.ts         # Data aggregation + index generation
 ├── data/                          # Generated JSON data files
+│   ├── meta/
+│   │   ├── index.json            # Lightweight per-country lookup index
+│   │   ├── commodities.json
+│   │   ├── countries.json
+│   │   └── time-periods.json
+│   ├── trade-by-commodity/
+│   ├── trade-by-country/
+│   └── trade-by-period/
 └── package.json
 ```
 
@@ -83,112 +91,8 @@ This creates pre-aggregated JSON files organized by:
 - **Country** (`/data/trade-by-country/{code}.json`)
 - **Time period** (`/data/trade-by-period/{date}.json`)
 - **Top results** (`/data/top-imports/`, `/data/top-exports/`)
+- **Meta index** (`/data/meta/index.json`) — compact per-country lookup
 
-## API Endpoints
-
-### Metadata Endpoints
-
-#### Get API Schema
-```
-GET /api/meta/schema
-```
-
-Returns the data schema version and metadata about the dataset.
-
-#### Get Commodities Lookup
-```
-GET /api/meta/commodities
-```
-
-Returns a mapping of commodity codes to names and hierarchy levels.
-
-#### Get Countries Lookup
-```
-GET /api/meta/countries
-```
-
-Returns a mapping of country codes to country names.
-
-#### Get Available Time Periods
-```
-GET /api/meta/periods
-```
-
-Returns an array of available time periods in the dataset.
-
-### Data Endpoints
-
-#### Get Trade by Commodity
-```
-GET /api/trade-by-commodity/{commodity_code}
-```
-
-Returns all trade records for a specific commodity code.
-
-**Example:**
-```
-GET /api/trade-by-commodity/SITC_28
-```
-
-#### Get Trade by Country
-```
-GET /api/trade-by-country/{country_code}
-```
-
-Returns all trade records for a specific country.
-
-**Example:**
-```
-GET /api/trade-by-country/US
-```
-
-#### Get Trade by Period
-```
-GET /api/trade-by-period/{date}
-```
-
-Returns all trade records for a specific time period (YYYY-MM-DD format).
-
-**Example:**
-```
-GET /api/trade-by-period/2025-12
-```
-
-#### Get Top Imports
-```
-GET /api/top-imports/{period}
-```
-
-Returns the top 100 import commodities/countries by trade value for a period.
-
-**Example:**
-```
-GET /api/top-imports/all-time
-```
-
-#### Get Top Exports
-```
-GET /api/top-exports/{period}
-```
-
-Returns the top 100 export commodities/countries by trade value for a period.
-
-**Example:**
-```
-GET /api/top-exports/all-time
-```
-
-#### Get Trade Balance
-```
-GET /api/balance/{country_code}/{period}
-```
-
-Returns the trade balance data for a specific country and period.
-
-**Example:**
-```
-GET /api/balance/DE/2025-12
-```
 
 ## Data Schema
 
@@ -254,24 +158,126 @@ Edit `scripts/generate-files.ts` to:
 - Modify aggregation logic
 - Add new endpoints
 
-### Testing the API
+## Client-Side Query Engine
+
+`src/lib/query-engine.ts` provides four analytical query types that run entirely in the browser:
+
+### 1. Partner Reliance
+Which countries supply (or receive) a given commodity? Tracks concentration risk.
+
+```typescript
+const engine = new QueryEngine('/data');
+const results = await engine.partnerReliance('28', { flow: 'import', year: 2024 }, 10);
+// → [{ country_code, country_name, value_gbp, share_pct, periods }]
+```
+
+### 2. Export / Import Growth Discovery
+Which product categories are surging with a given partner over a time window?
+
+```typescript
+const growth = await engine.topGrowth('US', 'export', 12, 20);
+// → [{ code, name, value_start, value_end, growth_pct, periods_compared }]
+```
+
+### 3. Trade Balance Breakdown
+Net trade with a country, broken down by commodity. Sorted by largest deficit first.
+
+```typescript
+const balance = await engine.balanceBreakdown('DE', { year: 2024 });
+// → [{ commodity_code, commodity_name, imports_gbp, exports_gbp, net_gbp }]
+```
+
+### 4. Anomaly / Outlier Detection
+Flags statistically unusual trade values using z-score analysis.
+
+```typescript
+const outliers = await engine.outliers({ type: 'country', code: 'CN' }, { flow: 'export' }, 2.5);
+// → [{ record, mean_value, std_dev, z_score }]
+```
+
+All methods accept a `QueryFilter` for composable multi-dimensional filtering:
+
+```typescript
+interface QueryFilter {
+  flow?: 'import' | 'export';
+  commodityCode?: string;
+  countryCode?: string;
+  dateFrom?: string;   // "YYYY-MM-DD"
+  dateTo?: string;
+  year?: number;
+  periodType?: 'monthly' | 'quarterly' | 'annual';
+}
+```
+
+### How it works
+
+The engine fetches one pre-generated file as an "anchor" (by country or by commodity), then filters and aggregates entirely client-side. Results are cached in-memory so repeated queries on the same anchor are instant.
+
+| Query | File fetched | Client-side logic |
+|---|---|---|
+| Partner Reliance | `trade-by-commodity/{code}.json` | filter flow + year, group by country |
+| Growth Discovery | `trade-by-country/{code}.json` | period-over-period % change by commodity |
+| Balance Breakdown | `trade-by-country/{code}.json` | group by commodity, net = exports − imports |
+| Anomaly Detection | either file | z-score vs dataset mean |
+
+## Data Files
+
+```
+data/
+├── meta/
+│   ├── index.json          ← lightweight per-country lookup (commodities + periods)
+│   ├── commodities.json
+│   ├── countries.json
+│   └── time-periods.json
+├── trade-by-commodity/     ← one JSON array per commodity code
+├── trade-by-country/       ← one JSON array per country code
+├── trade-by-period/        ← one JSON array per date
+├── top-imports/
+├── top-exports/
+└── balance/
+```
+
+## Deployment
+
+### GitHub Pages / Netlify / Cloudflare Pages
 
 ```bash
-# Test a specific endpoint
-curl http://localhost:5173/api/meta/schema
-
-# Pretty print JSON
-curl http://localhost:5173/api/meta/commodities | jq '.'
+npm run build
+# Upload the `build/` directory to any static host
 ```
+
+No server needed. Point your static host's root to `build/`.
+
+### Local Preview
+
+```bash
+npm run build
+npm run preview
+```
+
+## Development
+
+### Adding New Data
+
+1. Update the Excel files in `data/raw/`
+2. Run the parse and generate scripts:
+   ```bash
+   npm run parse-data -- data/raw/trade.xlsx data/parsed.json
+   npm run generate-files -- data/parsed.json
+   ```
+3. Rebuild: `npm run build`
+
+### Customising Query Logic
+
+Edit `src/lib/query-engine.ts` to add new query methods or change aggregation logic.
+Edit `scripts/generate-files.ts` to change the generated file structure.
 
 ## Future Enhancements
 
 - [ ] GitHub Actions workflow for automatic data updates (Thursdays 7am)
-- [ ] Database backend option for larger datasets
-- [ ] Query parameter filtering (e.g., `?minValue=1000000`)
-- [ ] Data caching strategies
-- [ ] Performance optimizations for large datasets
-- [ ] Visualization frontend components
+- [ ] Visualisation components (charts per query result)
+- [ ] Exportable CSV from query results
+- [ ] Shareable query URLs (encode filters in hash/search params)
 
 ## Data Sources
 

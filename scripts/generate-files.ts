@@ -172,6 +172,29 @@ export function generateAggregatedFiles(records: NormalizedRecord[]): void {
     }, null, 2)
   );
 
+  // Build lightweight index: per-country → { commodities, periods }
+  const metaIndex: Record<string, { commodities: Set<string>; periods: Set<string> }> = {};
+  for (const record of records) {
+    if (!isValidCountryCode(record.country_code)) continue;
+    if (!metaIndex[record.country_code]) {
+      metaIndex[record.country_code] = { commodities: new Set(), periods: new Set() };
+    }
+    metaIndex[record.country_code].commodities.add(record.commodity_code);
+    metaIndex[record.country_code].periods.add(record.date);
+  }
+
+  const metaIndexSerializable: Record<string, { commodities: string[]; periods: string[] }> = {};
+  for (const [cc, val] of Object.entries(metaIndex)) {
+    metaIndexSerializable[cc] = {
+      commodities: Array.from(val.commodities).sort(),
+      periods: Array.from(val.periods).sort()
+    };
+  }
+  fs.writeFileSync(
+    path.join(DATA_DIR, 'meta', 'index.json'),
+    JSON.stringify(metaIndexSerializable, null, 2)
+  );
+
   // Group by commodity
   const byCommodity: Record<string, NormalizedRecord[]> = {};
   for (const record of records) {
