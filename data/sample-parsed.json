@@ -1,0 +1,79 @@
+[
+  {
+    "commodity_code": "SITC_0",
+    "commodity_name": "Food and live animals",
+    "country_code": "US",
+    "country_name": "United States",
+    "flow": "import",
+    "value": 5234567890,
+    "volume": 1200000,
+    "volume_unit": "tonnes",
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_27",
+    "commodity_name": "Crude fertilizer, minerals",
+    "country_code": "DE",
+    "country_name": "Germany",
+    "flow": "export",
+    "value": 3421098765,
+    "volume": 450000,
+    "volume_unit": "tonnes",
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_28",
+    "commodity_name": "Metallic ore and metal scrap",
+    "country_code": "BR",
+    "country_name": "Brazil",
+    "flow": "import",
+    "value": 2156789034,
+    "volume": 890000,
+    "volume_unit": "tonnes",
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_5",
+    "commodity_name": "Chemicals and related products",
+    "country_code": "FR",
+    "country_name": "France",
+    "flow": "export",
+    "value": 4567890123,
+    "volume": 230000,
+    "volume_unit": "tonnes",
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_6",
+    "commodity_name": "Manufactured goods",
+    "country_code": "CN",
+    "country_name": "China",
+    "flow": "import",
+    "value": 12345678901,
+    "volume": null,
+    "volume_unit": null,
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_7",
+    "commodity_name": "Machinery and transport equipment",
+    "country_code": "JP",
+    "country_name": "Japan",
+    "flow": "import",
+    "value": 8765432109,
+    "volume": null,
+    "volume_unit": null,
+    "date": "2025-12"
+  },
+  {
+    "commodity_code": "SITC_8",
+    "commodity_name": "Miscellaneous manufactured articles",
+    "country_code": "IN",
+    "country_name": "India",
+    "flow": "import",
+    "value": 3456789012,
+    "volume": null,
+    "volume_unit": null,
+    "date": "2025-12"
+  }
+]

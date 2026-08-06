@@ -1,0 +1,33 @@
+node_modules/
+dist/
+build/
+.svelte-kit/
+.DS_Store
+*.log
+.env
+.env.local
+.env.*.local
+*.pid
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.env.example
+
+# Development
+.vite/
+.turbo/
+
+# Data
+data/raw/
+data/*.json
+data/*/*.json
+!data/sample-parsed.json
+
+# Build outputs
+.next/
+out/
+.nuxt/
+coverage/
+.nyc_output/
