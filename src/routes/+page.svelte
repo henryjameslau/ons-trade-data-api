@@ -347,7 +347,7 @@ const outliers = rows.filter(r =>
   <!-- ── Example recipes ──────────────────────────────────────────────── -->
   <section>
     <h2>Example Query Recipes</h2>
-    <p class="desc">These are the four analytical patterns from the original spec — shown here as query engine code you can copy and adapt.</p>
+    <p class="desc">These are four analytical patterns examples — shown here as query engine code you can copy and adapt.</p>
 
     <div class="recipes">
 
