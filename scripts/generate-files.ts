@@ -29,7 +29,8 @@ interface NormalizedRecord {
   last_updated: string;
 }
 
-const DATA_DIR = path.join(process.cwd(), 'data');
+/** Generated JSON files go into static/data/ so SvelteKit serves them as static assets */
+const DATA_DIR = path.join(process.cwd(), 'static', 'data');
 
 /**
  * Sanitize filename to prevent issues with special characters
