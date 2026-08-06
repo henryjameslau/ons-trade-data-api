@@ -1,9 +1,7 @@
 /**
  * Client-side Query Engine for ONS Trade Data
  *
- * Two layers:
- *
- * 1. Generic fluent builder — compose any query:
+ * Compose any multidimensional query with a fluent builder:
  *
  *   const results = await engine
  *     .query('country', 'DE')
@@ -17,9 +15,6 @@
  *     .sortBy('value_gbp_sum', 'desc')
  *     .limit(20)
  *     .run();
- *
- * 2. Named convenience methods that wrap the builder for common patterns:
- *   partnerReliance(), topGrowth(), balanceBreakdown(), outliers()
  */
 
 import type {
@@ -31,11 +26,7 @@ import type {
   AggFn,
   ComputeFn,
   SortSpec,
-  MetaIndex,
-  PartnerRelianceResult,
-  GrowthResult,
-  BalanceBreakdownResult,
-  OutlierResult
+  MetaIndex
 } from './types/trade.js';
 
 // ---------------------------------------------------------------------------
@@ -327,183 +318,6 @@ export class QueryEngine {
     anchorCode: string
   ): Query {
     return new Query(this, anchorType, anchorCode);
-  }
-
-  // ── Named convenience methods (built on query()) ──────────────────────────
-
-  /**
-   * Partner Reliance — top countries supplying or receiving a commodity.
-   * Equivalent to:
-   *   engine.query('commodity', code)
-   *     .filter({ flow, year })
-   *     .groupBy('country_code', 'country_name')
-   *     .aggregate({ value_gbp: 'sum' })
-   *     .compute('share_pct', ...)
-   *     .sortBy('value_gbp_sum', 'desc')
-   *     .limit(topN)
-   *     .run()
-   */
-  async partnerReliance(
-    commodityCode: string,
-    filter: Pick<QueryFilter, 'flow' | 'year' | 'dateFrom' | 'dateTo'> = {},
-    topN = 20
-  ): Promise<PartnerRelianceResult[]> {
-    const rows = await this
-      .query('commodity', commodityCode)
-      .filter(filter)
-      .groupBy('country_code', 'country_name')
-      .aggregate({ value_gbp: 'sum' })
-      .compute('share_pct', (row, all) => {
-        const total = all.reduce((s, r) => s + (r.value_gbp_sum as number), 0);
-        return total > 0 ? Math.round(((row.value_gbp_sum as number) / total) * 10000) / 100 : 0;
-      })
-      .sortBy('value_gbp_sum', 'desc')
-      .limit(topN)
-      .run();
-
-    // Reconstruct period list from cached records
-    const records = await this.fetchByCommodity(commodityCode);
-    const filtered = this.applyFilter(records, filter);
-    const periodsByCountry = new Map<string, Set<string>>();
-    for (const r of filtered) {
-      const s = periodsByCountry.get(r.country_code) ?? new Set();
-      s.add(r.date);
-      periodsByCountry.set(r.country_code, s);
-    }
-
-    return rows.map(r => ({
-      country_code: r.country_code as string,
-      country_name: r.country_name as string,
-      value_gbp: r.value_gbp_sum as number,
-      share_pct: r.share_pct as number,
-      periods: Array.from(periodsByCountry.get(r.country_code as string) ?? []).sort()
-    }));
-  }
-
-  /**
-   * Export/Import Growth Discovery — which commodities are growing fastest
-   * for a given country partner over a rolling time window.
-   */
-  async topGrowth(
-    countryCode: string,
-    flow: 'import' | 'export',
-    windowPeriods = 12,
-    topN = 20
-  ): Promise<GrowthResult[]> {
-    const records = await this.fetchByCountry(countryCode);
-    const filtered = this.applyFilter(records, { flow, countryCode });
-
-    const byCommodity = new Map<string, { name: string; byPeriod: Map<string, number> }>();
-    for (const r of filtered) {
-      const entry = byCommodity.get(r.commodity_code) ??
-        { name: r.commodity_name, byPeriod: new Map() };
-      entry.byPeriod.set(r.date, (entry.byPeriod.get(r.date) ?? 0) + r.value_gbp);
-      byCommodity.set(r.commodity_code, entry);
-    }
-
-    const allPeriods = Array.from(new Set(filtered.map(r => r.date))).sort();
-    if (allPeriods.length < 2) return [];
-
-    const recentPeriods = allPeriods.slice(-windowPeriods);
-    const previousPeriods = allPeriods.slice(
-      Math.max(0, allPeriods.length - windowPeriods * 2),
-      allPeriods.length - windowPeriods
-    );
-
-    const results: GrowthResult[] = [];
-    for (const [code, entry] of byCommodity) {
-      const recent = recentPeriods.reduce((s, p) => s + (entry.byPeriod.get(p) ?? 0), 0);
-      const previous = previousPeriods.reduce((s, p) => s + (entry.byPeriod.get(p) ?? 0), 0);
-      if (previous === 0 && recent === 0) continue;
-      const growth_pct = previous === 0
-        ? (recent > 0 ? 100 : 0)
-        : Math.round(((recent - previous) / previous) * 10000) / 100;
-      results.push({
-        code, name: entry.name, flow,
-        value_start: previous, value_end: recent, growth_pct,
-        periods_compared: [
-          previousPeriods[0] ?? recentPeriods[0],
-          recentPeriods[recentPeriods.length - 1]
-        ]
-      });
-    }
-
-    return results.sort((a, b) => b.growth_pct - a.growth_pct).slice(0, topN);
-  }
-
-  /**
-   * Trade Balance Breakdown — net trade with a country by commodity.
-   * Equivalent to:
-   *   engine.query('country', code)
-   *     .filter({ year })
-   *     .groupBy('commodity_code', 'commodity_name', 'flow')
-   *     .aggregate({ value_gbp: 'sum' })
-   *     .run()
-   *   …then pivoting flow into imports/exports columns.
-   */
-  async balanceBreakdown(
-    countryCode: string,
-    filter: Pick<QueryFilter, 'year' | 'dateFrom' | 'dateTo' | 'periodType'> = {}
-  ): Promise<BalanceBreakdownResult[]> {
-    const rows = await this
-      .query('country', countryCode)
-      .filter(filter)
-      .groupBy('commodity_code', 'commodity_name', 'flow')
-      .aggregate({ value_gbp: 'sum' })
-      .run();
-
-    const map = new Map<string, BalanceBreakdownResult>();
-    for (const r of rows) {
-      const code = r.commodity_code as string;
-      const entry = map.get(code) ?? {
-        commodity_code: code,
-        commodity_name: r.commodity_name as string,
-        imports_gbp: 0, exports_gbp: 0, net_gbp: 0
-      };
-      if (r.flow === 'import') entry.imports_gbp += r.value_gbp_sum as number;
-      else entry.exports_gbp += r.value_gbp_sum as number;
-      entry.net_gbp = entry.exports_gbp - entry.imports_gbp;
-      map.set(code, entry);
-    }
-
-    return Array.from(map.values()).sort((a, b) => a.net_gbp - b.net_gbp);
-  }
-
-  /**
-   * Anomaly / Outlier Detection — z-score based.
-   * Equivalent to:
-   *   engine.query(anchorType, code)
-   *     .filter({ flow })
-   *     .compute('z_score', (row, all) => ...)
-   *     .run()
-   *   …then filtering rows where |z_score| >= threshold.
-   */
-  async outliers(
-    anchor: { type: 'country'; code: string } | { type: 'commodity'; code: string },
-    filter: Pick<QueryFilter, 'flow' | 'year' | 'dateFrom' | 'dateTo'> = {},
-    zThreshold = 2.5
-  ): Promise<OutlierResult[]> {
-    const records = anchor.type === 'country'
-      ? await this.fetchByCountry(anchor.code)
-      : await this.fetchByCommodity(anchor.code);
-
-    const filtered = this.applyFilter(records, filter);
-    if (filtered.length < 3) return [];
-
-    const values = filtered.map(r => r.value_gbp);
-    const mean = values.reduce((s, v) => s + v, 0) / values.length;
-    const std = Math.sqrt(values.reduce((s, v) => s + (v - mean) ** 2, 0) / values.length);
-    if (std === 0) return [];
-
-    return filtered
-      .map(r => ({
-        record: r,
-        mean_value: mean,
-        std_dev: std,
-        z_score: Math.round(((r.value_gbp - mean) / std) * 100) / 100
-      }))
-      .filter(o => Math.abs(o.z_score) >= zThreshold)
-      .sort((a, b) => Math.abs(b.z_score) - Math.abs(a.z_score));
   }
 }
 

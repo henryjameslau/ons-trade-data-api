@@ -100,7 +100,7 @@ export interface QueryFilter {
 }
 
 // ---------------------------------------------------------------------------
-// Convenience result types (used by named helper methods)
+// Convenience result types (kept as reference examples in README/docs)
 // ---------------------------------------------------------------------------
 
 /** Result of a partner reliance query */
