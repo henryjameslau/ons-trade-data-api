@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { QueryEngine } from '$lib/query-engine.js';
-  import type { PartnerRelianceResult, GrowthResult, BalanceBreakdownResult, OutlierResult } from '$lib/types/trade.js';
+  import type { PartnerRelianceResult, GrowthResult, BalanceBreakdownResult, OutlierResult, QueryRow } from '$lib/types/trade.js';
 
   const engine = new QueryEngine('/data');
 
@@ -76,6 +76,49 @@
     // Auto-run all four queries on page load
     runQ1(); runQ2(); runQ3(); runQ4();
   });
+
+  // ── Query Builder (generic) ────────────────────────────────────────────────
+  let qbAnchorType: 'country' | 'commodity' | 'period' = 'country';
+  let qbAnchorCode = 'DE';
+  let qbGroupBy = 'commodity_code';
+  let qbAggField = 'value_gbp';
+  let qbAggFn: 'sum' | 'avg' | 'min' | 'max' | 'count' = 'sum';
+  let qbFlow = '';
+  let qbYear: number | undefined = undefined;
+  let qbSortDir: 'asc' | 'desc' = 'desc';
+  let qbLimit = 20;
+  let qbResults: QueryRow[] = [];
+  let qbLoading = false;
+  let qbError = '';
+
+  $: qbCode = `engine
+  .query('${qbAnchorType}', '${qbAnchorCode}')
+  ${qbFlow || qbYear ? `.filter({ ${[qbFlow ? `flow: '${qbFlow}'` : '', qbYear ? `year: ${qbYear}` : ''].filter(Boolean).join(', ')} })` : ''}
+  .groupBy('${qbGroupBy}')
+  .aggregate({ ${qbAggField}: '${qbAggFn}' })
+  .sortBy('${qbAggField}_${qbAggFn}', '${qbSortDir}')
+  .limit(${qbLimit})
+  .run()`.replace(/\n\s*\n/g, '\n');
+
+  async function runQb() {
+    qbLoading = true; qbError = '';
+    try {
+      const filter: Record<string, any> = {};
+      if (qbFlow) filter.flow = qbFlow;
+      if (qbYear) filter.year = qbYear;
+
+      const q = engine
+        .query(qbAnchorType, qbAnchorCode)
+        .groupBy(qbGroupBy as any)
+        .aggregate({ [qbAggField]: qbAggFn } as any)
+        .sortBy(`${qbAggField}_${qbAggFn}`, qbSortDir)
+        .limit(qbLimit);
+
+      if (Object.keys(filter).length) q.filter(filter);
+      qbResults = await q.run();
+    } catch (e: any) { qbError = e.message; }
+    qbLoading = false;
+  }
 
   function fmt(n: number): string {
     return new Intl.NumberFormat('en-GB', { style: 'currency', currency: 'GBP', notation: 'compact', maximumFractionDigits: 1 }).format(n);
@@ -225,6 +268,86 @@
       <p class="muted">No outliers found at z ≥ {q4Threshold}.</p>
     {/if}
   </section>
+
+  <!-- Query Builder: generic .query() API -->
+  <section>
+    <h2>5 · Generic Query Builder</h2>
+    <p class="desc">Use <code>engine.query()</code> to compose any multidimensional query with arbitrary filters, groupings, aggregations, computed columns, sorts and limits — no predefined query shape required.</p>
+    <div class="controls">
+      <label>Anchor type
+        <select bind:value={qbAnchorType}>
+          <option value="country">Country</option>
+          <option value="commodity">Commodity</option>
+          <option value="period">Period</option>
+        </select>
+      </label>
+      <label>Code / date <input bind:value={qbAnchorCode} /></label>
+      <label>Group by
+        <select bind:value={qbGroupBy}>
+          <option value="commodity_code">commodity_code</option>
+          <option value="country_code">country_code</option>
+          <option value="flow">flow</option>
+          <option value="date">date</option>
+          <option value="period_type">period_type</option>
+          <option value="commodity_level">commodity_level</option>
+        </select>
+      </label>
+      <label>Aggregate
+        <select bind:value={qbAggField}>
+          <option value="value_gbp">value_gbp</option>
+          <option value="volume">volume</option>
+        </select>
+      </label>
+      <label>Function
+        <select bind:value={qbAggFn}>
+          <option value="sum">sum</option>
+          <option value="avg">avg</option>
+          <option value="min">min</option>
+          <option value="max">max</option>
+          <option value="count">count</option>
+        </select>
+      </label>
+      <label>Filter flow
+        <select bind:value={qbFlow}>
+          <option value="">any</option>
+          <option value="import">import</option>
+          <option value="export">export</option>
+        </select>
+      </label>
+      <label>Filter year <input type="number" bind:value={qbYear} min="2000" max="2030" placeholder="any" /></label>
+      <label>Sort dir
+        <select bind:value={qbSortDir}>
+          <option value="desc">desc</option>
+          <option value="asc">asc</option>
+        </select>
+      </label>
+      <label>Limit <input type="number" bind:value={qbLimit} min="1" max="500" /></label>
+      <button on:click={runQb} disabled={qbLoading}>{qbLoading ? 'Loading…' : 'Run'}</button>
+    </div>
+    {#if qbError}<p class="error">{qbError}</p>{/if}
+    <details class="code-preview">
+      <summary>Equivalent code</summary>
+      <pre>{qbCode}</pre>
+    </details>
+    {#if qbResults.length}
+      <table>
+        <thead>
+          <tr>{#each Object.keys(qbResults[0]) as col}<th>{col}</th>{/each}</tr>
+        </thead>
+        <tbody>
+          {#each qbResults as row}
+            <tr>
+              {#each Object.values(row) as val}
+                <td class:num={typeof val === 'number'}>
+                  {typeof val === 'number' ? val.toLocaleString('en-GB') : val ?? '—'}
+                </td>
+              {/each}
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    {/if}
+  </section>
 </main>
 
 <style>
@@ -248,5 +371,8 @@
   .negative { color: #dc2626; font-weight: 600; }
   .error { color: #dc2626; font-size: 0.875rem; }
   .muted { color: #94a3b8; font-size: 0.875rem; }
+  .code-preview { margin: 0.5rem 0 1rem; }
+  .code-preview summary { cursor: pointer; font-size: 0.8rem; color: #64748b; }
+  .code-preview pre { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 4px; padding: 0.75rem; font-size: 0.8rem; overflow-x: auto; margin: 0.5rem 0 0; white-space: pre; }
 </style>
 
