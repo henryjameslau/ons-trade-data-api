@@ -11,6 +11,8 @@ interface RawTradeData {
   volume?: number;
   volume_unit?: string;
   date: string;
+  /** Passed through from parse-excel when available, otherwise derived */
+  period_type?: 'annual' | 'quarterly' | 'monthly';
 }
 
 interface NormalizedRecord {
@@ -55,7 +57,7 @@ export function normalizeData(rawData: RawTradeData[]): NormalizedRecord[] {
     country_name: record.country_name.trim(),
     flow: record.flow,
     date: normalizeDate(record.date),
-    period_type: derivePeriodType(record.date),
+    period_type: record.period_type ?? derivePeriodType(record.date),
     value_gbp: Math.round(record.value),
     volume: record.volume ? Math.round(record.volume) : null,
     volume_unit: record.volume_unit || null,
@@ -278,6 +280,46 @@ export function generateAggregatedFiles(records: NormalizedRecord[]): void {
 }
 
 /**
+ * Read NDJSON (one JSON record per line) and return normalized records.
+ */
+async function readNDJSON(inputFile: string): Promise<NormalizedRecord[]> {
+  const { createInterface } = await import('readline');
+  const records: NormalizedRecord[] = [];
+
+  const rl = createInterface({
+    input: fs.createReadStream(inputFile, { encoding: 'utf8' }),
+    crlfDelay: Infinity
+  });
+
+  for await (const line of rl) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    try {
+      const raw: RawTradeData = JSON.parse(trimmed);
+      records.push({
+        commodity_code: raw.commodity_code.toUpperCase(),
+        commodity_name: raw.commodity_name.trim(),
+        commodity_level: deriveCommodityLevel(raw.commodity_code),
+        country_code: raw.country_code.toUpperCase(),
+        country_name: raw.country_name.trim(),
+        flow: raw.flow,
+        date: normalizeDate(raw.date),
+        period_type: raw.period_type ?? derivePeriodType(raw.date),
+        value_gbp: Math.round(raw.value),
+        volume: raw.volume ? Math.round(raw.volume) : null,
+        volume_unit: raw.volume_unit || null,
+        data_source: 'ONS',
+        last_updated: new Date().toISOString()
+      });
+    } catch {
+      // skip malformed lines
+    }
+  }
+
+  return records;
+}
+
+/**
  * Main execution
  */
 if (import.meta.url === `file://${process.argv[1]}`) {
@@ -288,8 +330,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     process.exit(1);
   }
 
-  const rawData = JSON.parse(fs.readFileSync(inputFile, 'utf-8'));
-  const normalized = normalizeData(rawData);
-  generateAggregatedFiles(normalized);
-  console.log(`Processed ${normalized.length} records`);
+  (async () => {
+    console.log(`Reading ${inputFile} …`);
+    const normalized = await readNDJSON(inputFile);
+    console.log(`Loaded ${normalized.length.toLocaleString()} records`);
+    generateAggregatedFiles(normalized);
+    console.log(`Processed ${normalized.length.toLocaleString()} records`);
+  })().catch(err => { console.error(err); process.exit(1); });
 }

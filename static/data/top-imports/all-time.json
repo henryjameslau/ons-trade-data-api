@@ -7,12 +7,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 75569000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -22,12 +22,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 73722000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -37,12 +37,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 72460000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -52,12 +52,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 71481000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -67,12 +67,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 69662000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -82,12 +82,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 68283000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -97,12 +97,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 68109000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -112,12 +112,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 67843000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -127,12 +127,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 67321000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -142,12 +142,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 65975000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -157,12 +157,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 65970000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -172,12 +172,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 63131000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -187,12 +187,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 60569000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -202,12 +202,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 58908000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -217,12 +217,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 58184000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -232,12 +232,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 58035000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -247,12 +247,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 57546000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -262,12 +262,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 56792000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -277,12 +277,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 55198000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -292,12 +292,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 54069000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -307,12 +307,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 50925000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -322,12 +322,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 49973000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -337,12 +337,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 49919000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -352,12 +352,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 47406000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "7",
@@ -367,12 +367,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 46384560000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "7",
@@ -382,12 +382,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 44622430000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "T",
@@ -397,12 +397,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 44449000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -412,12 +412,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 44231000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -427,12 +427,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 43645000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -442,12 +442,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 43642000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "7",
@@ -457,12 +457,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 43203330000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "T",
@@ -472,12 +472,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 42689000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -487,12 +487,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 40923000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "3",
@@ -502,12 +502,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 40836470000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.440Z"
+    "last_updated": "2026-08-06T12:16:15.110Z"
   },
   {
     "commodity_code": "T",
@@ -517,12 +517,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 40161000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "T",
@@ -532,12 +532,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 38665000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.463Z"
   },
   {
     "commodity_code": "7",
@@ -547,12 +547,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 37798430000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "7",
@@ -562,12 +562,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 37683240000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "T",
@@ -577,12 +577,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 36917000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -592,12 +592,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 36421000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "T",
@@ -607,12 +607,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 36103000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "7",
@@ -622,12 +622,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 35808520000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "7",
@@ -637,12 +637,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 34916990000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "7",
@@ -652,12 +652,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 34150770000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "T",
@@ -667,12 +667,12 @@
     "country_name": "Netherlands",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33597000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -682,12 +682,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33457000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "7",
@@ -697,12 +697,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33418740000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "7",
@@ -712,12 +712,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 32385070000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "T",
@@ -727,12 +727,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 32006000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "T",
@@ -742,12 +742,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 30675000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "7",
@@ -757,12 +757,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29718220000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "T",
@@ -772,12 +772,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29694000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "T",
@@ -787,12 +787,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29407000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "7",
@@ -802,12 +802,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29335460000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.200Z"
   },
   {
     "commodity_code": "T",
@@ -817,12 +817,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29134000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "7",
@@ -832,12 +832,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 28506950000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "T",
@@ -847,12 +847,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 27281000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "T",
@@ -862,12 +862,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 27248000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -877,12 +877,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 27233000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "78",
@@ -892,12 +892,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26869560000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.569Z"
+    "last_updated": "2026-08-06T12:16:15.282Z"
   },
   {
     "commodity_code": "T",
@@ -907,12 +907,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26797000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "3OF",
@@ -922,12 +922,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 25802060000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.448Z"
+    "last_updated": "2026-08-06T12:16:15.119Z"
   },
   {
     "commodity_code": "34",
@@ -937,12 +937,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24925830000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.446Z"
+    "last_updated": "2026-08-06T12:16:15.117Z"
   },
   {
     "commodity_code": "T",
@@ -952,12 +952,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24768000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "T",
@@ -967,12 +967,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24528000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -982,12 +982,12 @@
     "country_name": "Italy",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24301000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "78",
@@ -997,12 +997,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23982300000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.569Z"
+    "last_updated": "2026-08-06T12:16:15.282Z"
   },
   {
     "commodity_code": "3",
@@ -1012,12 +1012,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23971160000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.440Z"
+    "last_updated": "2026-08-06T12:16:15.110Z"
   },
   {
     "commodity_code": "T",
@@ -1027,12 +1027,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23958000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "T",
@@ -1042,12 +1042,12 @@
     "country_name": "Italy",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23907000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "3",
@@ -1057,12 +1057,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23884920000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.440Z"
+    "last_updated": "2026-08-06T12:16:15.110Z"
   },
   {
     "commodity_code": "78",
@@ -1072,12 +1072,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23823290000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.569Z"
+    "last_updated": "2026-08-06T12:16:15.282Z"
   },
   {
     "commodity_code": "T",
@@ -1087,12 +1087,12 @@
     "country_name": "Italy",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23736000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "3",
@@ -1102,12 +1102,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23540490000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.441Z"
+    "last_updated": "2026-08-06T12:16:15.111Z"
   },
   {
     "commodity_code": "T",
@@ -1117,12 +1117,12 @@
     "country_name": "Italy",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23520000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "7E",
@@ -1132,12 +1132,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23495510000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.595Z"
+    "last_updated": "2026-08-06T12:16:15.318Z"
   },
   {
     "commodity_code": "T",
@@ -1147,12 +1147,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23246000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -1162,12 +1162,12 @@
     "country_name": "Spain",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22874000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -1177,12 +1177,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22854000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "7",
@@ -1192,12 +1192,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22805380000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.515Z"
+    "last_updated": "2026-08-06T12:16:15.205Z"
   },
   {
     "commodity_code": "7",
@@ -1207,12 +1207,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22596480000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "T",
@@ -1222,12 +1222,12 @@
     "country_name": "France",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22564000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "7",
@@ -1237,12 +1237,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22542710000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.511Z"
+    "last_updated": "2026-08-06T12:16:15.199Z"
   },
   {
     "commodity_code": "T",
@@ -1252,12 +1252,12 @@
     "country_name": "Belgium",
     "flow": "import",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 22497000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.743Z"
+    "last_updated": "2026-08-06T12:16:15.458Z"
   },
   {
     "commodity_code": "7E",
@@ -1267,12 +1267,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21791870000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.595Z"
+    "last_updated": "2026-08-06T12:16:15.318Z"
   },
   {
     "commodity_code": "T",
@@ -1282,12 +1282,12 @@
     "country_name": "Spain",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21348000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "3",
@@ -1297,12 +1297,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21081830000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.440Z"
+    "last_updated": "2026-08-06T12:16:15.110Z"
   },
   {
     "commodity_code": "7E",
@@ -1312,12 +1312,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21061510000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.595Z"
+    "last_updated": "2026-08-06T12:16:15.318Z"
   },
   {
     "commodity_code": "7E",
@@ -1327,12 +1327,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21053940000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.595Z"
+    "last_updated": "2026-08-06T12:16:15.318Z"
   },
   {
     "commodity_code": "7E",
@@ -1342,12 +1342,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20813690000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.595Z"
+    "last_updated": "2026-08-06T12:16:15.318Z"
   },
   {
     "commodity_code": "7",
@@ -1357,12 +1357,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20644610000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.515Z"
+    "last_updated": "2026-08-06T12:16:15.205Z"
   },
   {
     "commodity_code": "T",
@@ -1372,12 +1372,12 @@
     "country_name": "Norway",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20531000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.746Z"
+    "last_updated": "2026-08-06T12:16:15.462Z"
   },
   {
     "commodity_code": "T",
@@ -1387,12 +1387,12 @@
     "country_name": "Spain",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20320000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.744Z"
+    "last_updated": "2026-08-06T12:16:15.459Z"
   },
   {
     "commodity_code": "T",
@@ -1402,12 +1402,12 @@
     "country_name": "Italy",
     "flow": "import",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20251000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.745Z"
+    "last_updated": "2026-08-06T12:16:15.460Z"
   },
   {
     "commodity_code": "78",
@@ -1417,12 +1417,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20187550000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.569Z"
+    "last_updated": "2026-08-06T12:16:15.282Z"
   },
   {
     "commodity_code": "8",
@@ -1432,12 +1432,12 @@
     "country_name": "China",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20173470000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.624Z"
+    "last_updated": "2026-08-06T12:16:15.358Z"
   },
   {
     "commodity_code": "7",
@@ -1447,12 +1447,12 @@
     "country_name": "United States incl. Puerto Rico",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20145320000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.515Z"
+    "last_updated": "2026-08-06T12:16:15.205Z"
   },
   {
     "commodity_code": "78M",
@@ -1462,12 +1462,12 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20043620000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.579Z"
+    "last_updated": "2026-08-06T12:16:15.294Z"
   },
   {
     "commodity_code": "78",
@@ -1477,26 +1477,26 @@
     "country_name": "Germany",
     "flow": "import",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20014960000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.569Z"
+    "last_updated": "2026-08-06T12:16:15.282Z"
   },
   {
-    "commodity_code": "3",
-    "commodity_name": "Fuels",
+    "commodity_code": "T",
+    "commodity_name": "Total",
     "commodity_level": 0,
-    "country_code": "NO",
-    "country_name": "Norway",
+    "country_code": "DE",
+    "country_name": "Germany",
     "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 19787930000,
+    "date": "2023-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 19818000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.440Z"
+    "last_updated": "2026-08-06T12:16:16.849Z"
   }
 ]

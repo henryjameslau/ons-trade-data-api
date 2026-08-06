@@ -8,8 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "parse-data": "ts-node scripts/parse-excel.ts",
-    "generate-files": "ts-node scripts/generate-files.ts"
+    "parse-data": "ts-node --esm scripts/parse-excel.ts data/parsed.json data/raw/countrybycommodityexports.xlsx data/raw/countrybycommodityimports.xlsx",
+    "generate-files": "ts-node --esm scripts/generate-files.ts data/parsed.json",
+    "refresh-data": "npm run parse-data && npm run generate-files"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "^5.5.7",

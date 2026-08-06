@@ -7,12 +7,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 70055000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -22,12 +22,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 66535000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -37,12 +37,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 64325000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -52,12 +52,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 62857000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -67,12 +67,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 59748000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -82,12 +82,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 58280000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -97,12 +97,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 55681000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -112,12 +112,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 53569000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.186Z"
+    "last_updated": "2026-08-06T12:16:07.788Z"
   },
   {
     "commodity_code": "T",
@@ -127,12 +127,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 38015000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -142,12 +142,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 37898000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -157,12 +157,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 37055000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -172,12 +172,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 34466000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -187,12 +187,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33549000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -202,12 +202,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33393000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -217,12 +217,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 33148000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -232,12 +232,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 32562000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -247,12 +247,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 31806000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -262,12 +262,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 31343000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "7",
@@ -277,12 +277,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 30807560000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -292,12 +292,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29949000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -307,12 +307,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29933000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -322,12 +322,12 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29923000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.781Z"
   },
   {
     "commodity_code": "T",
@@ -337,12 +337,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 29902000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "7",
@@ -352,12 +352,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 28714590000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -367,12 +367,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 28662000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -382,12 +382,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 28364000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "7",
@@ -397,12 +397,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 27585890000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -412,12 +412,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 27244000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -427,12 +427,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26994000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -442,12 +442,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26586000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -457,12 +457,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26455000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "7",
@@ -472,12 +472,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 26025310000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -487,12 +487,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 25865000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "T",
@@ -502,12 +502,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 25498000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "T",
@@ -517,12 +517,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 25055000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -532,12 +532,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24993000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "7",
@@ -547,12 +547,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24900260000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -562,12 +562,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24666000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -577,12 +577,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24362000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -592,12 +592,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24173000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -607,12 +607,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24170000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -622,12 +622,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 24104000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "7",
@@ -637,12 +637,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 23786650000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -652,12 +652,12 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21945000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.781Z"
   },
   {
     "commodity_code": "T",
@@ -667,12 +667,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21931000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "T",
@@ -682,12 +682,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21726000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "7",
@@ -697,12 +697,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21724960000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -712,12 +712,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21687000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "5",
@@ -727,12 +727,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21466020000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
   },
   {
     "commodity_code": "T",
@@ -742,12 +742,12 @@
     "country_name": "Ireland",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 21202000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.784Z"
   },
   {
     "commodity_code": "7",
@@ -757,12 +757,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20680040000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.918Z"
+    "last_updated": "2026-08-06T12:16:07.388Z"
   },
   {
     "commodity_code": "T",
@@ -772,12 +772,12 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20611000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.185Z"
+    "last_updated": "2026-08-06T12:16:07.786Z"
   },
   {
     "commodity_code": "T",
@@ -787,12 +787,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20140000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -802,12 +802,12 @@
     "country_name": "France",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 20102000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
   },
   {
     "commodity_code": "T",
@@ -817,12 +817,12 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 19777000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.781Z"
   },
   {
     "commodity_code": "T",
@@ -832,12 +832,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 19439000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -847,12 +847,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 19414000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -862,12 +862,12 @@
     "country_name": "China",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 19177000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "T",
@@ -877,12 +877,27 @@
     "country_name": "France",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 19049000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
+    "last_updated": "2026-08-06T12:16:07.783Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2019-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 18931000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "T",
@@ -892,12 +907,42 @@
     "country_name": "China",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 18685000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2023-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 18170000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2022-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 17865000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "T",
@@ -907,12 +952,12 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17849000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "7",
@@ -922,12 +967,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2025-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17743280000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
   },
   {
     "commodity_code": "5",
@@ -937,12 +982,42 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17666770000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2023-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 17609000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2023-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 17576000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "7",
@@ -952,12 +1027,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17550590000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
   },
   {
     "commodity_code": "T",
@@ -967,12 +1042,12 @@
     "country_name": "Switzerland",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17413000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.782Z"
   },
   {
     "commodity_code": "3",
@@ -982,12 +1057,87 @@
     "country_name": "Netherlands",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 17358640000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.811Z"
+    "last_updated": "2026-08-06T12:16:07.211Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2024-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 16911000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2025-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 16879000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2024-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 16781000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2024-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 16725000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2023-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 16700000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "7",
@@ -997,12 +1147,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 16628640000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
   },
   {
     "commodity_code": "5",
@@ -1012,12 +1162,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 16478310000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
   },
   {
     "commodity_code": "T",
@@ -1027,12 +1177,27 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2021-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 16425000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:07.781Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2022-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 16337000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "5",
@@ -1042,12 +1207,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2020-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 16297100000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
   },
   {
     "commodity_code": "54",
@@ -1057,12 +1222,42 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2023-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 16237490000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.856Z"
+    "last_updated": "2026-08-06T12:16:07.275Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2024-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 16118000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2019-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 15915000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "3",
@@ -1072,12 +1267,12 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 15813970000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.808Z"
+    "last_updated": "2026-08-06T12:16:07.208Z"
   },
   {
     "commodity_code": "7",
@@ -1087,12 +1282,27 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 15649410000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2018-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 15445000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "5",
@@ -1102,12 +1312,12 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2024-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 15411150000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
   },
   {
     "commodity_code": "5",
@@ -1117,12 +1327,57 @@
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 15346490000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.254Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2020-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 15293000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2019-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 15266000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2022-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 15189000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "7",
@@ -1132,12 +1387,42 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2019-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 15078510000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2021-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 15042000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
+  },
+  {
+    "commodity_code": "T",
+    "commodity_name": "Total",
+    "commodity_level": 0,
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
+    "flow": "export",
+    "date": "2018-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 14968000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "7",
@@ -1147,12 +1432,12 @@
     "country_name": "Germany",
     "flow": "export",
     "date": "2022-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 14818250000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
+    "last_updated": "2026-08-06T12:16:07.383Z"
   },
   {
     "commodity_code": "T",
@@ -1162,341 +1447,56 @@
     "country_name": "Belgium",
     "flow": "export",
     "date": "2018-01-01",
-    "period_type": "monthly",
+    "period_type": "annual",
     "value_gbp": 14805000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
-  },
-  {
-    "commodity_code": "5",
-    "commodity_name": "Chemicals",
-    "commodity_level": 0,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 14185280000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
-  },
-  {
-    "commodity_code": "5",
-    "commodity_name": "Chemicals",
-    "commodity_level": 0,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13936960000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.840Z"
+    "last_updated": "2026-08-06T12:16:07.781Z"
   },
   {
     "commodity_code": "T",
     "commodity_name": "Total",
     "commodity_level": 0,
-    "country_code": "BE",
-    "country_name": "Belgium",
+    "country_code": "US",
+    "country_name": "United States inc Puerto Rico",
     "flow": "export",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13645000000,
+    "date": "2025-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 14575000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "T",
     "commodity_name": "Total",
     "commodity_level": 0,
-    "country_code": "HK",
-    "country_name": "Hong Kong",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13629000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.183Z"
-  },
-  {
-    "commodity_code": "33",
-    "commodity_name": "Oil",
-    "commodity_level": 1,
-    "country_code": "NL",
-    "country_name": "Netherlands",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13568910000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.816Z"
-  },
-  {
-    "commodity_code": "7",
-    "commodity_name": "Machinery & transport equipment",
-    "commodity_level": 0,
-    "country_code": "DE",
-    "country_name": "Germany",
-    "flow": "export",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13451470000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
-  },
-  {
-    "commodity_code": "3OF",
-    "commodity_name": "Fuels other than oil",
-    "commodity_level": 2,
-    "country_code": "BE",
-    "country_name": "Belgium",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13021410000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.824Z"
-  },
-  {
-    "commodity_code": "54",
-    "commodity_name": "Medicinal & pharmaceutical products",
-    "commodity_level": 1,
     "country_code": "US",
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13007450000,
+    "date": "2025-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 14371000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.856Z"
+    "last_updated": "2026-08-06T12:16:09.899Z"
   },
   {
     "commodity_code": "T",
     "commodity_name": "Total",
     "commodity_level": 0,
-    "country_code": "CH",
-    "country_name": "Switzerland",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12807000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
-  },
-  {
-    "commodity_code": "7M",
-    "commodity_name": "Mechanical machinery",
-    "commodity_level": 1,
     "country_code": "US",
     "country_name": "United States inc Puerto Rico",
     "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12690180000,
+    "date": "2020-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 14254000000,
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.060Z"
-  },
-  {
-    "commodity_code": "34",
-    "commodity_name": "Gas",
-    "commodity_level": 1,
-    "country_code": "BE",
-    "country_name": "Belgium",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12518270000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.822Z"
-  },
-  {
-    "commodity_code": "3",
-    "commodity_name": "Fuels",
-    "commodity_level": 0,
-    "country_code": "NL",
-    "country_name": "Netherlands",
-    "flow": "export",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12146140000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.811Z"
-  },
-  {
-    "commodity_code": "7M",
-    "commodity_name": "Mechanical machinery",
-    "commodity_level": 1,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11988980000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.060Z"
-  },
-  {
-    "commodity_code": "7",
-    "commodity_name": "Machinery & transport equipment",
-    "commodity_level": 0,
-    "country_code": "DE",
-    "country_name": "Germany",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11943130000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.915Z"
-  },
-  {
-    "commodity_code": "7M",
-    "commodity_name": "Mechanical machinery",
-    "commodity_level": 1,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11856890000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.060Z"
-  },
-  {
-    "commodity_code": "78",
-    "commodity_name": "Road vehicles",
-    "commodity_level": 1,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11714630000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.002Z"
-  },
-  {
-    "commodity_code": "33",
-    "commodity_name": "Oil",
-    "commodity_level": 1,
-    "country_code": "NL",
-    "country_name": "Netherlands",
-    "flow": "export",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11503540000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.816Z"
-  },
-  {
-    "commodity_code": "3",
-    "commodity_name": "Fuels",
-    "commodity_level": 0,
-    "country_code": "NL",
-    "country_name": "Netherlands",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11429720000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.811Z"
-  },
-  {
-    "commodity_code": "T",
-    "commodity_name": "Total",
-    "commodity_level": 0,
-    "country_code": "BE",
-    "country_name": "Belgium",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11417000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
-  },
-  {
-    "commodity_code": "54",
-    "commodity_name": "Medicinal & pharmaceutical products",
-    "commodity_level": 1,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11395230000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.856Z"
-  },
-  {
-    "commodity_code": "54",
-    "commodity_name": "Medicinal & pharmaceutical products",
-    "commodity_level": 1,
-    "country_code": "US",
-    "country_name": "United States inc Puerto Rico",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11167600000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:07.856Z"
-  },
-  {
-    "commodity_code": "T",
-    "commodity_name": "Total",
-    "commodity_level": 0,
-    "country_code": "CH",
-    "country_name": "Switzerland",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11086000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T11:01:08.182Z"
+    "last_updated": "2026-08-06T12:16:09.899Z"
   }
 ]
