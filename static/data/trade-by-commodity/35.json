@@ -3,126 +3,6 @@
     "commodity_code": "35",
     "commodity_name": "Electricity",
     "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1203000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 993000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 653000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2794000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2199000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2297000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2375000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2773000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
     "country_code": "BE",
     "country_name": "Belgium",
     "flow": "import",
@@ -132,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -147,7 +27,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -162,7 +42,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -177,7 +57,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -192,7 +72,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.758Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -207,7 +87,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -222,82 +102,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 260000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 876000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 836000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 711000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 779000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -312,7 +117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -327,7 +132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -342,7 +147,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -357,7 +162,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -372,7 +177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -387,7 +192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -402,7 +207,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -417,7 +222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -432,7 +237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -447,7 +252,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -462,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -477,7 +282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -492,7 +297,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -507,7 +312,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -522,7 +327,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -537,7 +342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -552,7 +357,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -567,7 +372,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -582,7 +387,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -597,7 +402,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -612,7 +417,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -627,7 +432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -642,7 +447,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -657,7 +462,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -672,7 +477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -687,7 +492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -702,7 +507,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -717,7 +522,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -732,7 +537,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -747,7 +552,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -762,7 +567,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -777,247 +582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1203000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 993000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 653000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3054000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3075000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3133000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3086000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3552000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.759Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 127000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.144Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 141000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.144Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 149000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 551000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3196000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 683000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 575000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1130000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.447Z"
   },
   {
     "commodity_code": "35",
@@ -1032,7 +597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1047,7 +612,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1062,7 +627,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1077,7 +642,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1092,7 +657,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1107,7 +672,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1122,67 +687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 387000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 35000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 19000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 35000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1197,7 +702,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1212,7 +717,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1227,7 +732,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1242,7 +747,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1257,7 +762,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1272,7 +777,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1287,7 +792,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1302,7 +807,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1317,7 +822,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1332,7 +837,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1347,7 +852,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1362,7 +867,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1377,7 +882,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1392,7 +897,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1407,7 +912,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1422,7 +927,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1437,7 +942,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1452,7 +957,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1467,7 +972,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1482,7 +987,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1497,7 +1002,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1512,7 +1017,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1527,7 +1032,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1542,7 +1047,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1557,7 +1062,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1572,7 +1077,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1587,7 +1092,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1602,7 +1107,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1617,7 +1122,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   },
   {
     "commodity_code": "35",
@@ -1632,126 +1137,6 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 127000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 141000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 149000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 551000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3583000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 718000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 594000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
-  },
-  {
-    "commodity_code": "35",
-    "commodity_name": "Electricity",
-    "commodity_level": 1,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1165000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.145Z"
+    "last_updated": "2026-08-06T11:01:07.824Z"
   }
 ]

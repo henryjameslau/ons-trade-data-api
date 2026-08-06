@@ -12,127 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 7000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 6000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 22000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 15000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -147,7 +27,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -162,7 +42,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -177,7 +57,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -192,7 +72,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -207,7 +87,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -222,7 +102,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -237,7 +117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -252,7 +132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -267,7 +147,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -282,7 +162,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -297,7 +177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -312,7 +192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -327,7 +207,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -342,7 +222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -357,7 +237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -372,7 +252,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -387,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -402,7 +282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -417,7 +297,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -432,7 +312,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -447,7 +327,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -462,127 +342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 10000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 11000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 10000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 14000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 15000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 13000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 12000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -597,7 +357,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -612,7 +372,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -627,7 +387,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -642,7 +402,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -657,7 +417,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -672,7 +432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -687,7 +447,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -702,7 +462,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -717,7 +477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -732,7 +492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -747,7 +507,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -762,7 +522,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -777,7 +537,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -792,7 +552,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -807,7 +567,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -822,7 +582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -837,7 +597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.519Z"
   },
   {
     "commodity_code": "71MC",
@@ -852,7 +612,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -867,7 +627,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -882,7 +642,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -897,7 +657,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -912,7 +672,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -927,7 +687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -942,7 +702,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -957,7 +717,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -972,7 +732,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -987,7 +747,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1002,7 +762,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1017,7 +777,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1032,7 +792,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1047,7 +807,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1062,7 +822,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1077,7 +837,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1092,7 +852,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1107,7 +867,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1122,7 +882,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1137,7 +897,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1152,7 +912,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1167,7 +927,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1182,7 +942,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1197,7 +957,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1212,7 +972,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1227,7 +987,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1242,7 +1002,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1257,7 +1017,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1272,7 +1032,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1287,7 +1047,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1302,7 +1062,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1317,7 +1077,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1332,7 +1092,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1347,7 +1107,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1362,7 +1122,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1377,7 +1137,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1392,7 +1152,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1407,7 +1167,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1422,7 +1182,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1437,7 +1197,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1452,7 +1212,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1467,7 +1227,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1482,7 +1242,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1497,7 +1257,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1512,7 +1272,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1527,7 +1287,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1542,7 +1302,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1557,7 +1317,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1572,7 +1332,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1587,7 +1347,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1602,7 +1362,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1617,7 +1377,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1632,7 +1392,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1647,7 +1407,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1662,7 +1422,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1677,7 +1437,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1692,7 +1452,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1707,7 +1467,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1722,7 +1482,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1737,7 +1497,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1752,7 +1512,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1767,7 +1527,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1782,7 +1542,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1797,7 +1557,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1812,7 +1572,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1827,7 +1587,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1842,7 +1602,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1857,7 +1617,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1872,7 +1632,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1887,7 +1647,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1902,7 +1662,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1917,7 +1677,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1932,7 +1692,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1947,7 +1707,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1962,7 +1722,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1977,7 +1737,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -1992,7 +1752,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -2007,7 +1767,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -2022,127 +1782,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2018-01-01",
-    "period_type": "monthly",
-    "value_gbp": 17000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2019-01-01",
-    "period_type": "monthly",
-    "value_gbp": 23000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 16000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2021-01-01",
-    "period_type": "monthly",
-    "value_gbp": 16000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2022-01-01",
-    "period_type": "monthly",
-    "value_gbp": 37000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 28000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 23000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "import",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 23000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -2157,7 +1797,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -2172,7 +1812,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.832Z"
+    "last_updated": "2026-08-06T11:01:07.520Z"
   },
   {
     "commodity_code": "71MC",
@@ -2187,67 +1827,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 3000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "B5",
-    "country_name": "Total EU(27)",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 4000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2262,7 +1842,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2277,7 +1857,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2292,7 +1872,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2307,22 +1887,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "D5",
-    "country_name": "Extra EU 27 (Rest of World)",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2337,7 +1902,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2352,7 +1917,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2367,7 +1932,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2382,7 +1947,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2397,7 +1962,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2412,7 +1977,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2427,7 +1992,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2442,7 +2007,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2457,7 +2022,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2472,7 +2037,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2487,7 +2052,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2502,7 +2067,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2517,7 +2082,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2532,7 +2097,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2547,7 +2112,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2562,7 +2127,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2577,7 +2142,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2592,7 +2157,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2607,7 +2172,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2622,7 +2187,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2637,7 +2202,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.925Z"
   },
   {
     "commodity_code": "71MC",
@@ -2652,7 +2217,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2667,7 +2232,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2682,7 +2247,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2697,7 +2262,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2712,7 +2277,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2727,7 +2292,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2742,7 +2307,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2757,7 +2322,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2772,7 +2337,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2787,7 +2352,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2802,7 +2367,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2817,7 +2382,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   },
   {
     "commodity_code": "71MC",
@@ -2832,66 +2397,6 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2020-01-01",
-    "period_type": "monthly",
-    "value_gbp": 1000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2023-01-01",
-    "period_type": "monthly",
-    "value_gbp": 2000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2024-01-01",
-    "period_type": "monthly",
-    "value_gbp": 5000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
-  },
-  {
-    "commodity_code": "71MC",
-    "commodity_name": "Mechanical power generators (consumer)",
-    "commodity_level": 2,
-    "country_code": "W1",
-    "country_name": "Whole world",
-    "flow": "export",
-    "date": "2025-01-01",
-    "period_type": "monthly",
-    "value_gbp": 4000000,
-    "volume": null,
-    "volume_unit": null,
-    "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.250Z"
+    "last_updated": "2026-08-06T11:01:07.926Z"
   }
 ]

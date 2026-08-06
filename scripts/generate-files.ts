@@ -116,7 +116,14 @@ function isValidCountryCode(code: string): boolean {
  * Generate aggregated files
  */
 export function generateAggregatedFiles(records: NormalizedRecord[]): void {
-  // Create directory structure
+  // Strip records where country_code failed ISO validation — these are
+  // mis-parsed rows where the ONS Excel country column held a commodity name.
+  const validRecords = records.filter(r => isValidCountryCode(r.country_code));
+  console.log(`Filtered ${records.length - validRecords.length} records with invalid country codes`);
+  records = validRecords;
+
+  // Clear and recreate output directories so stale files from previous runs
+  // don't survive (e.g. a commodity whose records were all filtered out).
   const dirs = [
     'meta',
     'trade-by-commodity',
@@ -129,9 +136,10 @@ export function generateAggregatedFiles(records: NormalizedRecord[]): void {
 
   for (const dir of dirs) {
     const dirPath = path.join(DATA_DIR, dir);
-    if (!fs.existsSync(dirPath)) {
-      fs.mkdirSync(dirPath, { recursive: true });
+    if (fs.existsSync(dirPath)) {
+      fs.rmSync(dirPath, { recursive: true, force: true });
     }
+    fs.mkdirSync(dirPath, { recursive: true });
   }
 
   // Create metadata

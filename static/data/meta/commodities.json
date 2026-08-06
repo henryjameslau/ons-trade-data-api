@@ -39,10 +39,6 @@
     "name": "Unspecified goods",
     "level": 0
   },
-  "21": {
-    "name": "Hides",
-    "level": 1
-  },
   "22": {
     "name": "Oil-seeds & oleaginous fruits",
     "level": 1
@@ -75,10 +71,6 @@
     "name": "Other crude animal & vegetable materials",
     "level": 1
   },
-  "32": {
-    "name": "Coal",
-    "level": 1
-  },
   "33": {
     "name": "Oil",
     "level": 1
@@ -109,10 +101,6 @@
   },
   "52": {
     "name": "Inorganic chemicals",
-    "level": 1
-  },
-  "53": {
-    "name": "Dyeing",
     "level": 1
   },
   "54": {
@@ -181,10 +169,6 @@
   },
   "79": {
     "name": "Other transport equipment",
-    "level": 1
-  },
-  "83": {
-    "name": "Travel goods",
     "level": 1
   },
   "84": {
@@ -405,18 +389,6 @@
   },
   "7MK": {
     "name": "Mechanical machinery (capital)",
-    "level": 2
-  },
-  "81C": {
-    "name": "Plumbing",
-    "level": 2
-  },
-  "81I": {
-    "name": "Plumbing",
-    "level": 2
-  },
-  "81K": {
-    "name": "Plumbing",
     "level": 2
   },
   "82C": {

@@ -12,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.688Z"
+    "last_updated": "2026-08-06T11:01:07.367Z"
   },
   {
     "commodity_code": "0",
@@ -27,7 +27,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.688Z"
+    "last_updated": "2026-08-06T11:01:07.367Z"
   },
   {
     "commodity_code": "05",
@@ -42,7 +42,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.716Z"
+    "last_updated": "2026-08-06T11:01:07.399Z"
   },
   {
     "commodity_code": "05",
@@ -57,7 +57,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.716Z"
+    "last_updated": "2026-08-06T11:01:07.399Z"
   },
   {
     "commodity_code": "7",
@@ -72,7 +72,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.827Z"
+    "last_updated": "2026-08-06T11:01:07.514Z"
   },
   {
     "commodity_code": "78",
@@ -87,7 +87,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.890Z"
+    "last_updated": "2026-08-06T11:01:07.571Z"
   },
   {
     "commodity_code": "78M",
@@ -102,7 +102,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:00.899Z"
+    "last_updated": "2026-08-06T11:01:07.580Z"
   },
   {
     "commodity_code": "T",
@@ -117,7 +117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.061Z"
+    "last_updated": "2026-08-06T11:01:07.746Z"
   },
   {
     "commodity_code": "0",
@@ -132,7 +132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.066Z"
+    "last_updated": "2026-08-06T11:01:07.750Z"
   },
   {
     "commodity_code": "01",
@@ -147,7 +147,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.072Z"
+    "last_updated": "2026-08-06T11:01:07.756Z"
   },
   {
     "commodity_code": "1",
@@ -162,7 +162,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.102Z"
+    "last_updated": "2026-08-06T11:01:07.785Z"
   },
   {
     "commodity_code": "5",
@@ -177,7 +177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.160Z"
+    "last_updated": "2026-08-06T11:01:07.839Z"
   },
   {
     "commodity_code": "5",
@@ -192,7 +192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.160Z"
+    "last_updated": "2026-08-06T11:01:07.839Z"
   },
   {
     "commodity_code": "5",
@@ -207,7 +207,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.160Z"
+    "last_updated": "2026-08-06T11:01:07.839Z"
   },
   {
     "commodity_code": "5",
@@ -222,7 +222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.160Z"
+    "last_updated": "2026-08-06T11:01:07.839Z"
   },
   {
     "commodity_code": "5",
@@ -237,7 +237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.160Z"
+    "last_updated": "2026-08-06T11:01:07.839Z"
   },
   {
     "commodity_code": "54",
@@ -252,7 +252,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.177Z"
+    "last_updated": "2026-08-06T11:01:07.855Z"
   },
   {
     "commodity_code": "55",
@@ -267,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.181Z"
+    "last_updated": "2026-08-06T11:01:07.859Z"
   },
   {
     "commodity_code": "55",
@@ -282,7 +282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.181Z"
+    "last_updated": "2026-08-06T11:01:07.859Z"
   },
   {
     "commodity_code": "55",
@@ -297,7 +297,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.181Z"
+    "last_updated": "2026-08-06T11:01:07.859Z"
   },
   {
     "commodity_code": "55",
@@ -312,7 +312,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.181Z"
+    "last_updated": "2026-08-06T11:01:07.859Z"
   },
   {
     "commodity_code": "59",
@@ -327,7 +327,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.196Z"
+    "last_updated": "2026-08-06T11:01:07.874Z"
   },
   {
     "commodity_code": "7",
@@ -342,7 +342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.241Z"
+    "last_updated": "2026-08-06T11:01:07.917Z"
   },
   {
     "commodity_code": "7",
@@ -357,7 +357,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.241Z"
+    "last_updated": "2026-08-06T11:01:07.917Z"
   },
   {
     "commodity_code": "7",
@@ -372,7 +372,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.241Z"
+    "last_updated": "2026-08-06T11:01:07.917Z"
   },
   {
     "commodity_code": "74I",
@@ -387,7 +387,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.282Z"
+    "last_updated": "2026-08-06T11:01:07.958Z"
   },
   {
     "commodity_code": "74I",
@@ -402,7 +402,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.282Z"
+    "last_updated": "2026-08-06T11:01:07.958Z"
   },
   {
     "commodity_code": "77I",
@@ -417,7 +417,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.315Z"
+    "last_updated": "2026-08-06T11:01:07.991Z"
   },
   {
     "commodity_code": "77K",
@@ -432,7 +432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.320Z"
+    "last_updated": "2026-08-06T11:01:07.996Z"
   },
   {
     "commodity_code": "7E",
@@ -447,7 +447,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.363Z"
+    "last_updated": "2026-08-06T11:01:08.039Z"
   },
   {
     "commodity_code": "7E",
@@ -462,7 +462,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.363Z"
+    "last_updated": "2026-08-06T11:01:08.039Z"
   },
   {
     "commodity_code": "7EI",
@@ -477,7 +477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.373Z"
+    "last_updated": "2026-08-06T11:01:08.049Z"
   },
   {
     "commodity_code": "7EK",
@@ -492,7 +492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.378Z"
+    "last_updated": "2026-08-06T11:01:08.054Z"
   },
   {
     "commodity_code": "7M",
@@ -507,7 +507,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.384Z"
+    "last_updated": "2026-08-06T11:01:08.059Z"
   },
   {
     "commodity_code": "7M",
@@ -522,7 +522,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.384Z"
+    "last_updated": "2026-08-06T11:01:08.059Z"
   },
   {
     "commodity_code": "7MI",
@@ -537,7 +537,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.392Z"
+    "last_updated": "2026-08-06T11:01:08.066Z"
   },
   {
     "commodity_code": "7MI",
@@ -552,7 +552,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.392Z"
+    "last_updated": "2026-08-06T11:01:08.066Z"
   },
   {
     "commodity_code": "8",
@@ -567,7 +567,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.403Z"
+    "last_updated": "2026-08-06T11:01:08.076Z"
   },
   {
     "commodity_code": "8",
@@ -582,7 +582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.403Z"
+    "last_updated": "2026-08-06T11:01:08.076Z"
   },
   {
     "commodity_code": "8",
@@ -597,7 +597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.403Z"
+    "last_updated": "2026-08-06T11:01:08.076Z"
   },
   {
     "commodity_code": "8",
@@ -612,7 +612,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.403Z"
+    "last_updated": "2026-08-06T11:01:08.076Z"
   },
   {
     "commodity_code": "87K",
@@ -627,7 +627,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.454Z"
+    "last_updated": "2026-08-06T11:01:08.127Z"
   },
   {
     "commodity_code": "87K",
@@ -642,7 +642,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.454Z"
+    "last_updated": "2026-08-06T11:01:08.127Z"
   },
   {
     "commodity_code": "88C",
@@ -657,7 +657,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.459Z"
+    "last_updated": "2026-08-06T11:01:08.132Z"
   },
   {
     "commodity_code": "896",
@@ -672,7 +672,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.468Z"
+    "last_updated": "2026-08-06T11:01:08.141Z"
   },
   {
     "commodity_code": "8O",
@@ -687,7 +687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.488Z"
+    "last_updated": "2026-08-06T11:01:08.163Z"
   },
   {
     "commodity_code": "T",
@@ -702,6 +702,6 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-06T09:38:01.511Z"
+    "last_updated": "2026-08-06T11:01:08.185Z"
   }
 ]
