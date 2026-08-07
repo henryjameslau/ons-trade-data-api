@@ -1,466 +1,50 @@
 {
-  "0": {
-    "name": "Food & live animals",
-    "level": 0
-  },
-  "1": {
-    "name": "Beverages & tobacco",
-    "level": 0
-  },
-  "2": {
-    "name": "Crude materials",
-    "level": 0
-  },
-  "3": {
-    "name": "Fuels",
-    "level": 0
-  },
-  "4": {
-    "name": "Animal & vegetable oils & fats",
-    "level": 0
-  },
-  "5": {
-    "name": "Chemicals",
-    "level": 0
-  },
-  "6": {
-    "name": "Material manufactures",
-    "level": 0
-  },
-  "7": {
-    "name": "Machinery & transport equipment",
-    "level": 0
-  },
-  "8": {
-    "name": "Miscellaneous manufactures",
-    "level": 0
-  },
-  "9": {
-    "name": "Unspecified goods",
-    "level": 0
-  },
-  "22": {
-    "name": "Oil-seeds & oleaginous fruits",
-    "level": 1
-  },
-  "23": {
-    "name": "Crude rubber",
-    "level": 1
-  },
-  "24": {
-    "name": "Wood & cork",
-    "level": 1
-  },
-  "25": {
-    "name": "Pulp & waste paper",
-    "level": 1
-  },
-  "26": {
-    "name": "Textile fibres",
-    "level": 1
-  },
-  "27": {
-    "name": "Crude minerals & fertilisers",
-    "level": 1
-  },
-  "28": {
-    "name": "Metal ores & scrap",
-    "level": 1
-  },
-  "29": {
-    "name": "Other crude animal & vegetable materials",
-    "level": 1
-  },
-  "33": {
-    "name": "Oil",
-    "level": 1
-  },
-  "34": {
-    "name": "Gas",
-    "level": 1
-  },
-  "35": {
-    "name": "Electricity",
-    "level": 1
-  },
-  "41": {
-    "name": "Animal oils & fats",
-    "level": 1
-  },
-  "42": {
-    "name": "Vegetable oils & fats",
-    "level": 1
-  },
-  "43": {
-    "name": "Processed oils & fats",
-    "level": 1
-  },
-  "51": {
-    "name": "Organic chemicals",
-    "level": 1
-  },
-  "52": {
-    "name": "Inorganic chemicals",
-    "level": 1
-  },
-  "54": {
-    "name": "Medicinal & pharmaceutical products",
-    "level": 1
-  },
-  "55": {
-    "name": "Toilet & cleansing preparations",
-    "level": 1
-  },
-  "56": {
-    "name": "Processed fertilisers",
-    "level": 1
-  },
-  "57": {
-    "name": "Plastics in primary forms",
-    "level": 1
-  },
-  "58": {
-    "name": "Plastics in non-primary forms",
-    "level": 1
-  },
-  "59": {
-    "name": "Other chemicals",
-    "level": 1
-  },
-  "61": {
-    "name": "Leather manufactures",
-    "level": 1
-  },
-  "62": {
-    "name": "Rubber manufactures",
-    "level": 1
-  },
-  "63": {
-    "name": "Wood & cork manufactures",
-    "level": 1
-  },
-  "64": {
-    "name": "Paper & paperboard",
-    "level": 1
-  },
-  "65": {
-    "name": "Textile fabrics",
-    "level": 1
-  },
-  "66": {
-    "name": "Mineral manufactures",
-    "level": 1
-  },
-  "67": {
-    "name": "Iron & steel",
-    "level": 1
-  },
-  "68": {
-    "name": "Non-ferrous metals",
-    "level": 1
-  },
-  "69": {
-    "name": "Miscellaneous metal manufactures",
-    "level": 1
-  },
-  "78": {
-    "name": "Road vehicles",
-    "level": 1
-  },
-  "79": {
-    "name": "Other transport equipment",
-    "level": 1
-  },
-  "84": {
-    "name": "Clothing",
-    "level": 1
-  },
-  "85": {
-    "name": "Footwear",
-    "level": 1
-  },
-  "792": {
-    "name": "Aircraft",
+  "TS_TRAVEL": {
+    "name": "Travel",
     "level": 2
   },
-  "793": {
-    "name": "Ships",
+  "TS_TOTAL": {
+    "name": "Total Services",
     "level": 2
   },
-  "896": {
-    "name": "Works of art",
+  "TS_CONSTRUCTION_SERVICES": {
+    "name": "Construction Services",
     "level": 2
   },
-  "00": {
-    "name": "Live animals",
-    "level": 1
-  },
-  "01": {
-    "name": "Meat & meat preparations",
-    "level": 1
-  },
-  "02": {
-    "name": "Dairy products & eggs",
-    "level": 1
-  },
-  "03": {
-    "name": "Fish & shellfish",
-    "level": 1
-  },
-  "04": {
-    "name": "Cereals",
-    "level": 1
-  },
-  "05": {
-    "name": "Vegetables & fruit",
-    "level": 1
-  },
-  "06": {
-    "name": "Sugar",
-    "level": 1
-  },
-  "07": {
-    "name": "Coffee",
-    "level": 1
-  },
-  "08": {
-    "name": "Animal feeding stuffs",
-    "level": 1
-  },
-  "09": {
-    "name": "Miscellaneous foods",
-    "level": 1
-  },
-  "33O": {
-    "name": "Crude oil",
+  "TS_INSURANCE_AND_PENSION_SERVICES": {
+    "name": "Insurance and Pension Services",
     "level": 2
   },
-  "33R": {
-    "name": "Refined oil",
+  "TS_FINANCIAL_SERVICES": {
+    "name": "Financial Services",
     "level": 2
   },
-  "3OF": {
-    "name": "Fuels other than oil",
+  "TS_TELECOMS_COMPUTER_AND_INFORMATION_SERVICES": {
+    "name": "Telecoms, Computer and Information Services",
     "level": 2
   },
-  "71EI": {
-    "name": "Electric motors (intermediate)",
+  "TS_INTELLECTUAL_PROPERTY_SERVICES": {
+    "name": "Intellectual Property Services",
     "level": 2
   },
-  "71EK": {
-    "name": "Electric motors (capital)",
+  "TS_OTHER_BUSINESS_SERVICES": {
+    "name": "Other Business Services",
     "level": 2
   },
-  "71MC": {
-    "name": "Mechanical power generators (consumer)",
+  "TS_PERSONAL_CULTURAL_AND_RECREATIONAL_SERVICES": {
+    "name": "Personal, Cultural & Recreational Services",
     "level": 2
   },
-  "71MI": {
-    "name": "Mechanical power generators (intermediate)",
+  "TS_GOVERNMENT_SERVICES_NIE": {
+    "name": "Government Services, n.i.e",
     "level": 2
   },
-  "71MK": {
-    "name": "Mechanical power generators (capital)",
+  "TS_TRANSPORT": {
+    "name": "Transport",
     "level": 2
   },
-  "72C": {
-    "name": "Specialised machinery (consumer)",
+  "TS_MANUFACTURING_AND_MAINTENANCE_SERVICES": {
+    "name": "Manufacturing and Maintenance Services",
     "level": 2
-  },
-  "72I": {
-    "name": "Specialised machinery (intermediate)",
-    "level": 2
-  },
-  "72K": {
-    "name": "Specialised machinery (capital)",
-    "level": 2
-  },
-  "73I": {
-    "name": "Metal working machinery (intermediate)",
-    "level": 2
-  },
-  "73K": {
-    "name": "Metal working machinery (capital)",
-    "level": 2
-  },
-  "74C": {
-    "name": "General industrial machinery (consumer)",
-    "level": 2
-  },
-  "74I": {
-    "name": "General industrial machinery (intermediate)",
-    "level": 2
-  },
-  "74K": {
-    "name": "General industrial machinery (capital)",
-    "level": 2
-  },
-  "75C": {
-    "name": "Office machinery (consumer)",
-    "level": 2
-  },
-  "75I": {
-    "name": "Office machinery (intermediate)",
-    "level": 2
-  },
-  "75K": {
-    "name": "Office machinery (capital)",
-    "level": 2
-  },
-  "76C": {
-    "name": "Telecoms & sound equipment (consumer)",
-    "level": 2
-  },
-  "76I": {
-    "name": "Telecoms & sound equipment (intermediate)",
-    "level": 2
-  },
-  "76K": {
-    "name": "Telecoms & sound equipment (capital)",
-    "level": 2
-  },
-  "77C": {
-    "name": "Miscellaneous electrical goods (consumer)",
-    "level": 2
-  },
-  "77I": {
-    "name": "Miscellaneous electrical goods (intermediate)",
-    "level": 2
-  },
-  "77K": {
-    "name": "Miscellaneous electrical goods (capital)",
-    "level": 2
-  },
-  "78C": {
-    "name": "Road vehicles other than cars (consumer)",
-    "level": 2
-  },
-  "78I": {
-    "name": "Road vehicles other than cars (intermediate)",
-    "level": 2
-  },
-  "78K": {
-    "name": "Road vehicles other than cars (capital)",
-    "level": 2
-  },
-  "78M": {
-    "name": "Cars",
-    "level": 2
-  },
-  "791I": {
-    "name": "Railway equipment (intermediate)",
-    "level": 2
-  },
-  "791K": {
-    "name": "Railway equipment (capital)",
-    "level": 2
-  },
-  "792/3": {
-    "name": "Ships & aircraft",
-    "level": 2
-  },
-  "7E": {
-    "name": "Electrical machinery",
-    "level": 1
-  },
-  "7EC": {
-    "name": "Electrical machinery (consumer)",
-    "level": 2
-  },
-  "7EI": {
-    "name": "Electrical machinery (intermediate)",
-    "level": 2
-  },
-  "7EK": {
-    "name": "Electrical machinery (capital)",
-    "level": 2
-  },
-  "7M": {
-    "name": "Mechanical machinery",
-    "level": 1
-  },
-  "7MC": {
-    "name": "Mechanical machinery (consumer)",
-    "level": 2
-  },
-  "7MI": {
-    "name": "Mechanical machinery (intermediate)",
-    "level": 2
-  },
-  "7MK": {
-    "name": "Mechanical machinery (capital)",
-    "level": 2
-  },
-  "82C": {
-    "name": "Furniture (consumer)",
-    "level": 2
-  },
-  "82I": {
-    "name": "Furniture (intermediate)",
-    "level": 2
-  },
-  "82K": {
-    "name": "Furniture (capital)",
-    "level": 2
-  },
-  "87C": {
-    "name": "Scientific instruments (consumer)",
-    "level": 2
-  },
-  "87I": {
-    "name": "Scientific instruments (intermediate)",
-    "level": 2
-  },
-  "87K": {
-    "name": "Scientific instruments (capital)",
-    "level": 2
-  },
-  "88C": {
-    "name": "Photographic & optical goods & clocks (consumer)",
-    "level": 2
-  },
-  "88I": {
-    "name": "Photographic & optical goods & clocks (intermediate)",
-    "level": 2
-  },
-  "88K": {
-    "name": "Photographic & optical goods & clocks (capital)",
-    "level": 2
-  },
-  "897C": {
-    "name": "Jewellery",
-    "level": 2
-  },
-  "89I": {
-    "name": "Other manufactures (intermediate)",
-    "level": 2
-  },
-  "89K": {
-    "name": "Other manufactures (capital)",
-    "level": 2
-  },
-  "89OC": {
-    "name": "Other manufactures (consumer)",
-    "level": 2
-  },
-  "8O": {
-    "name": "Other manufactures",
-    "level": 1
-  },
-  "8OC": {
-    "name": "Other miscellaneous manufactures (consumer)",
-    "level": 2
-  },
-  "8OI": {
-    "name": "Other miscellaneous manufactures (intermediate)",
-    "level": 2
-  },
-  "8OK": {
-    "name": "Other miscellaneous manufactures (capital)",
-    "level": 2
-  },
-  "T": {
-    "name": "Total",
-    "level": 0
   }
 }

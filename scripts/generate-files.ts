@@ -13,6 +13,10 @@ interface RawTradeData {
   date: string;
   /** Passed through from parse-excel when available, otherwise derived */
   period_type?: 'annual' | 'quarterly' | 'monthly';
+  /** ONS measure type — passed through from parse-mret */
+  measure?: 'CP' | 'CVM' | 'IDEF';
+  /** Goods or services — passed through from parse-mret */
+  data_type?: 'goods' | 'services';
 }
 
 interface NormalizedRecord {
@@ -29,6 +33,8 @@ interface NormalizedRecord {
   volume_unit: string | null;
   data_source: string;
   last_updated: string;
+  measure?: 'CP' | 'CVM' | 'IDEF';
+  data_type?: 'goods' | 'services';
 }
 
 /** Generated JSON files go into static/data/ so SvelteKit serves them as static assets */
@@ -62,7 +68,9 @@ export function normalizeData(rawData: RawTradeData[]): NormalizedRecord[] {
     volume: record.volume ? Math.round(record.volume) : null,
     volume_unit: record.volume_unit || null,
     data_source: 'ONS',
-    last_updated: new Date().toISOString()
+    last_updated: new Date().toISOString(),
+    ...(record.measure !== undefined && { measure: record.measure }),
+    ...(record.data_type !== undefined && { data_type: record.data_type }),
   }));
 }
 
@@ -309,7 +317,9 @@ async function readNDJSON(inputFile: string): Promise<NormalizedRecord[]> {
         volume: raw.volume ? Math.round(raw.volume) : null,
         volume_unit: raw.volume_unit || null,
         data_source: 'ONS',
-        last_updated: new Date().toISOString()
+        last_updated: new Date().toISOString(),
+        ...(raw.measure !== undefined && { measure: raw.measure }),
+        ...(raw.data_type !== undefined && { data_type: raw.data_type }),
       });
     } catch {
       // skip malformed lines
@@ -321,20 +331,35 @@ async function readNDJSON(inputFile: string): Promise<NormalizedRecord[]> {
 
 /**
  * Main execution
+ *
+ * Usage:
+ *   ts-node generate-files.ts data/parsed.json [data/parsed-services.json ...]
+ *
+ * Multiple NDJSON input files are merged before generating output.
  */
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const inputFile = process.argv[2] || 'data/parsed.json';
+  const inputFiles = process.argv.slice(2);
 
-  if (!fs.existsSync(inputFile)) {
-    console.error(`Input file not found: ${inputFile}`);
+  if (inputFiles.length === 0) {
+    inputFiles.push('data/parsed.json');
+  }
+
+  const missing = inputFiles.filter(f => !fs.existsSync(f));
+  if (missing.length > 0) {
+    console.error(`Input file(s) not found: ${missing.join(', ')}`);
     process.exit(1);
   }
 
   (async () => {
-    console.log(`Reading ${inputFile} …`);
-    const normalized = await readNDJSON(inputFile);
-    console.log(`Loaded ${normalized.length.toLocaleString()} records`);
-    generateAggregatedFiles(normalized);
-    console.log(`Processed ${normalized.length.toLocaleString()} records`);
+    let allRecords: NormalizedRecord[] = [];
+    for (const inputFile of inputFiles) {
+      console.log(`Reading ${inputFile} …`);
+      const records = await readNDJSON(inputFile);
+      console.log(`  Loaded ${records.length.toLocaleString()} records`);
+      allRecords = allRecords.concat(records);
+    }
+    console.log(`Total: ${allRecords.length.toLocaleString()} records`);
+    generateAggregatedFiles(allRecords);
+    console.log(`Processed ${allRecords.length.toLocaleString()} records`);
   })().catch(err => { console.error(err); process.exit(1); });
 }

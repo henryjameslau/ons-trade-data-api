@@ -12,6 +12,10 @@ export interface TradeRecord {
   volume_unit: string | null;
   data_source: string;
   last_updated: string;
+  /** ONS measure type: CP = current price, CVM = chained volume measures, IDEF = implied deflator */
+  measure?: 'CP' | 'CVM' | 'IDEF';
+  /** Whether this record comes from goods or services statistics */
+  data_type?: 'goods' | 'services';
 }
 
 export interface CommodityLookup {
@@ -95,6 +99,8 @@ export interface QueryFilter {
   dateTo?: string;
   year?: number;
   periodType?: 'monthly' | 'quarterly' | 'annual';
+  measure?: 'CP' | 'CVM' | 'IDEF';
+  data_type?: 'goods' | 'services';
   /** Arbitrary predicate for anything not covered above */
   where?: (record: TradeRecord) => boolean;
 }

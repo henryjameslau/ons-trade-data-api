@@ -290,6 +290,8 @@ export class QueryEngine {
       if (f.dateFrom && r.date < f.dateFrom) return false;
       if (f.dateTo && r.date > f.dateTo) return false;
       if (f.periodType && r.period_type !== f.periodType) return false;
+      if (f.measure && r.measure !== f.measure) return false;
+      if (f.data_type && r.data_type !== f.data_type) return false;
       if (f.where && !f.where(r)) return false;
       return true;
     });
