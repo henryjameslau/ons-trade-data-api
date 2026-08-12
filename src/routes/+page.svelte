@@ -173,7 +173,7 @@
   <header>
     <h1>UK Trade in Goods and Services</h1>
     <p class="subtitle">
-      Data from the <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/may2026" target="_blank">ONS UK Trade bulletin</a>.
+      Data from the <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/latest" target="_blank">ONS UK Trade bulletin</a>.
       Monthly, current prices. Goods data summed across all trading partners (not seasonally adjusted).
     </p>
 
