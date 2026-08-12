@@ -12,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.630Z",
     "measure": "IDEF",
     "data_type": "services"
   },
@@ -29,7 +29,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.630Z",
     "measure": "IDEF",
     "data_type": "services"
   },
@@ -46,7 +46,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.630Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -63,7 +63,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.630Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -80,7 +80,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.631Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -97,7 +97,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.890Z",
+    "last_updated": "2026-08-07T11:06:22.631Z",
     "measure": "CVM",
     "data_type": "services"
   }

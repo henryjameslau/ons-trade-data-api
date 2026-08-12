@@ -12,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.836Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -29,7 +29,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -46,7 +46,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -63,7 +63,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -80,7 +80,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -97,7 +97,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -114,7 +114,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -131,7 +131,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.591Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -148,7 +148,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -165,7 +165,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -182,7 +182,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -199,7 +199,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -216,7 +216,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.837Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -233,7 +233,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -250,7 +250,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -267,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -284,7 +284,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -301,7 +301,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -318,7 +318,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -335,7 +335,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -352,7 +352,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.838Z",
+    "last_updated": "2026-08-07T11:06:22.592Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -369,7 +369,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.839Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -386,7 +386,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.839Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -403,7 +403,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.839Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -420,7 +420,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.839Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -437,7 +437,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -454,7 +454,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -471,7 +471,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -488,7 +488,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -505,7 +505,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -522,7 +522,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -539,7 +539,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -556,7 +556,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -573,7 +573,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -590,7 +590,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -607,7 +607,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.593Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -624,7 +624,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -641,7 +641,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.840Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -658,7 +658,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -675,7 +675,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -692,7 +692,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -709,7 +709,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -726,7 +726,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -743,7 +743,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -760,7 +760,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -777,7 +777,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -794,7 +794,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -811,7 +811,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.841Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -828,7 +828,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -845,7 +845,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.594Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -862,7 +862,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -879,7 +879,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -896,7 +896,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -913,7 +913,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -930,7 +930,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -947,7 +947,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -964,7 +964,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -981,7 +981,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -998,7 +998,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1015,7 +1015,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1032,7 +1032,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1049,7 +1049,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.842Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1066,7 +1066,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1083,7 +1083,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.595Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1100,7 +1100,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1117,7 +1117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1134,7 +1134,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1151,7 +1151,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1168,7 +1168,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1185,7 +1185,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1202,7 +1202,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1219,7 +1219,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.843Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1236,7 +1236,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1253,7 +1253,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1270,7 +1270,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1287,7 +1287,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1304,7 +1304,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1321,7 +1321,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1338,7 +1338,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1355,7 +1355,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1372,7 +1372,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1389,7 +1389,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.596Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1406,7 +1406,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1423,7 +1423,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.844Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1440,7 +1440,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1457,7 +1457,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1474,7 +1474,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1491,7 +1491,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1508,7 +1508,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1525,7 +1525,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1542,7 +1542,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1559,7 +1559,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.845Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1576,7 +1576,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1593,7 +1593,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1610,7 +1610,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1627,7 +1627,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.597Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1644,7 +1644,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1661,7 +1661,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1678,7 +1678,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1695,7 +1695,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1712,7 +1712,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1729,7 +1729,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1746,7 +1746,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1763,7 +1763,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1780,7 +1780,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1797,7 +1797,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.846Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1814,7 +1814,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1831,7 +1831,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1848,7 +1848,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1865,7 +1865,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.598Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1882,7 +1882,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1899,7 +1899,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1916,7 +1916,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1933,7 +1933,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -1950,7 +1950,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1967,7 +1967,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -1984,7 +1984,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2001,7 +2001,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2018,7 +2018,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2035,7 +2035,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2052,7 +2052,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2069,7 +2069,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.847Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2086,7 +2086,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2103,7 +2103,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2120,7 +2120,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2137,7 +2137,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.599Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2154,7 +2154,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2171,7 +2171,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2188,7 +2188,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2205,7 +2205,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2222,7 +2222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2239,7 +2239,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.848Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2256,7 +2256,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2273,7 +2273,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2290,7 +2290,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2307,7 +2307,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2324,7 +2324,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2341,7 +2341,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2358,7 +2358,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2375,7 +2375,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2392,7 +2392,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2409,7 +2409,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.600Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2426,7 +2426,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2443,7 +2443,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2460,7 +2460,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.849Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2477,7 +2477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2494,7 +2494,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2511,7 +2511,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2528,7 +2528,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2545,7 +2545,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2562,7 +2562,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2579,7 +2579,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2596,7 +2596,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.850Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2613,7 +2613,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2630,7 +2630,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2647,7 +2647,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.601Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2664,7 +2664,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2681,7 +2681,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2698,7 +2698,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2715,7 +2715,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2732,7 +2732,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2749,7 +2749,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2766,7 +2766,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2783,7 +2783,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2800,7 +2800,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2817,7 +2817,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.851Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2834,7 +2834,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2851,7 +2851,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2868,7 +2868,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2885,7 +2885,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2902,7 +2902,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2919,7 +2919,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.602Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2936,7 +2936,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2953,7 +2953,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -2970,7 +2970,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -2987,7 +2987,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3004,7 +3004,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3021,7 +3021,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3038,7 +3038,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3055,7 +3055,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.852Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3072,7 +3072,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3089,7 +3089,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3106,7 +3106,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3123,7 +3123,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3140,7 +3140,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3157,7 +3157,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3174,7 +3174,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3191,7 +3191,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.603Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3208,7 +3208,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3225,7 +3225,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3242,7 +3242,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3259,7 +3259,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3276,7 +3276,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3293,7 +3293,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.853Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3310,7 +3310,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3327,7 +3327,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3344,7 +3344,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3361,7 +3361,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3378,7 +3378,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3395,7 +3395,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3412,7 +3412,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3429,7 +3429,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3446,7 +3446,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3463,7 +3463,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.854Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3480,7 +3480,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.855Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3497,7 +3497,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.855Z",
+    "last_updated": "2026-08-07T11:06:22.604Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3514,7 +3514,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3531,7 +3531,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3548,7 +3548,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3565,7 +3565,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3582,7 +3582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3599,7 +3599,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3616,7 +3616,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3633,7 +3633,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3650,7 +3650,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3667,7 +3667,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3684,7 +3684,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3701,7 +3701,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3718,7 +3718,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3735,7 +3735,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.856Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3752,7 +3752,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3769,7 +3769,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3786,7 +3786,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3803,7 +3803,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.605Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3820,7 +3820,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3837,7 +3837,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3854,7 +3854,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3871,7 +3871,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3888,7 +3888,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3905,7 +3905,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3922,7 +3922,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3939,7 +3939,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -3956,7 +3956,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3973,7 +3973,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -3990,7 +3990,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4007,7 +4007,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.857Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4024,7 +4024,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4041,7 +4041,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4058,7 +4058,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4075,7 +4075,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.606Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4092,7 +4092,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4109,7 +4109,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4126,7 +4126,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4143,7 +4143,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4160,7 +4160,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4177,7 +4177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4194,7 +4194,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4211,7 +4211,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4228,7 +4228,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4245,7 +4245,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.858Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4262,7 +4262,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4279,7 +4279,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4296,7 +4296,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4313,7 +4313,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4330,7 +4330,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4347,7 +4347,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4364,7 +4364,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.607Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4381,7 +4381,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4398,7 +4398,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4415,7 +4415,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4432,7 +4432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4449,7 +4449,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4466,7 +4466,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4483,7 +4483,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4500,7 +4500,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4517,7 +4517,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4534,7 +4534,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4551,7 +4551,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4568,7 +4568,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.859Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4585,7 +4585,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.860Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4602,7 +4602,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4619,7 +4619,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4636,7 +4636,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4653,7 +4653,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.608Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4670,7 +4670,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4687,7 +4687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4704,7 +4704,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4721,7 +4721,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4738,7 +4738,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4755,7 +4755,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4772,7 +4772,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4789,7 +4789,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4806,7 +4806,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4823,7 +4823,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4840,7 +4840,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4857,7 +4857,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4874,7 +4874,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4891,7 +4891,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4908,7 +4908,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.861Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4925,7 +4925,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.609Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4942,7 +4942,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4959,7 +4959,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -4976,7 +4976,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -4993,7 +4993,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5010,7 +5010,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5027,7 +5027,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5044,7 +5044,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5061,7 +5061,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5078,7 +5078,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5095,7 +5095,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5112,7 +5112,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5129,7 +5129,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5146,7 +5146,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5163,7 +5163,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5180,7 +5180,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5197,7 +5197,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.862Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5214,7 +5214,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5231,7 +5231,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5248,7 +5248,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5265,7 +5265,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.610Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5282,7 +5282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5299,7 +5299,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5316,7 +5316,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5333,7 +5333,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5350,7 +5350,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5367,7 +5367,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5384,7 +5384,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5401,7 +5401,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5418,7 +5418,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5435,7 +5435,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5452,7 +5452,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5469,7 +5469,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.863Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5486,7 +5486,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5503,7 +5503,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5520,7 +5520,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5537,7 +5537,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.611Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5554,7 +5554,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5571,7 +5571,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5588,7 +5588,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5605,7 +5605,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5622,7 +5622,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5639,7 +5639,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5656,7 +5656,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5673,7 +5673,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5690,7 +5690,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5707,7 +5707,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5724,7 +5724,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.864Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5741,7 +5741,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5758,7 +5758,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5775,7 +5775,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5792,7 +5792,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5809,7 +5809,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5826,7 +5826,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5843,7 +5843,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.612Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5860,7 +5860,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5877,7 +5877,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5894,7 +5894,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5911,7 +5911,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5928,7 +5928,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5945,7 +5945,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.865Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -5962,7 +5962,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5979,7 +5979,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -5996,7 +5996,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6013,7 +6013,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6030,7 +6030,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6047,7 +6047,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6064,7 +6064,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6081,7 +6081,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.613Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6098,7 +6098,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6115,7 +6115,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6132,7 +6132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6149,7 +6149,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6166,7 +6166,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6183,7 +6183,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6200,7 +6200,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6217,7 +6217,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.866Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6234,7 +6234,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6251,7 +6251,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6268,7 +6268,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6285,7 +6285,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6302,7 +6302,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6319,7 +6319,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6336,7 +6336,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6353,7 +6353,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6370,7 +6370,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6387,7 +6387,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.614Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6404,7 +6404,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6421,7 +6421,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6438,7 +6438,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6455,7 +6455,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.867Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6472,7 +6472,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6489,7 +6489,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6506,7 +6506,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6523,7 +6523,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6540,7 +6540,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6557,7 +6557,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6574,7 +6574,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6591,7 +6591,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6608,7 +6608,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6625,7 +6625,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6642,7 +6642,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6659,7 +6659,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.868Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6676,7 +6676,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6693,7 +6693,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.615Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6710,7 +6710,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6727,7 +6727,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6744,7 +6744,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6761,7 +6761,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6778,7 +6778,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6795,7 +6795,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6812,7 +6812,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6829,7 +6829,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6846,7 +6846,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6863,7 +6863,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6880,7 +6880,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6897,7 +6897,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.869Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6914,7 +6914,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6931,7 +6931,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6948,7 +6948,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6965,7 +6965,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -6982,7 +6982,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -6999,7 +6999,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.870Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7016,7 +7016,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.616Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7033,7 +7033,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7050,7 +7050,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7067,7 +7067,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7084,7 +7084,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7101,7 +7101,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7118,7 +7118,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7135,7 +7135,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7152,7 +7152,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7169,7 +7169,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7186,7 +7186,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7203,7 +7203,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7220,7 +7220,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7237,7 +7237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7254,7 +7254,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7271,7 +7271,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7288,7 +7288,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.871Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7305,7 +7305,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7322,7 +7322,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7339,7 +7339,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7356,7 +7356,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.617Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7373,7 +7373,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7390,7 +7390,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7407,7 +7407,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7424,7 +7424,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7441,7 +7441,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7458,7 +7458,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7475,7 +7475,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7492,7 +7492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7509,7 +7509,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7526,7 +7526,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7543,7 +7543,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7560,7 +7560,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7577,7 +7577,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.872Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7594,7 +7594,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7611,7 +7611,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7628,7 +7628,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7645,7 +7645,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7662,7 +7662,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7679,7 +7679,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7696,7 +7696,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.618Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7713,7 +7713,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7730,7 +7730,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7747,7 +7747,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7764,7 +7764,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7781,7 +7781,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7798,7 +7798,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7815,7 +7815,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.873Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7832,7 +7832,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7849,7 +7849,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7866,7 +7866,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7883,7 +7883,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7900,7 +7900,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7917,7 +7917,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7934,7 +7934,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7951,7 +7951,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -7968,7 +7968,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -7985,7 +7985,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8002,7 +8002,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8019,7 +8019,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8036,7 +8036,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.619Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8053,7 +8053,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.874Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8070,7 +8070,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8087,7 +8087,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8104,7 +8104,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8121,7 +8121,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8138,7 +8138,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8155,7 +8155,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8172,7 +8172,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8189,7 +8189,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8206,7 +8206,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8223,7 +8223,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8240,7 +8240,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8257,7 +8257,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8274,7 +8274,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8291,7 +8291,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8308,7 +8308,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8325,7 +8325,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.875Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8342,7 +8342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8359,7 +8359,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8376,7 +8376,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8393,7 +8393,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.620Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8410,7 +8410,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8427,7 +8427,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8444,7 +8444,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8461,7 +8461,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8478,7 +8478,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8495,7 +8495,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8512,7 +8512,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8529,7 +8529,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8546,7 +8546,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8563,7 +8563,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.876Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8580,7 +8580,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8597,7 +8597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8614,7 +8614,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8631,7 +8631,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8648,7 +8648,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8665,7 +8665,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8682,7 +8682,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8699,7 +8699,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8716,7 +8716,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.621Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8733,7 +8733,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8750,7 +8750,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8767,7 +8767,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8784,7 +8784,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.877Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8801,7 +8801,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8818,7 +8818,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8835,7 +8835,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8852,7 +8852,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8869,7 +8869,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8886,7 +8886,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8903,7 +8903,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8920,7 +8920,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8937,7 +8937,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -8954,7 +8954,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8971,7 +8971,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -8988,7 +8988,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9005,7 +9005,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9022,7 +9022,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9039,7 +9039,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9056,7 +9056,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.878Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9073,7 +9073,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.879Z",
+    "last_updated": "2026-08-07T11:06:22.622Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9090,7 +9090,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.879Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9107,7 +9107,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.879Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9124,7 +9124,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9141,7 +9141,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9158,7 +9158,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9175,7 +9175,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9192,7 +9192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9209,7 +9209,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9226,7 +9226,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9243,7 +9243,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9260,7 +9260,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9277,7 +9277,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9294,7 +9294,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9311,7 +9311,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9328,7 +9328,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9345,7 +9345,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9362,7 +9362,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9379,7 +9379,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9396,7 +9396,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9413,7 +9413,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.880Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9430,7 +9430,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9447,7 +9447,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.623Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9464,7 +9464,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9481,7 +9481,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9498,7 +9498,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9515,7 +9515,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9532,7 +9532,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9549,7 +9549,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9566,7 +9566,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9583,7 +9583,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9600,7 +9600,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9617,7 +9617,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9634,7 +9634,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9651,7 +9651,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9668,7 +9668,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9685,7 +9685,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.624Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9702,7 +9702,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9719,7 +9719,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.881Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9736,7 +9736,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9753,7 +9753,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9770,7 +9770,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9787,7 +9787,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9804,7 +9804,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9821,7 +9821,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9838,7 +9838,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9855,7 +9855,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9872,7 +9872,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9889,7 +9889,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CP",
     "data_type": "services"
   },
@@ -9906,7 +9906,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   },
@@ -9923,7 +9923,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T09:57:13.882Z",
+    "last_updated": "2026-08-07T11:06:22.625Z",
     "measure": "CVM",
     "data_type": "services"
   }
