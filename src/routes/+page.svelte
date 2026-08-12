@@ -29,11 +29,15 @@
   let loading = true;
   let error = '';
 
-  const DATE_FROM = '2023-05-01';
-  const DATE_TO   = '2026-05-01';
+  const ROLLING_MONTH_COUNT = 36;
 
   function parseDate(iso: string): Date {
     return new Date(iso);
+  }
+
+  function latestMonthlyDateSet(records: Array<{ date: string }>, months = ROLLING_MONTH_COUNT): Set<string> {
+    const dates = [...new Set(records.map((r) => r.date))].sort();
+    return new Set(dates.slice(-months));
   }
 
   function seriesMax(series: Point[]): number {
@@ -72,9 +76,9 @@
       const goodsRaw: any[] = await goodsRes.json();
 
       // Filter to monthly, within date window
-      const goodsMonthly = goodsRaw.filter(r =>
-        r.period_type === 'monthly' && r.date >= DATE_FROM && r.date <= DATE_TO
-      );
+      const goodsMonthlyAll = goodsRaw.filter((r) => r.period_type === 'monthly');
+      const latestGoodsDates = latestMonthlyDateSet(goodsMonthlyAll);
+      const goodsMonthly = goodsMonthlyAll.filter((r) => latestGoodsDates.has(r.date));
 
       // Aggregate by date, flow, EU/Non-EU
       const agg = new Map<string, number>();
@@ -134,13 +138,16 @@
       const fig5ImportsCp: Point[] = [];
       const fig5ImportsCvm: Point[] = [];
 
-      for (const r of svcRaw) {
-        if (
+      const servicesMonthlyAll = svcRaw.filter(
+        (r) =>
           r.period_type === 'monthly' &&
           r.country_code === 'WW' &&
-          r.date >= DATE_FROM && r.date <= DATE_TO &&
           (r.measure === 'CP' || r.measure === 'CVM')
-        ) {
+      );
+      const latestServiceDates = latestMonthlyDateSet(servicesMonthlyAll);
+
+      for (const r of servicesMonthlyAll) {
+        if (latestServiceDates.has(r.date)) {
           const point: Point = { date: parseDate(r.date), value: r.value_gbp / 1e9 };
           if (r.flow === 'export' && r.measure === 'CP') fig5ExportsCp.push(point);
           if (r.flow === 'export' && r.measure === 'CVM') fig5ExportsCvm.push(point);
@@ -185,7 +192,7 @@
     <section class="chart-section">
       <h2>Figure 1: EU and non-EU goods exports and imports</h2>
       <p class="chart-subtitle">
-        EU and non-EU goods imports and exports, current prices, May 2023 to May 2026
+        EU and non-EU goods imports and exports, current prices, latest 3 years
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">EU</span>
@@ -253,7 +260,7 @@
     <section class="chart-section">
       <h2>Figure 2: Imports and exports of goods, EU and non-EU</h2>
       <p class="chart-subtitle">
-        Imports and exports of goods, current prices, EU and non-EU, May 2023 to May 2026
+        Imports and exports of goods, current prices, EU and non-EU, latest 3 years
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">Exports</span>
@@ -322,7 +329,7 @@
       <h2>Figure 5: Imports and exports of services</h2>
       <p class="chart-subtitle">
         Imports and exports of services, current prices and chained volume measures,
-        seasonally adjusted, May 2023 to May 2026
+        seasonally adjusted, latest 3 years
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">Exports CP</span>
