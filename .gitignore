@@ -20,7 +20,8 @@ build/
 .turbo/
 
 # Data
-data/raw/
+# data/raw/ is tracked — raw ONS files are committed so the workflow can detect changes
+data/raw/.DS_Store
 data/*.json
 data/*/*.json
 !data/sample-parsed.json

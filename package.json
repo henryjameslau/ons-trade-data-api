@@ -8,9 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "parse-data": "ts-node --esm scripts/parse-excel.ts data/parsed.json data/raw/countrybycommodityexports.xlsx data/raw/countrybycommodityimports.xlsx",
-    "parse-services": "ts-node --esm scripts/parse-mret.ts data/parsed-services.json data/raw/mret.csv",
-    "generate-files": "ts-node --esm scripts/generate-files.ts data/parsed.json data/parsed-services.json",
+    "parse-data": "npx tsx scripts/parse-excel.ts data/parsed.json data/raw/",
+    "parse-services": "npx tsx scripts/parse-mret.ts data/parsed-services.json data/raw/mret.csv",
+    "generate-files": "npx tsx scripts/generate-files.ts data/parsed.json data/parsed-services.json",
     "refresh-data": "npm run parse-data && npm run parse-services && npm run generate-files"
   },
   "devDependencies": {

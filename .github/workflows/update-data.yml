@@ -1,0 +1,173 @@
+name: Update ONS Trade Data
+
+on:
+  schedule:
+    # Run at 7am UTC on weekdays (Mon-Fri)
+    - cron: '0 7 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Check and download new ONS files
+        id: download
+        run: |
+          set -euo pipefail
+          FILES_CHANGED=false
+
+          # Helper: extract contentUrl for a given file extension from an ONS page's JSON-LD
+          extract_url() {
+            local page_url="$1"
+            local extension="$2"
+            curl -fsSL "$page_url" \
+              | python3 -c "
+          import sys, json, re
+          html = sys.stdin.read()
+          # Extract JSON-LD block
+          match = re.search(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
+          if not match:
+              sys.exit(1)
+          data = json.loads(match.group(1))
+          for dist in data.get('distribution', []):
+              if dist.get('encodingFormat', '') == '$extension':
+                  print(dist['contentUrl'])
+                  sys.exit(0)
+          sys.exit(1)
+          "
+          }
+
+          # ── All Countries (seasonally adjusted) ─────────────────────────────
+          # This file has a date in its filename — detect if it has changed
+          echo "Checking allcountries file..."
+          ALLCOUNTRIES_URL=$(extract_url \
+            "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradeallcountriesseasonallyadjusted" \
+            "xlsx")
+          ALLCOUNTRIES_FILENAME=$(basename "$ALLCOUNTRIES_URL" | sed 's/?.*//')
+
+          # Remove any old allcountries*.xlsx files if the name has changed
+          EXISTING=$(ls data/raw/allcountries*.xlsx 2>/dev/null || true)
+          if [ -z "$EXISTING" ] || [ ! -f "data/raw/$ALLCOUNTRIES_FILENAME" ]; then
+            echo "New allcountries file detected: $ALLCOUNTRIES_FILENAME"
+            # Remove old versioned files
+            rm -f data/raw/allcountries*.xlsx
+            curl -fsSL -o "data/raw/$ALLCOUNTRIES_FILENAME" "$ALLCOUNTRIES_URL"
+            echo "Downloaded $ALLCOUNTRIES_FILENAME"
+            FILES_CHANGED=true
+          else
+            echo "allcountries file unchanged: $ALLCOUNTRIES_FILENAME"
+          fi
+
+          # ── Country-by-commodity exports ─────────────────────────────────────
+          echo "Checking countrybycommodityexports.xlsx..."
+          EXPORTS_URL=$(extract_url \
+            "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports" \
+            "xlsx")
+          OLD_EXPORTS_HASH=$(sha256sum data/raw/countrybycommodityexports.xlsx 2>/dev/null | awk '{print $1}' || echo "none")
+          curl -fsSL -o data/raw/countrybycommodityexports.xlsx "$EXPORTS_URL"
+          NEW_EXPORTS_HASH=$(sha256sum data/raw/countrybycommodityexports.xlsx | awk '{print $1}')
+          if [ "$OLD_EXPORTS_HASH" != "$NEW_EXPORTS_HASH" ]; then
+            echo "countrybycommodityexports.xlsx has changed"
+            FILES_CHANGED=true
+          fi
+
+          # ── Country-by-commodity imports ─────────────────────────────────────
+          echo "Checking countrybycommodityimports.xlsx..."
+          IMPORTS_URL=$(extract_url \
+            "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports" \
+            "xlsx")
+          OLD_IMPORTS_HASH=$(sha256sum data/raw/countrybycommodityimports.xlsx 2>/dev/null | awk '{print $1}' || echo "none")
+          curl -fsSL -o data/raw/countrybycommodityimports.xlsx "$IMPORTS_URL"
+          NEW_IMPORTS_HASH=$(sha256sum data/raw/countrybycommodityimports.xlsx | awk '{print $1}')
+          if [ "$OLD_IMPORTS_HASH" != "$NEW_IMPORTS_HASH" ]; then
+            echo "countrybycommodityimports.xlsx has changed"
+            FILES_CHANGED=true
+          fi
+
+          # ── MRET time series CSV ──────────────────────────────────────────────
+          echo "Checking mret.csv..."
+          MRET_URL=$(extract_url \
+            "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet" \
+            "csv")
+          OLD_MRET_HASH=$(sha256sum data/raw/mret.csv 2>/dev/null | awk '{print $1}' || echo "none")
+          curl -fsSL -o data/raw/mret.csv "$MRET_URL"
+          NEW_MRET_HASH=$(sha256sum data/raw/mret.csv | awk '{print $1}')
+          if [ "$OLD_MRET_HASH" != "$NEW_MRET_HASH" ]; then
+            echo "mret.csv has changed"
+            FILES_CHANGED=true
+          fi
+
+          echo "files_changed=$FILES_CHANGED" >> "$GITHUB_OUTPUT"
+          echo "Files changed: $FILES_CHANGED"
+
+      - name: Run data processing pipeline
+        if: steps.download.outputs.files_changed == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          NODE_OPTIONS: --max-old-space-size=4096
+        run: |
+          echo "Running parse-data..."
+          npm run parse-data
+          echo "Running parse-services..."
+          npm run parse-services
+          echo "Running generate-files..."
+          npm run generate-files
+
+      - name: Validate output
+        if: steps.download.outputs.files_changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          set -euo pipefail
+
+          SCHEMA_FILE="static/data/meta/schema.json"
+          if [ ! -f "$SCHEMA_FILE" ]; then
+            echo "ERROR: $SCHEMA_FILE not found — processing may have failed"
+            exit 1
+          fi
+
+          TOTAL_RECORDS=$(python3 -c "import json; d=json.load(open('$SCHEMA_FILE')); print(d['total_records'])")
+          echo "Total records in output: $TOTAL_RECORDS"
+
+          MIN_RECORDS=100000
+          if [ "$TOTAL_RECORDS" -lt "$MIN_RECORDS" ]; then
+            echo "ERROR: Only $TOTAL_RECORDS records found — expected at least $MIN_RECORDS. Processing may have failed."
+            exit 1
+          fi
+
+          echo "Validation passed: $TOTAL_RECORDS records"
+
+      - name: Commit and push updated data
+        if: steps.download.outputs.files_changed == 'true' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/raw/ static/data/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            DATE=$(date -u '+%Y-%m-%d')
+            git commit -m "Update ONS trade data ($DATE)
+
+          Automated update: downloaded latest files from ONS and regenerated static data."
+            git push
+            echo "Committed and pushed updated data"
+          fi
