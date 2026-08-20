@@ -35,89 +35,162 @@ jobs:
           set -euo pipefail
           FILES_CHANGED=false
 
-          # Helper: extract contentUrl for a given file extension from an ONS page's JSON-LD
-          extract_url() {
-            local page_url="$1"
-            local extension="$2"
-            curl -fsSL "$page_url" \
-              | python3 -c "
-          import sys, json, re
-          html = sys.stdin.read()
-          # Extract JSON-LD block
-          match = re.search(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
-          if not match:
-              sys.exit(1)
-          data = json.loads(match.group(1))
-          for dist in data.get('distribution', []):
-              if dist.get('encodingFormat', '') == '$extension':
-                  print(dist['contentUrl'])
-                  sys.exit(0)
-          sys.exit(1)
-          "
+          # ONS bot guidance: https://developer.ons.gov.uk/bots/
+          # - Use a descriptive bot User-Agent with repo URL
+          # - Honour Retry-After header on 429 responses
+          # - Rate limits: 120 req/10s, 200 req/min, 15 req/10s for high-demand assets
+          ONS_UA="ONSTradeDataUpdater/1.0.0(+https://github.com/${{ github.repository }})"
+
+          # Fetch a URL to a file, honouring Retry-After on 429.
+          fetch_url() {
+            local url="$1"
+            local dest="$2"
+            local max_attempts=5
+            local attempt=1
+
+            while [ $attempt -le $max_attempts ]; do
+              # Write headers to a temp file so we can read Retry-After
+              local headers_file
+              headers_file=$(mktemp)
+              local http_code
+              http_code=$(curl -sSL \
+                -A "$ONS_UA" \
+                -D "$headers_file" \
+                -w "%{http_code}" \
+                -o "$dest" \
+                "$url")
+
+              if [ "$http_code" = "200" ]; then
+                rm -f "$headers_file"
+                return 0
+              fi
+
+              if [ "$http_code" = "429" ]; then
+                # Honour Retry-After if present, else default to 60s
+                local retry_after
+                retry_after=$(grep -i '^retry-after:' "$headers_file" | awk '{print $2}' | tr -d '\r' || echo "60")
+                retry_after=${retry_after:-60}
+                echo "  Rate limited (429). Retry-After: ${retry_after}s. Waiting..."
+                rm -f "$headers_file"
+                sleep "$retry_after"
+              else
+                echo "  Attempt $attempt/$max_attempts: HTTP $http_code. Waiting 30s..."
+                rm -f "$headers_file"
+                sleep 30
+              fi
+
+              attempt=$((attempt + 1))
+            done
+
+            echo "ERROR: Failed to fetch $url after $max_attempts attempts"
+            return 1
           }
 
+          # Extract the contentUrl for a given file extension from an ONS dataset page's JSON-LD.
+          extract_download_url() {
+            local page_url="$1"
+            local extension="$2"
+            local tmpfile
+            tmpfile=$(mktemp)
+            fetch_url "$page_url" "$tmpfile"
+            python3 - "$tmpfile" "$extension" <<'PYEOF'
+          import sys, json, re
+          tmpfile, extension = sys.argv[1], sys.argv[2]
+          html = open(tmpfile).read()
+          match = re.search(r'<script type="application/ld\+json">(.*?)</script>', html, re.DOTALL)
+          if not match:
+              print("ERROR: no JSON-LD found", file=sys.stderr)
+              sys.exit(1)
+          data = json.loads(match.group(1))
+          for dist in data.get("distribution", []):
+              if dist.get("encodingFormat", "") == extension:
+                  print(dist["contentUrl"])
+                  sys.exit(0)
+          print(f"ERROR: no distribution with encodingFormat={extension}", file=sys.stderr)
+          sys.exit(1)
+          PYEOF
+            local status=$?
+            rm -f "$tmpfile"
+            return $status
+          }
+
+          # Small pause between requests to stay well within rate limits
+          polite_pause() { sleep 3; }
+
           # ── All Countries (seasonally adjusted) ─────────────────────────────
-          # This file has a date in its filename — detect if it has changed
-          echo "Checking allcountries file..."
-          ALLCOUNTRIES_URL=$(extract_url \
+          # This file has a release date in its filename (e.g. allcountriesjune2026.xlsx).
+          # Only download if the filename has changed.
+          echo "==> Checking allcountries file..."
+          ALLCOUNTRIES_URL=$(extract_download_url \
             "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradeallcountriesseasonallyadjusted" \
             "xlsx")
-          ALLCOUNTRIES_FILENAME=$(basename "$ALLCOUNTRIES_URL" | sed 's/?.*//')
+          echo "  Current URL: $ALLCOUNTRIES_URL"
+          ALLCOUNTRIES_FILENAME=$(basename "$ALLCOUNTRIES_URL" | cut -d'?' -f1)
 
-          # Remove any old allcountries*.xlsx files if the name has changed
-          EXISTING=$(ls data/raw/allcountries*.xlsx 2>/dev/null || true)
-          if [ -z "$EXISTING" ] || [ ! -f "data/raw/$ALLCOUNTRIES_FILENAME" ]; then
-            echo "New allcountries file detected: $ALLCOUNTRIES_FILENAME"
-            # Remove old versioned files
+          if [ ! -f "data/raw/$ALLCOUNTRIES_FILENAME" ]; then
+            echo "  New file: $ALLCOUNTRIES_FILENAME (removing old allcountries*.xlsx)"
             rm -f data/raw/allcountries*.xlsx
-            curl -fsSL -o "data/raw/$ALLCOUNTRIES_FILENAME" "$ALLCOUNTRIES_URL"
-            echo "Downloaded $ALLCOUNTRIES_FILENAME"
+            polite_pause
+            fetch_url "$ALLCOUNTRIES_URL" "data/raw/$ALLCOUNTRIES_FILENAME"
+            echo "  Downloaded $ALLCOUNTRIES_FILENAME"
             FILES_CHANGED=true
           else
-            echo "allcountries file unchanged: $ALLCOUNTRIES_FILENAME"
+            echo "  No change: $ALLCOUNTRIES_FILENAME already present"
           fi
 
           # ── Country-by-commodity exports ─────────────────────────────────────
-          echo "Checking countrybycommodityexports.xlsx..."
-          EXPORTS_URL=$(extract_url \
+          echo "==> Checking countrybycommodityexports.xlsx..."
+          polite_pause
+          EXPORTS_URL=$(extract_download_url \
             "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports" \
             "xlsx")
           OLD_EXPORTS_HASH=$(sha256sum data/raw/countrybycommodityexports.xlsx 2>/dev/null | awk '{print $1}' || echo "none")
-          curl -fsSL -o data/raw/countrybycommodityexports.xlsx "$EXPORTS_URL"
+          polite_pause
+          fetch_url "$EXPORTS_URL" data/raw/countrybycommodityexports.xlsx
           NEW_EXPORTS_HASH=$(sha256sum data/raw/countrybycommodityexports.xlsx | awk '{print $1}')
           if [ "$OLD_EXPORTS_HASH" != "$NEW_EXPORTS_HASH" ]; then
-            echo "countrybycommodityexports.xlsx has changed"
+            echo "  Changed"
             FILES_CHANGED=true
+          else
+            echo "  Unchanged"
           fi
 
           # ── Country-by-commodity imports ─────────────────────────────────────
-          echo "Checking countrybycommodityimports.xlsx..."
-          IMPORTS_URL=$(extract_url \
+          echo "==> Checking countrybycommodityimports.xlsx..."
+          polite_pause
+          IMPORTS_URL=$(extract_download_url \
             "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports" \
             "xlsx")
           OLD_IMPORTS_HASH=$(sha256sum data/raw/countrybycommodityimports.xlsx 2>/dev/null | awk '{print $1}' || echo "none")
-          curl -fsSL -o data/raw/countrybycommodityimports.xlsx "$IMPORTS_URL"
+          polite_pause
+          fetch_url "$IMPORTS_URL" data/raw/countrybycommodityimports.xlsx
           NEW_IMPORTS_HASH=$(sha256sum data/raw/countrybycommodityimports.xlsx | awk '{print $1}')
           if [ "$OLD_IMPORTS_HASH" != "$NEW_IMPORTS_HASH" ]; then
-            echo "countrybycommodityimports.xlsx has changed"
+            echo "  Changed"
             FILES_CHANGED=true
+          else
+            echo "  Unchanged"
           fi
 
           # ── MRET time series CSV ──────────────────────────────────────────────
-          echo "Checking mret.csv..."
-          MRET_URL=$(extract_url \
+          echo "==> Checking mret.csv..."
+          polite_pause
+          MRET_URL=$(extract_download_url \
             "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet" \
             "csv")
           OLD_MRET_HASH=$(sha256sum data/raw/mret.csv 2>/dev/null | awk '{print $1}' || echo "none")
-          curl -fsSL -o data/raw/mret.csv "$MRET_URL"
+          polite_pause
+          fetch_url "$MRET_URL" data/raw/mret.csv
           NEW_MRET_HASH=$(sha256sum data/raw/mret.csv | awk '{print $1}')
           if [ "$OLD_MRET_HASH" != "$NEW_MRET_HASH" ]; then
-            echo "mret.csv has changed"
+            echo "  Changed"
             FILES_CHANGED=true
+          else
+            echo "  Unchanged"
           fi
 
           echo "files_changed=$FILES_CHANGED" >> "$GITHUB_OUTPUT"
-          echo "Files changed: $FILES_CHANGED"
+          echo "==> Files changed: $FILES_CHANGED"
 
       - name: Run data processing pipeline
         if: steps.download.outputs.files_changed == 'true' || github.event_name == 'workflow_dispatch'
@@ -147,7 +220,7 @@ jobs:
 
           MIN_RECORDS=100000
           if [ "$TOTAL_RECORDS" -lt "$MIN_RECORDS" ]; then
-            echo "ERROR: Only $TOTAL_RECORDS records found — expected at least $MIN_RECORDS. Processing may have failed."
+            echo "ERROR: Only $TOTAL_RECORDS records — expected at least $MIN_RECORDS. Processing may have failed."
             exit 1
           fi
 
