@@ -28,6 +28,7 @@
 
   let loading = true;
   let error = '';
+  let latestDataDate: string = '';
 
   const ROLLING_MONTH_COUNT = 36;
 
@@ -79,6 +80,13 @@
       const goodsMonthlyAll = goodsRaw.filter((r) => r.period_type === 'monthly');
       const latestGoodsDates = latestMonthlyDateSet(goodsMonthlyAll);
       const goodsMonthly = goodsMonthlyAll.filter((r) => latestGoodsDates.has(r.date));
+
+      // Derive latest data date for display in header
+      const allDates = goodsMonthlyAll.map((r) => r.date).sort();
+      if (allDates.length > 0) {
+        const d = new Date(allDates[allDates.length - 1]);
+        latestDataDate = d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+      }
 
       // Aggregate by date, flow, EU/Non-EU
       const agg = new Map<string, number>();
@@ -175,6 +183,9 @@
     <p class="subtitle">
       Data from the <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/latest" target="_blank">ONS UK Trade bulletin</a>.
       Monthly, current prices. Goods data summed across all trading partners (not seasonally adjusted).
+      {#if latestDataDate}
+        Latest data: <strong>{latestDataDate}</strong>.
+      {/if}
     </p>
 
     <p>
