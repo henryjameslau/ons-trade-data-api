@@ -36,7 +36,7 @@ interface ServiceRecord {
   date: string;
   period_type: 'annual' | 'quarterly' | 'monthly';
   measure: 'CP' | 'CVM' | 'IDEF';
-  data_type: 'services' | 'goods';
+  data_type: 'services';
 }
 
 interface ColumnMeta {
@@ -66,38 +66,8 @@ const QUARTER_MAP: Record<string, string> = {
 /** Number of metadata rows after the CDID row to skip before data begins */
 const METADATA_ROWS = 5; // PreUnit, Unit, Release Date, Next Release, Important Notes
 
-/**
- * Hardcoded CDID map for the 8 goods EU/Non-EU SA series (ex precious metals).
- * These are the source for Figures 1 and 2 in the ONS UK Trade bulletin.
- * Values are in £ millions — scaled to £ on output.
- *
- * CDIDs verified against mret.csv titles:
- *   FSL4  Total EU less precious metals: EU: Exports: BOP: CP: SA
- *   FSL5  Total EU less precious metals: EU: Imports: BOP: CP: SA
- *   FSL7  Total Non-EU less precious metals: Non-EU: Exports: BOP: CP: SA
- *   FSL8  Total Non-EU less precious metals: Non-EU: Imports: BOP: CP: SA
- *   JIM8  Trade in Goods less precious metals: EU: Exports: BOP: CVM: SA
- *   JIM7  Trade in Goods less precious metals: EU: Imports: BOP: CVM: SA
- *   JIN3  Trade in Goods less precious metals: Non-EU: Exports: BOP: CVM: SA
- *   JIN2  Trade in Goods less precious metals: Non-EU: Imports: BOP: CVM: SA
- */
-const GOODS_CDID_MAP: Record<string, {
-  commodity_code: string;
-  commodity_name: string;
-  country_code: string;
-  country_name: string;
-  flow: 'import' | 'export';
-  measure: 'CP' | 'CVM';
-}> = {
-  FSL4: { commodity_code: 'GOODS_EU',    commodity_name: 'Total Goods ex Precious Metals',     country_code: 'EU',    country_name: 'EU',     flow: 'export', measure: 'CP'  },
-  FSL5: { commodity_code: 'GOODS_EU',    commodity_name: 'Total Goods ex Precious Metals',     country_code: 'EU',    country_name: 'EU',     flow: 'import', measure: 'CP'  },
-  FSL7: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals',     country_code: 'NEU',   country_name: 'Non-EU', flow: 'export', measure: 'CP'  },
-  FSL8: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals',     country_code: 'NEU',   country_name: 'Non-EU', flow: 'import', measure: 'CP'  },
-  JIM8: { commodity_code: 'GOODS_EU',    commodity_name: 'Total Goods ex Precious Metals',     country_code: 'EU',    country_name: 'EU',     flow: 'export', measure: 'CVM' },
-  JIM7: { commodity_code: 'GOODS_EU',    commodity_name: 'Total Goods ex Precious Metals',     country_code: 'EU',    country_name: 'EU',     flow: 'import', measure: 'CVM' },
-  JIN3: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals',     country_code: 'NEU',   country_name: 'Non-EU', flow: 'export', measure: 'CVM' },
-  JIN2: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals',     country_code: 'NEU',   country_name: 'Non-EU', flow: 'import', measure: 'CVM' },
-};
+// ---------------------------------------------------------------------------
+// Date parsing
 
 // ---------------------------------------------------------------------------
 // Date parsing
@@ -258,25 +228,7 @@ async function parseMretCSV(inputFile: string): Promise<ServiceRecord[]> {
     });
   }
 
-  // Build column metadata for goods EU/Non-EU SA ex-PM series (hardcoded CDIDs)
-  type GoodsColMeta = {
-    index: number;
-    cdid: string;
-    commodity_code: string;
-    commodity_name: string;
-    country_code: string;
-    country_name: string;
-    flow: 'import' | 'export';
-    measure: 'CP' | 'CVM';
-  };
-  const goodsColumns: GoodsColMeta[] = [];
-  for (let i = 1; i < cdidRow.length; i++) {
-    const meta = GOODS_CDID_MAP[cdidRow[i]];
-    if (meta) goodsColumns.push({ index: i, cdid: cdidRow[i], ...meta });
-  }
-
   console.log(`Found ${columns.length} Trade in Services columns to extract`);
-  console.log(`Found ${goodsColumns.length} goods EU/Non-EU aggregate columns to extract`);
 
   const records: ServiceRecord[] = [];
 
@@ -311,27 +263,6 @@ async function parseMretCSV(inputFile: string): Promise<ServiceRecord[]> {
         period_type,
         measure: col.measure,
         data_type: 'services',
-      });
-    }
-
-    // Extract goods EU/Non-EU SA ex-PM series
-    for (const col of goodsColumns) {
-      const rawValue = fields[col.index]?.trim();
-      if (!rawValue || rawValue === '') continue;
-      const numValue = Number(rawValue);
-      if (isNaN(numValue)) continue;
-
-      records.push({
-        commodity_code: col.commodity_code,
-        commodity_name: col.commodity_name,
-        country_code: col.country_code,
-        country_name: col.country_name,
-        flow: col.flow,
-        value: numValue * 1_000_000, // values are in £ millions
-        date,
-        period_type,
-        measure: col.measure,
-        data_type: 'goods',
       });
     }
   }

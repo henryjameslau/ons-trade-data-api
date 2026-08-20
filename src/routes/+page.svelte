@@ -74,11 +74,11 @@
   onMount(async () => {
     try {
       // ── Goods data (Figures 1 & 2) ────────────────────────────────────
-      // Uses ONS SA series excluding precious metals (MRET CDIDs FSL4/5/7/8 CP,
-      // JIM7/8 JIN2/3 CVM) — matches the ONS UK Trade bulletin figures exactly.
+      // Uses trade-by-country aggregate files (EU and non-EU) which contain
+      // ONS SA goods data excluding precious metals, matching the UK Trade bulletin.
       const [euRes, nonEuRes] = await Promise.all([
-        fetch('/data/trade-by-commodity/goods_eu.json'),
-        fetch('/data/trade-by-commodity/goods_noneu.json'),
+        fetch('/data/trade-by-country/eu.json'),
+        fetch('/data/trade-by-country/neu.json'),
       ]);
       if (!euRes.ok || !nonEuRes.ok) throw new Error('Failed to load goods data');
       const euRaw: any[] = await euRes.json();
