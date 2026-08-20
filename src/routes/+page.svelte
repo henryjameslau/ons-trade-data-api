@@ -2,12 +2,6 @@
   import { onMount } from 'svelte';
   import { Plot, Line } from 'svelteplot';
 
-  // ── EU27 country codes ────────────────────────────────────────────────────
-  const EU_CODES = new Set([
-    'AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR',
-    'HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE'
-  ]);
-
   // ── Chart data ────────────────────────────────────────────────────────────
   type Point = { date: Date; value: number };
 
@@ -16,10 +10,14 @@
   let fig1ImportsEuData: Point[] = [];
   let fig1ImportsNonEuData: Point[] = [];
 
-  let fig2EuExportsData: Point[] = [];
-  let fig2EuImportsData: Point[] = [];
-  let fig2NonEuExportsData: Point[] = [];
-  let fig2NonEuImportsData: Point[] = [];
+  let fig2EuExportsCpData: Point[] = [];
+  let fig2EuExportsCvmData: Point[] = [];
+  let fig2EuImportsCpData: Point[] = [];
+  let fig2EuImportsCvmData: Point[] = [];
+  let fig2NonEuExportsCpData: Point[] = [];
+  let fig2NonEuExportsCvmData: Point[] = [];
+  let fig2NonEuImportsCpData: Point[] = [];
+  let fig2NonEuImportsCvmData: Point[] = [];
 
   let fig5ExportsCpData: Point[] = [];
   let fig5ExportsCvmData: Point[] = [];
@@ -55,10 +53,14 @@
 
   $: fig2YMax = Math.max(
     1,
-    seriesMax(fig2EuExportsData),
-    seriesMax(fig2EuImportsData),
-    seriesMax(fig2NonEuExportsData),
-    seriesMax(fig2NonEuImportsData)
+    seriesMax(fig2EuExportsCpData),
+    seriesMax(fig2EuExportsCvmData),
+    seriesMax(fig2EuImportsCpData),
+    seriesMax(fig2EuImportsCvmData),
+    seriesMax(fig2NonEuExportsCpData),
+    seriesMax(fig2NonEuExportsCvmData),
+    seriesMax(fig2NonEuImportsCpData),
+    seriesMax(fig2NonEuImportsCvmData)
   );
 
   $: fig5YMax = Math.max(
@@ -71,70 +73,55 @@
 
   onMount(async () => {
     try {
-      // ── Goods data (Figure 1 & 2) ─────────────────────────────────────
-      const goodsRes = await fetch('/data/trade-by-commodity/t.json');
-      if (!goodsRes.ok) throw new Error('Failed to load goods data');
-      const goodsRaw: any[] = await goodsRes.json();
+      // ── Goods data (Figures 1 & 2) ────────────────────────────────────
+      // Uses ONS SA series excluding precious metals (MRET CDIDs FSL4/5/7/8 CP,
+      // JIM7/8 JIN2/3 CVM) — matches the ONS UK Trade bulletin figures exactly.
+      const [euRes, nonEuRes] = await Promise.all([
+        fetch('/data/trade-by-commodity/goods_eu.json'),
+        fetch('/data/trade-by-commodity/goods_noneu.json'),
+      ]);
+      if (!euRes.ok || !nonEuRes.ok) throw new Error('Failed to load goods data');
+      const euRaw: any[] = await euRes.json();
+      const nonEuRaw: any[] = await nonEuRes.json();
 
-      // Filter to monthly, within date window
-      const goodsMonthlyAll = goodsRaw.filter((r) => r.period_type === 'monthly');
-      const latestGoodsDates = latestMonthlyDateSet(goodsMonthlyAll);
-      const goodsMonthly = goodsMonthlyAll.filter((r) => latestGoodsDates.has(r.date));
-
-      // Derive latest data date for display in header
-      const allDates = goodsMonthlyAll.map((r) => r.date).sort();
+      // Derive latest monthly date for header display
+      const allMonthly = [...euRaw, ...nonEuRaw].filter((r) => r.period_type === 'monthly');
+      const allDates = allMonthly.map((r) => r.date).sort();
       if (allDates.length > 0) {
         const d = new Date(allDates[allDates.length - 1]);
         latestDataDate = d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
       }
 
-      // Aggregate by date, flow, EU/Non-EU
-      const agg = new Map<string, number>();
-      for (const r of goodsMonthly) {
-        const region = EU_CODES.has(r.country_code) ? 'EU' : 'Non-EU';
-        const key = `${r.date}|${r.flow}|${region}`;
-        agg.set(key, (agg.get(key) ?? 0) + r.value_gbp);
-      }
-
-      const fig1ExportsEu: Point[] = [];
-      const fig1ExportsNonEu: Point[] = [];
-      const fig1ImportsEu: Point[] = [];
-      const fig1ImportsNonEu: Point[] = [];
-
-      const fig2EuExports: Point[] = [];
-      const fig2EuImports: Point[] = [];
-      const fig2NonEuExports: Point[] = [];
-      const fig2NonEuImports: Point[] = [];
-
-      // Build chart arrays
-      for (const [key, total] of agg) {
-        const [date, flow, region] = key.split('|');
-        const point: Point = { date: parseDate(date), value: total / 1e9 };
-
-        if (flow === 'export' && region === 'EU') {
-          fig1ExportsEu.push(point);
-          fig2EuExports.push(point);
-        } else if (flow === 'export' && region === 'Non-EU') {
-          fig1ExportsNonEu.push(point);
-          fig2NonEuExports.push(point);
-        } else if (flow === 'import' && region === 'EU') {
-          fig1ImportsEu.push(point);
-          fig2EuImports.push(point);
-        } else if (flow === 'import' && region === 'Non-EU') {
-          fig1ImportsNonEu.push(point);
-          fig2NonEuImports.push(point);
-        }
-      }
-
+      // Filter to latest 36 months
+      const latestDates = latestMonthlyDateSet(allMonthly);
       const byDate = (a: Point, b: Point) => +a.date - +b.date;
-      fig1ExportsEuData = fig1ExportsEu.sort(byDate);
-      fig1ExportsNonEuData = fig1ExportsNonEu.sort(byDate);
-      fig1ImportsEuData = fig1ImportsEu.sort(byDate);
-      fig1ImportsNonEuData = fig1ImportsNonEu.sort(byDate);
-      fig2EuExportsData = fig2EuExports.sort(byDate);
-      fig2EuImportsData = fig2EuImports.sort(byDate);
-      fig2NonEuExportsData = fig2NonEuExports.sort(byDate);
-      fig2NonEuImportsData = fig2NonEuImports.sort(byDate);
+
+      function toPoint(r: any): Point {
+        return { date: parseDate(r.date), value: r.value_gbp / 1e9 };
+      }
+
+      function filterSeries(data: any[], flow: string, measure: string): Point[] {
+        return data
+          .filter((r) => r.period_type === 'monthly' && r.flow === flow && r.measure === measure && latestDates.has(r.date))
+          .map(toPoint)
+          .sort(byDate);
+      }
+
+      // Figure 1: CP only (matching ONS bulletin fig 1)
+      fig1ExportsEuData    = filterSeries(euRaw,    'export', 'CP');
+      fig1ExportsNonEuData = filterSeries(nonEuRaw, 'export', 'CP');
+      fig1ImportsEuData    = filterSeries(euRaw,    'import', 'CP');
+      fig1ImportsNonEuData = filterSeries(nonEuRaw, 'import', 'CP');
+
+      // Figure 2: CP + CVM for EU and Non-EU (matching ONS bulletin fig 2)
+      fig2EuExportsCpData     = filterSeries(euRaw,    'export', 'CP');
+      fig2EuExportsCvmData    = filterSeries(euRaw,    'export', 'CVM');
+      fig2EuImportsCpData     = filterSeries(euRaw,    'import', 'CP');
+      fig2EuImportsCvmData    = filterSeries(euRaw,    'import', 'CVM');
+      fig2NonEuExportsCpData  = filterSeries(nonEuRaw, 'export', 'CP');
+      fig2NonEuExportsCvmData = filterSeries(nonEuRaw, 'export', 'CVM');
+      fig2NonEuImportsCpData  = filterSeries(nonEuRaw, 'import', 'CP');
+      fig2NonEuImportsCvmData = filterSeries(nonEuRaw, 'import', 'CVM');
 
       // ── Services data (Figure 5) ──────────────────────────────────────
       const svcRes = await fetch('/data/trade-by-commodity/ts_total.json');
@@ -182,11 +169,14 @@
     <h1>UK Trade in Goods and Services</h1>
     <p class="subtitle">
       Data from the <a href="https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/bulletins/uktrade/latest" target="_blank">ONS UK Trade bulletin</a>.
-      Monthly, current prices. Goods data summed across all trading partners (not seasonally adjusted).
-      {#if latestDataDate}
-        Latest data: <strong>{latestDataDate}</strong>.
-      {/if}
+      Goods data: seasonally adjusted, excluding precious metals. Services data: seasonally adjusted.
     </p>
+
+  
+      {#if latestDataDate}
+        <p>Latest data: <strong>{latestDataDate}</strong>.</p>
+      {/if}
+
 
     <p>
       <a href="api/">View more information about the API.</a>
@@ -203,7 +193,7 @@
     <section class="chart-section">
       <h2>Figure 1: EU and non-EU goods exports and imports</h2>
       <p class="chart-subtitle">
-        EU and non-EU goods imports and exports, current prices, latest 3 years
+        EU and non-EU goods imports and exports, excluding precious metals, current prices, seasonally adjusted, latest 3 years
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">EU</span>
@@ -271,11 +261,13 @@
     <section class="chart-section">
       <h2>Figure 2: Imports and exports of goods, EU and non-EU</h2>
       <p class="chart-subtitle">
-        Imports and exports of goods, current prices, EU and non-EU, latest 3 years
+        Imports and exports of goods, excluding precious metals, current prices and chained volume measures, seasonally adjusted, latest 3 years
       </p>
       <div class="legend">
-        <span class="legend-item" style="--c:#206095">Exports</span>
-        <span class="legend-item" style="--c:#118C7B">Imports</span>
+        <span class="legend-item" style="--c:#206095">Exports CP</span>
+        <span class="legend-item" style="--c:#27A0CC">Exports CVM</span>
+        <span class="legend-item" style="--c:#118C7B">Imports CP</span>
+        <span class="legend-item" style="--c:#F66068">Imports CVM</span>
       </div>
       <div class="facet-row">
         <div class="facet-panel">
@@ -287,22 +279,10 @@
             x={{ type: 'time', label: false }}
             y={{ label: '£ billion', grid: true, domain: [0, fig2YMax] }}
           >
-            <Line
-              data={fig2EuExportsData}
-              x="date"
-              y="value"
-              stroke="#206095"
-              strokeWidth={2}
-              curve="linear"
-            />
-            <Line
-              data={fig2EuImportsData}
-              x="date"
-              y="value"
-              stroke="#118C7B"
-              strokeWidth={2}
-              curve="linear"
-            />
+            <Line data={fig2EuExportsCpData}     x="date" y="value" stroke="#206095" strokeWidth={2} curve="linear" />
+            <Line data={fig2EuExportsCvmData}    x="date" y="value" stroke="#27A0CC" strokeWidth={2} curve="linear" strokeDasharray="4,3" />
+            <Line data={fig2EuImportsCpData}     x="date" y="value" stroke="#118C7B" strokeWidth={2} curve="linear" />
+            <Line data={fig2EuImportsCvmData}    x="date" y="value" stroke="#F66068" strokeWidth={2} curve="linear" strokeDasharray="4,3" />
           </Plot>
         </div>
         <div class="facet-panel">
@@ -314,22 +294,10 @@
             x={{ type: 'time', label: false }}
             y={{ label: '£ billion', grid: true, domain: [0, fig2YMax] }}
           >
-            <Line
-              data={fig2NonEuExportsData}
-              x="date"
-              y="value"
-              stroke="#206095"
-              strokeWidth={2}
-              curve="linear"
-            />
-            <Line
-              data={fig2NonEuImportsData}
-              x="date"
-              y="value"
-              stroke="#118C7B"
-              strokeWidth={2}
-              curve="linear"
-            />
+            <Line data={fig2NonEuExportsCpData}     x="date" y="value" stroke="#206095" strokeWidth={2} curve="linear" />
+            <Line data={fig2NonEuExportsCvmData}    x="date" y="value" stroke="#27A0CC" strokeWidth={2} curve="linear" strokeDasharray="4,3" />
+            <Line data={fig2NonEuImportsCpData}     x="date" y="value" stroke="#118C7B" strokeWidth={2} curve="linear" />
+            <Line data={fig2NonEuImportsCvmData}    x="date" y="value" stroke="#F66068" strokeWidth={2} curve="linear" strokeDasharray="4,3" />
           </Plot>
         </div>
       </div>
