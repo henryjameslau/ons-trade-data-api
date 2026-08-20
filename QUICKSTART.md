@@ -47,23 +47,27 @@ curl http://localhost:5173/api/top-imports/all-time
 curl http://localhost:5173/api/top-exports/all-time
 ```
 
-## 5. Add Your Own Data
+## 5. Refresh Data
 
-### Step 1: Get Excel Data
-Download ONS trade data Excel files to `data/raw/`
+The data in `static/data/` is automatically kept up to date by a scheduled GitHub Actions workflow (weekdays 7am UTC). To refresh locally:
 
-### Step 2: Parse Excel
+### Step 1: Download latest ONS files
+Download the current files to `data/raw/`:
+- [All countries SA](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradeallcountriesseasonallyadjusted) → `allcountries*.xlsx`
+- [Country-by-commodity exports](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports) → `countrybycommodityexports.xlsx`
+- [Country-by-commodity imports](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports) → `countrybycommodityimports.xlsx`
+- [UK trade time series](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet) → `mret.csv`
+
+### Step 2: Run the full pipeline
 ```bash
-npm run parse-data -- data/raw/your-file.xlsx data/parsed.json
+npm run refresh-data
 ```
 
-### Step 3: Generate Files
-```bash
-npm run generate-files -- data/parsed.json
-```
-
-### Step 4: Restart Server
-The API automatically serves the new data!
+This runs all four steps in sequence:
+1. `parse-data` — country-by-commodity exports + imports
+2. `parse-allcountries` — all-countries seasonally adjusted totals
+3. `parse-services` — trade in services from MRET CSV
+4. `generate-files` — regenerate all `static/data/**` JSON
 
 ## 6. Deploy
 
@@ -88,11 +92,14 @@ npm run build
 ## Available Commands
 
 ```bash
-npm run dev              # Start development server
-npm run build            # Build for production
-npm run preview          # Preview production build locally
-npm run parse-data       # Parse Excel files
-npm run generate-files   # Generate aggregated JSON files
+npm run dev                  # Start development server
+npm run build                # Build for production
+npm run preview              # Preview production build locally
+npm run parse-data           # Parse country-by-commodity Excel files
+npm run parse-allcountries   # Parse all-countries SA Excel file
+npm run parse-services       # Parse MRET trade-in-services CSV
+npm run generate-files       # Generate aggregated static/data/ JSON
+npm run refresh-data         # Run full pipeline (all four steps above)
 ```
 
 ## Project Structure
@@ -138,10 +145,7 @@ npm run generate-files -- data/parsed.json
 
 ## Next Steps
 
-1. **Add real ONS data** - Update with actual trade datasets
-2. **Deploy** - Push to Vercel, Netlify, or self-hosted
-3. **Automate updates** - Set up GitHub Actions (Phase 2)
-4. **Add frontend** - Build visualization dashboards
-5. **Extend API** - Add filters, date ranges, search
-
-Enjoy! 🚀
+1. **Data stays fresh automatically** — the GitHub Actions workflow updates `data/raw/` and regenerates `static/data/` every weekday at 7am UTC
+2. **Deploy** — push to Vercel, Netlify, GitHub Pages, or any static host
+3. **Add frontend** — build visualisation dashboards on top of the query engine
+4. **Extend API** — add filters, date ranges, search

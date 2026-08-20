@@ -259,17 +259,34 @@ Monitor this endpoint with uptime monitoring service.
 
 ## Updating Data
 
-### Manual Update
-1. Place new Excel files in `data/raw/`
-2. Run processing scripts locally
-3. Commit and push updated JSON files
-4. Restart application or redeploy
+### Automated Updates (GitHub Actions)
 
-### Automated Updates (Future)
-When GitHub Actions are implemented:
+A scheduled workflow runs every **weekday at 7am UTC** and handles the full update cycle automatically:
+
+1. Downloads the latest files from ONS (detects changes by filename / SHA-256 hash)
+2. Re-runs the processing pipeline (`parse-data` → `parse-allcountries` → `parse-services` → `generate-files`)
+3. Validates that output contains ≥ 100,000 records
+4. Commits and pushes `data/raw/` and `static/data/` to `main`
+
+No manual steps needed — deploys built from `main` will automatically pick up the latest data.
+
+To trigger a run manually:
 ```bash
-git pull origin main
-# Changes automatically deployed
+gh workflow run update-data.yml
+```
+
+### Manual Update
+
+If you need to refresh data outside the schedule:
+
+```bash
+# 1. Download the latest ONS files to data/raw/ manually, then:
+npm run refresh-data   # parse-data + parse-allcountries + parse-services + generate-files
+
+# 2. Commit the results
+git add data/raw/ static/data/
+git commit -m "Update ONS trade data ($(date +%Y-%m-%d))"
+git push
 ```
 
 ---

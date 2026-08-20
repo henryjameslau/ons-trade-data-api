@@ -28,7 +28,9 @@ This project pre-processes ONS trade data into JSON files and ships a **client-s
 │   │       └── trade.ts          # TypeScript types + query result types
 │   └── app.html
 ├── scripts/
-│   ├── parse-excel.ts            # Excel file parser
+│   ├── parse-excel.ts            # Country-by-commodity Excel parser
+│   ├── parse-allcountries.ts     # All-countries SA Excel parser
+│   ├── parse-mret.ts             # MRET CSV (trade in services) parser
 │   └── generate-files.ts         # Data aggregation + index generation
 ├── data/                          # Generated JSON data files
 │   ├── meta/
@@ -72,26 +74,42 @@ npm run preview
 
 ## Data Processing
 
-### Processing Excel Files
+The raw ONS files live in `data/raw/` and are committed to the repository so the automated workflow can detect changes.
 
-1. Place your ONS Excel file in `data/raw/`
+### Source files
 
-2. Parse the file:
+| File | Description | Parser script |
+|---|---|---|
+| `countrybycommodityexports.xlsx` | Monthly exports by country × commodity | `parse-excel.ts` |
+| `countrybycommodityimports.xlsx` | Monthly imports by country × commodity | `parse-excel.ts` |
+| `allcountries*.xlsx` | Annual/quarterly/monthly totals for all countries (SA) | `parse-allcountries.ts` |
+| `mret.csv` | UK trade in services time series | `parse-mret.ts` |
+
+### Running the pipeline
+
 ```bash
-npm run parse-data -- data/raw/trade.xlsx data/parsed.json
+# Parse country-by-commodity Excel files
+npm run parse-data
+
+# Parse all-countries seasonally adjusted file
+npm run parse-allcountries
+
+# Parse trade-in-services CSV
+npm run parse-services
+
+# Generate all aggregated static/data/ JSON files
+npm run generate-files
+
+# Or run all steps in sequence
+npm run refresh-data
 ```
 
-3. Generate aggregated files:
-```bash
-npm run generate-files -- data/parsed.json
-```
-
-This creates pre-aggregated JSON files organized by:
-- **Commodity** (`/data/trade-by-commodity/{code}.json`)
-- **Country** (`/data/trade-by-country/{code}.json`)
-- **Time period** (`/data/trade-by-period/{date}.json`)
-- **Top results** (`/data/top-imports/`, `/data/top-exports/`)
-- **Meta index** (`/data/meta/index.json`) — compact per-country lookup
+This creates pre-aggregated JSON files served as static assets, organised by:
+- **Commodity** (`static/data/trade-by-commodity/{code}.json`)
+- **Country** (`static/data/trade-by-country/{code}.json`)
+- **Time period** (`static/data/trade-by-period/{date}.json`)
+- **Top results** (`static/data/top-imports/`, `static/data/top-exports/`)
+- **Meta index** (`static/data/meta/index.json`) — compact per-country lookup
 
 
 ## Data Schema
@@ -272,9 +290,40 @@ npm run preview
 Edit `src/lib/query-engine.ts` to add new query methods or change aggregation logic.
 Edit `scripts/generate-files.ts` to change the generated file structure.
 
+## Automated Data Updates
+
+A GitHub Actions workflow (`.github/workflows/update-data.yml`) runs every **weekday at 7am UTC** and keeps the data current with no manual intervention.
+
+### What it does
+
+1. **Checks for new ONS files** — scrapes each dataset page for the current download URL and compares against `data/raw/` (filename comparison for the date-named `allcountries*.xlsx`; SHA-256 hash for stable-named files)
+2. **Downloads updated files** if anything changed
+3. **Re-runs the full processing pipeline** — `parse-data` → `parse-allcountries` → `parse-services` → `generate-files`
+4. **Validates output** — checks `static/data/meta/schema.json` has ≥ 100,000 records; fails the run if not
+5. **Commits and pushes** updated `data/raw/` and `static/data/` back to `main`
+
+### Data sources monitored
+
+| Dataset | File | ONS page |
+|---|---|---|
+| Trade in goods: all countries SA | `allcountries*.xlsx` (date-named) | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradeallcountriesseasonallyadjusted) |
+| Country-by-commodity exports | `countrybycommodityexports.xlsx` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports) |
+| Country-by-commodity imports | `countrybycommodityimports.xlsx` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports) |
+| UK trade time series (MRET) | `mret.csv` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet) |
+
+### Triggering manually
+
+```bash
+gh workflow run update-data.yml
+# or via GitHub UI: Actions → Update ONS Trade Data → Run workflow
+```
+
+### Rate limiting
+
+Follows [ONS bot guidance](https://developer.ons.gov.uk/bots/): uses a `ONSTradeDataUpdater/1.0.0` User-Agent, honours `Retry-After` headers on 429 responses, and adds polite pauses between requests.
+
 ## Future Enhancements
 
-- [ ] GitHub Actions workflow for automatic data updates (Thursdays 7am)
 - [ ] Visualisation components (charts per query result)
 - [ ] Exportable CSV from query results
 - [ ] Shareable query URLs (encode filters in hash/search params)
