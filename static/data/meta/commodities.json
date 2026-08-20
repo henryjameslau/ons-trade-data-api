@@ -463,6 +463,10 @@
     "name": "Total",
     "level": 0
   },
+  "TOTAL": {
+    "name": "Total Goods",
+    "level": 2
+  },
   "TS_TRAVEL": {
     "name": "Travel",
     "level": 2

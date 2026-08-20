@@ -12,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.449Z"
+    "last_updated": "2026-08-20T10:09:07.186Z"
   },
   {
     "commodity_code": "5",
@@ -27,7 +27,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.449Z"
+    "last_updated": "2026-08-20T10:09:07.186Z"
   },
   {
     "commodity_code": "5",
@@ -42,7 +42,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.449Z"
+    "last_updated": "2026-08-20T10:09:07.186Z"
   },
   {
     "commodity_code": "5",
@@ -57,7 +57,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.449Z"
+    "last_updated": "2026-08-20T10:09:07.186Z"
   },
   {
     "commodity_code": "54",
@@ -72,7 +72,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.465Z"
+    "last_updated": "2026-08-20T10:09:07.205Z"
   },
   {
     "commodity_code": "59",
@@ -87,7 +87,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.496Z"
+    "last_updated": "2026-08-20T10:09:07.237Z"
   },
   {
     "commodity_code": "59",
@@ -102,7 +102,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.496Z"
+    "last_updated": "2026-08-20T10:09:07.237Z"
   },
   {
     "commodity_code": "59",
@@ -117,7 +117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.496Z"
+    "last_updated": "2026-08-20T10:09:07.237Z"
   },
   {
     "commodity_code": "7",
@@ -132,7 +132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.556Z"
+    "last_updated": "2026-08-20T10:09:07.303Z"
   },
   {
     "commodity_code": "79",
@@ -147,7 +147,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.702Z"
+    "last_updated": "2026-08-20T10:09:07.456Z"
   },
   {
     "commodity_code": "792/3",
@@ -162,7 +162,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.717Z"
+    "last_updated": "2026-08-20T10:09:07.472Z"
   },
   {
     "commodity_code": "793",
@@ -177,7 +177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.724Z"
+    "last_updated": "2026-08-20T10:09:07.477Z"
   },
   {
     "commodity_code": "T",
@@ -192,7 +192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.890Z"
+    "last_updated": "2026-08-20T10:09:07.649Z"
   },
   {
     "commodity_code": "5",
@@ -207,7 +207,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.270Z"
+    "last_updated": "2026-08-20T10:09:08.055Z"
   },
   {
     "commodity_code": "5",
@@ -222,7 +222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.270Z"
+    "last_updated": "2026-08-20T10:09:08.055Z"
   },
   {
     "commodity_code": "5",
@@ -237,7 +237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.270Z"
+    "last_updated": "2026-08-20T10:09:08.055Z"
   },
   {
     "commodity_code": "5",
@@ -252,7 +252,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.270Z"
+    "last_updated": "2026-08-20T10:09:08.055Z"
   },
   {
     "commodity_code": "5",
@@ -267,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.270Z"
+    "last_updated": "2026-08-20T10:09:08.055Z"
   },
   {
     "commodity_code": "54",
@@ -282,7 +282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.337Z"
+    "last_updated": "2026-08-20T10:09:08.116Z"
   },
   {
     "commodity_code": "59",
@@ -297,7 +297,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.448Z"
+    "last_updated": "2026-08-20T10:09:08.219Z"
   },
   {
     "commodity_code": "59",
@@ -312,7 +312,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.448Z"
+    "last_updated": "2026-08-20T10:09:08.219Z"
   },
   {
     "commodity_code": "59",
@@ -327,7 +327,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.448Z"
+    "last_updated": "2026-08-20T10:09:08.219Z"
   },
   {
     "commodity_code": "7",
@@ -342,7 +342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.673Z"
+    "last_updated": "2026-08-20T10:09:08.446Z"
   },
   {
     "commodity_code": "79",
@@ -357,7 +357,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.163Z"
+    "last_updated": "2026-08-20T10:09:09.009Z"
   },
   {
     "commodity_code": "792/3",
@@ -372,7 +372,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.209Z"
+    "last_updated": "2026-08-20T10:09:09.060Z"
   },
   {
     "commodity_code": "793",
@@ -387,7 +387,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.224Z"
+    "last_updated": "2026-08-20T10:09:09.077Z"
   },
   {
     "commodity_code": "T",
@@ -402,7 +402,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.832Z"
+    "last_updated": "2026-08-20T10:09:09.713Z"
   },
   {
     "commodity_code": "5",
@@ -417,7 +417,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.779Z"
+    "last_updated": "2026-08-20T10:09:10.698Z"
   },
   {
     "commodity_code": "5",
@@ -432,7 +432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.779Z"
+    "last_updated": "2026-08-20T10:09:10.698Z"
   },
   {
     "commodity_code": "5",
@@ -447,7 +447,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.779Z"
+    "last_updated": "2026-08-20T10:09:10.698Z"
   },
   {
     "commodity_code": "5",
@@ -462,7 +462,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.779Z"
+    "last_updated": "2026-08-20T10:09:10.698Z"
   },
   {
     "commodity_code": "5",
@@ -477,7 +477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.779Z"
+    "last_updated": "2026-08-20T10:09:10.698Z"
   },
   {
     "commodity_code": "54",
@@ -492,7 +492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.932Z"
+    "last_updated": "2026-08-20T10:09:10.853Z"
   },
   {
     "commodity_code": "59",
@@ -507,7 +507,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.178Z"
+    "last_updated": "2026-08-20T10:09:11.117Z"
   },
   {
     "commodity_code": "59",
@@ -522,7 +522,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.178Z"
+    "last_updated": "2026-08-20T10:09:11.117Z"
   },
   {
     "commodity_code": "59",
@@ -537,7 +537,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.178Z"
+    "last_updated": "2026-08-20T10:09:11.117Z"
   },
   {
     "commodity_code": "7",
@@ -552,7 +552,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.761Z"
+    "last_updated": "2026-08-20T10:09:11.684Z"
   },
   {
     "commodity_code": "79",
@@ -567,7 +567,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.016Z"
+    "last_updated": "2026-08-20T10:09:12.970Z"
   },
   {
     "commodity_code": "792/3",
@@ -582,7 +582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.130Z"
+    "last_updated": "2026-08-20T10:09:13.089Z"
   },
   {
     "commodity_code": "793",
@@ -597,7 +597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.166Z"
+    "last_updated": "2026-08-20T10:09:13.128Z"
   },
   {
     "commodity_code": "T",
@@ -612,7 +612,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.705Z"
+    "last_updated": "2026-08-20T10:09:14.914Z"
   },
   {
     "commodity_code": "3",
@@ -627,7 +627,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.800Z"
+    "last_updated": "2026-08-20T10:09:15.015Z"
   },
   {
     "commodity_code": "34",
@@ -642,7 +642,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.806Z"
+    "last_updated": "2026-08-20T10:09:15.023Z"
   },
   {
     "commodity_code": "3OF",
@@ -657,7 +657,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.807Z"
+    "last_updated": "2026-08-20T10:09:15.025Z"
   },
   {
     "commodity_code": "6",
@@ -672,7 +672,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.843Z"
+    "last_updated": "2026-08-20T10:09:15.067Z"
   },
   {
     "commodity_code": "62",
@@ -687,7 +687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.850Z"
+    "last_updated": "2026-08-20T10:09:15.074Z"
   },
   {
     "commodity_code": "7",
@@ -702,7 +702,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.877Z"
+    "last_updated": "2026-08-20T10:09:15.105Z"
   },
   {
     "commodity_code": "7",
@@ -717,7 +717,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.877Z"
+    "last_updated": "2026-08-20T10:09:15.105Z"
   },
   {
     "commodity_code": "7",
@@ -732,7 +732,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.877Z"
+    "last_updated": "2026-08-20T10:09:15.105Z"
   },
   {
     "commodity_code": "71MI",
@@ -747,7 +747,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.892Z"
+    "last_updated": "2026-08-20T10:09:15.115Z"
   },
   {
     "commodity_code": "75K",
@@ -762,7 +762,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.924Z"
+    "last_updated": "2026-08-20T10:09:15.160Z"
   },
   {
     "commodity_code": "79",
@@ -777,7 +777,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.961Z"
+    "last_updated": "2026-08-20T10:09:15.204Z"
   },
   {
     "commodity_code": "792",
@@ -792,7 +792,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.967Z"
+    "last_updated": "2026-08-20T10:09:15.210Z"
   },
   {
     "commodity_code": "792/3",
@@ -807,7 +807,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.970Z"
+    "last_updated": "2026-08-20T10:09:15.214Z"
   },
   {
     "commodity_code": "7E",
@@ -822,7 +822,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.977Z"
+    "last_updated": "2026-08-20T10:09:15.221Z"
   },
   {
     "commodity_code": "7EK",
@@ -837,7 +837,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.989Z"
+    "last_updated": "2026-08-20T10:09:15.240Z"
   },
   {
     "commodity_code": "7M",
@@ -852,7 +852,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.994Z"
+    "last_updated": "2026-08-20T10:09:15.245Z"
   },
   {
     "commodity_code": "7MI",
@@ -867,7 +867,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.000Z"
+    "last_updated": "2026-08-20T10:09:15.252Z"
   },
   {
     "commodity_code": "8",
@@ -882,7 +882,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.014Z"
+    "last_updated": "2026-08-20T10:09:15.265Z"
   },
   {
     "commodity_code": "8",
@@ -897,7 +897,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.014Z"
+    "last_updated": "2026-08-20T10:09:15.265Z"
   },
   {
     "commodity_code": "8",
@@ -912,7 +912,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.014Z"
+    "last_updated": "2026-08-20T10:09:15.265Z"
   },
   {
     "commodity_code": "84",
@@ -927,7 +927,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.030Z"
+    "last_updated": "2026-08-20T10:09:15.280Z"
   },
   {
     "commodity_code": "84",
@@ -942,7 +942,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.030Z"
+    "last_updated": "2026-08-20T10:09:15.280Z"
   },
   {
     "commodity_code": "87K",
@@ -957,7 +957,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.042Z"
+    "last_updated": "2026-08-20T10:09:15.292Z"
   },
   {
     "commodity_code": "89OC",
@@ -972,7 +972,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.079Z"
+    "last_updated": "2026-08-20T10:09:15.318Z"
   },
   {
     "commodity_code": "8O",
@@ -987,7 +987,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.084Z"
+    "last_updated": "2026-08-20T10:09:15.323Z"
   },
   {
     "commodity_code": "8O",
@@ -1002,7 +1002,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.084Z"
+    "last_updated": "2026-08-20T10:09:15.323Z"
   },
   {
     "commodity_code": "8OC",
@@ -1017,7 +1017,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.089Z"
+    "last_updated": "2026-08-20T10:09:15.330Z"
   },
   {
     "commodity_code": "8OC",
@@ -1032,7 +1032,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.089Z"
+    "last_updated": "2026-08-20T10:09:15.330Z"
   },
   {
     "commodity_code": "3",
@@ -1047,7 +1047,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.327Z"
+    "last_updated": "2026-08-20T10:09:15.583Z"
   },
   {
     "commodity_code": "34",
@@ -1062,7 +1062,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.347Z"
+    "last_updated": "2026-08-20T10:09:15.607Z"
   },
   {
     "commodity_code": "3OF",
@@ -1077,7 +1077,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.352Z"
+    "last_updated": "2026-08-20T10:09:15.612Z"
   },
   {
     "commodity_code": "6",
@@ -1092,7 +1092,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.497Z"
+    "last_updated": "2026-08-20T10:09:15.759Z"
   },
   {
     "commodity_code": "62",
@@ -1107,7 +1107,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.518Z"
+    "last_updated": "2026-08-20T10:09:15.784Z"
   },
   {
     "commodity_code": "7",
@@ -1122,7 +1122,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.619Z"
+    "last_updated": "2026-08-20T10:09:15.891Z"
   },
   {
     "commodity_code": "7",
@@ -1137,7 +1137,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.619Z"
+    "last_updated": "2026-08-20T10:09:15.891Z"
   },
   {
     "commodity_code": "7",
@@ -1152,7 +1152,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.619Z"
+    "last_updated": "2026-08-20T10:09:15.891Z"
   },
   {
     "commodity_code": "71MI",
@@ -1167,7 +1167,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.652Z"
+    "last_updated": "2026-08-20T10:09:15.930Z"
   },
   {
     "commodity_code": "75K",
@@ -1182,7 +1182,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.759Z"
+    "last_updated": "2026-08-20T10:09:16.048Z"
   },
   {
     "commodity_code": "79",
@@ -1197,7 +1197,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.895Z"
+    "last_updated": "2026-08-20T10:09:16.185Z"
   },
   {
     "commodity_code": "792",
@@ -1212,7 +1212,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.914Z"
+    "last_updated": "2026-08-20T10:09:16.207Z"
   },
   {
     "commodity_code": "792/3",
@@ -1227,7 +1227,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.926Z"
+    "last_updated": "2026-08-20T10:09:16.220Z"
   },
   {
     "commodity_code": "7E",
@@ -1242,7 +1242,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.953Z"
+    "last_updated": "2026-08-20T10:09:16.245Z"
   },
   {
     "commodity_code": "7EK",
@@ -1257,7 +1257,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.998Z"
+    "last_updated": "2026-08-20T10:09:16.296Z"
   },
   {
     "commodity_code": "7M",
@@ -1272,7 +1272,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.014Z"
+    "last_updated": "2026-08-20T10:09:16.314Z"
   },
   {
     "commodity_code": "7MI",
@@ -1287,7 +1287,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.042Z"
+    "last_updated": "2026-08-20T10:09:16.341Z"
   },
   {
     "commodity_code": "8",
@@ -1302,7 +1302,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.078Z"
+    "last_updated": "2026-08-20T10:09:16.378Z"
   },
   {
     "commodity_code": "8",
@@ -1317,7 +1317,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.078Z"
+    "last_updated": "2026-08-20T10:09:16.378Z"
   },
   {
     "commodity_code": "8",
@@ -1332,7 +1332,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.078Z"
+    "last_updated": "2026-08-20T10:09:16.378Z"
   },
   {
     "commodity_code": "8",
@@ -1347,7 +1347,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.078Z"
+    "last_updated": "2026-08-20T10:09:16.378Z"
   },
   {
     "commodity_code": "8",
@@ -1362,7 +1362,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.078Z"
+    "last_updated": "2026-08-20T10:09:16.378Z"
   },
   {
     "commodity_code": "84",
@@ -1377,7 +1377,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.133Z"
+    "last_updated": "2026-08-20T10:09:16.435Z"
   },
   {
     "commodity_code": "84",
@@ -1392,7 +1392,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.133Z"
+    "last_updated": "2026-08-20T10:09:16.435Z"
   },
   {
     "commodity_code": "87K",
@@ -1407,7 +1407,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.173Z"
+    "last_updated": "2026-08-20T10:09:16.479Z"
   },
   {
     "commodity_code": "89OC",
@@ -1422,7 +1422,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.254Z"
+    "last_updated": "2026-08-20T10:09:16.564Z"
   },
   {
     "commodity_code": "8O",
@@ -1437,7 +1437,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.270Z"
+    "last_updated": "2026-08-20T10:09:16.582Z"
   },
   {
     "commodity_code": "8O",
@@ -1452,7 +1452,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.270Z"
+    "last_updated": "2026-08-20T10:09:16.582Z"
   },
   {
     "commodity_code": "8OC",
@@ -1467,7 +1467,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.288Z"
+    "last_updated": "2026-08-20T10:09:16.603Z"
   },
   {
     "commodity_code": "8OC",
@@ -1482,7 +1482,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.288Z"
+    "last_updated": "2026-08-20T10:09:16.603Z"
   },
   {
     "commodity_code": "3",
@@ -1497,7 +1497,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.911Z"
+    "last_updated": "2026-08-20T10:09:17.263Z"
   },
   {
     "commodity_code": "34",
@@ -1512,7 +1512,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.962Z"
+    "last_updated": "2026-08-20T10:09:17.316Z"
   },
   {
     "commodity_code": "3OF",
@@ -1527,7 +1527,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.973Z"
+    "last_updated": "2026-08-20T10:09:17.328Z"
   },
   {
     "commodity_code": "6",
@@ -1542,7 +1542,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.335Z"
+    "last_updated": "2026-08-20T10:09:17.690Z"
   },
   {
     "commodity_code": "62",
@@ -1557,7 +1557,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.390Z"
+    "last_updated": "2026-08-20T10:09:17.752Z"
   },
   {
     "commodity_code": "7",
@@ -1572,7 +1572,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.646Z"
+    "last_updated": "2026-08-20T10:09:18.025Z"
   },
   {
     "commodity_code": "7",
@@ -1587,7 +1587,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.646Z"
+    "last_updated": "2026-08-20T10:09:18.025Z"
   },
   {
     "commodity_code": "7",
@@ -1602,7 +1602,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.646Z"
+    "last_updated": "2026-08-20T10:09:18.025Z"
   },
   {
     "commodity_code": "7",
@@ -1617,7 +1617,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.646Z"
+    "last_updated": "2026-08-20T10:09:18.025Z"
   },
   {
     "commodity_code": "71MI",
@@ -1632,7 +1632,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:20.737Z"
+    "last_updated": "2026-08-20T10:09:18.120Z"
   },
   {
     "commodity_code": "75K",
@@ -1647,7 +1647,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.007Z"
+    "last_updated": "2026-08-20T10:09:18.405Z"
   },
   {
     "commodity_code": "75K",
@@ -1662,7 +1662,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.007Z"
+    "last_updated": "2026-08-20T10:09:18.405Z"
   },
   {
     "commodity_code": "79",
@@ -1677,7 +1677,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.375Z"
+    "last_updated": "2026-08-20T10:09:18.748Z"
   },
   {
     "commodity_code": "792",
@@ -1692,7 +1692,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.423Z"
+    "last_updated": "2026-08-20T10:09:18.799Z"
   },
   {
     "commodity_code": "792/3",
@@ -1707,7 +1707,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.453Z"
+    "last_updated": "2026-08-20T10:09:18.833Z"
   },
   {
     "commodity_code": "7E",
@@ -1722,7 +1722,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.513Z"
+    "last_updated": "2026-08-20T10:09:18.894Z"
   },
   {
     "commodity_code": "7E",
@@ -1737,7 +1737,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.513Z"
+    "last_updated": "2026-08-20T10:09:18.894Z"
   },
   {
     "commodity_code": "7EK",
@@ -1752,7 +1752,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.622Z"
+    "last_updated": "2026-08-20T10:09:19.010Z"
   },
   {
     "commodity_code": "7EK",
@@ -1767,7 +1767,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.622Z"
+    "last_updated": "2026-08-20T10:09:19.010Z"
   },
   {
     "commodity_code": "7M",
@@ -1782,7 +1782,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.665Z"
+    "last_updated": "2026-08-20T10:09:19.057Z"
   },
   {
     "commodity_code": "7MI",
@@ -1797,7 +1797,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.723Z"
+    "last_updated": "2026-08-20T10:09:19.120Z"
   },
   {
     "commodity_code": "8",
@@ -1812,7 +1812,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.813Z"
+    "last_updated": "2026-08-20T10:09:19.227Z"
   },
   {
     "commodity_code": "8",
@@ -1827,7 +1827,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.813Z"
+    "last_updated": "2026-08-20T10:09:19.227Z"
   },
   {
     "commodity_code": "8",
@@ -1842,7 +1842,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.813Z"
+    "last_updated": "2026-08-20T10:09:19.227Z"
   },
   {
     "commodity_code": "8",
@@ -1857,7 +1857,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.813Z"
+    "last_updated": "2026-08-20T10:09:19.227Z"
   },
   {
     "commodity_code": "8",
@@ -1872,7 +1872,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.813Z"
+    "last_updated": "2026-08-20T10:09:19.227Z"
   },
   {
     "commodity_code": "84",
@@ -1887,7 +1887,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.970Z"
+    "last_updated": "2026-08-20T10:09:19.369Z"
   },
   {
     "commodity_code": "84",
@@ -1902,7 +1902,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.970Z"
+    "last_updated": "2026-08-20T10:09:19.369Z"
   },
   {
     "commodity_code": "87K",
@@ -1917,7 +1917,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.084Z"
+    "last_updated": "2026-08-20T10:09:19.484Z"
   },
   {
     "commodity_code": "89OC",
@@ -1932,7 +1932,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.273Z"
+    "last_updated": "2026-08-20T10:09:19.689Z"
   },
   {
     "commodity_code": "8O",
@@ -1947,7 +1947,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.321Z"
+    "last_updated": "2026-08-20T10:09:19.735Z"
   },
   {
     "commodity_code": "8O",
@@ -1962,7 +1962,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.321Z"
+    "last_updated": "2026-08-20T10:09:19.735Z"
   },
   {
     "commodity_code": "8OC",
@@ -1977,7 +1977,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.366Z"
+    "last_updated": "2026-08-20T10:09:19.786Z"
   },
   {
     "commodity_code": "8OC",
@@ -1992,6 +1992,2676 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.366Z"
+    "last_updated": "2026-08-20T10:09:19.786Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-01-01",
+    "period_type": "annual",
+    "value_gbp": 27000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-01-01",
+    "period_type": "annual",
+    "value_gbp": 13000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-01-01",
+    "period_type": "annual",
+    "value_gbp": 13000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-01-01",
+    "period_type": "annual",
+    "value_gbp": 18000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-01-01",
+    "period_type": "annual",
+    "value_gbp": 30000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-01-01",
+    "period_type": "annual",
+    "value_gbp": 20000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-01-01",
+    "period_type": "annual",
+    "value_gbp": 11000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2013-01-01",
+    "period_type": "annual",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2019-01-01",
+    "period_type": "annual",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.021Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-01-01",
+    "period_type": "annual",
+    "value_gbp": 15000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-01-01",
+    "period_type": "annual",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2003-01-01",
+    "period_type": "annual",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-01-01",
+    "period_type": "annual",
+    "value_gbp": 10000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-01-01",
+    "period_type": "annual",
+    "value_gbp": 7000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2008-01-01",
+    "period_type": "annual",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2011-01-01",
+    "period_type": "annual",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2013-01-01",
+    "period_type": "annual",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.049Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 9000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 7000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 13000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 7000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2013-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2019-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.120Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.198Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2003-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2008-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2008-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2011-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2011-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2013-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.199Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-01-01",
+    "period_type": "monthly",
+    "value_gbp": 5000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-02-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-03-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-04-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-05-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-06-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-07-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-09-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-10-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-11-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1997-12-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-01-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-03-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-10-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1998-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-01-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-03-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-06-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-10-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "1999-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-01-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-02-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-03-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-06-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-09-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-10-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2000-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-01-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-02-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-03-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-04-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-06-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-08-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-09-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-10-01",
+    "period_type": "monthly",
+    "value_gbp": 7000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-11-01",
+    "period_type": "monthly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2001-12-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-01-01",
+    "period_type": "monthly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-02-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-03-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-05-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-07-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-09-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-11-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2002-12-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-01-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-03-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-10-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2003-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2013-09-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "export",
+    "date": "2019-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.399Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-03-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-05-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-07-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-08-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-10-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1997-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-01-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "1998-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2003-01-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-05-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-08-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-10-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-11-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2006-12-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-01-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-03-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-04-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2007-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2008-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2008-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2011-02-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2011-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "KP",
+    "country_name": "North Korea",
+    "flow": "import",
+    "date": "2013-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.622Z"
   }
 ]

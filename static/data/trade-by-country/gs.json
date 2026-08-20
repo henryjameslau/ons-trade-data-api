@@ -12,7 +12,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.448Z"
+    "last_updated": "2026-08-20T10:09:07.185Z"
   },
   {
     "commodity_code": "59",
@@ -27,7 +27,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.495Z"
+    "last_updated": "2026-08-20T10:09:07.237Z"
   },
   {
     "commodity_code": "7",
@@ -42,7 +42,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.555Z"
+    "last_updated": "2026-08-20T10:09:07.302Z"
   },
   {
     "commodity_code": "74K",
@@ -57,7 +57,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.616Z"
+    "last_updated": "2026-08-20T10:09:07.364Z"
   },
   {
     "commodity_code": "76K",
@@ -72,7 +72,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.650Z"
+    "last_updated": "2026-08-20T10:09:07.403Z"
   },
   {
     "commodity_code": "77I",
@@ -87,7 +87,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.661Z"
+    "last_updated": "2026-08-20T10:09:07.415Z"
   },
   {
     "commodity_code": "79",
@@ -102,7 +102,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.701Z"
+    "last_updated": "2026-08-20T10:09:07.455Z"
   },
   {
     "commodity_code": "792",
@@ -117,7 +117,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.711Z"
+    "last_updated": "2026-08-20T10:09:07.464Z"
   },
   {
     "commodity_code": "792/3",
@@ -132,7 +132,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.717Z"
+    "last_updated": "2026-08-20T10:09:07.472Z"
   },
   {
     "commodity_code": "7E",
@@ -147,7 +147,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.728Z"
+    "last_updated": "2026-08-20T10:09:07.481Z"
   },
   {
     "commodity_code": "7EI",
@@ -162,7 +162,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.739Z"
+    "last_updated": "2026-08-20T10:09:07.493Z"
   },
   {
     "commodity_code": "7EK",
@@ -177,7 +177,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.745Z"
+    "last_updated": "2026-08-20T10:09:07.499Z"
   },
   {
     "commodity_code": "7M",
@@ -192,7 +192,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.752Z"
+    "last_updated": "2026-08-20T10:09:07.507Z"
   },
   {
     "commodity_code": "7MK",
@@ -207,7 +207,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.772Z"
+    "last_updated": "2026-08-20T10:09:07.524Z"
   },
   {
     "commodity_code": "8",
@@ -222,7 +222,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.779Z"
+    "last_updated": "2026-08-20T10:09:07.530Z"
   },
   {
     "commodity_code": "87K",
@@ -237,7 +237,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.818Z"
+    "last_updated": "2026-08-20T10:09:07.572Z"
   },
   {
     "commodity_code": "897C",
@@ -252,7 +252,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.838Z"
+    "last_updated": "2026-08-20T10:09:07.593Z"
   },
   {
     "commodity_code": "89K",
@@ -267,7 +267,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.847Z"
+    "last_updated": "2026-08-20T10:09:07.605Z"
   },
   {
     "commodity_code": "8O",
@@ -282,7 +282,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.861Z"
+    "last_updated": "2026-08-20T10:09:07.616Z"
   },
   {
     "commodity_code": "8OC",
@@ -297,7 +297,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.866Z"
+    "last_updated": "2026-08-20T10:09:07.623Z"
   },
   {
     "commodity_code": "8OK",
@@ -312,7 +312,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:10.878Z"
+    "last_updated": "2026-08-20T10:09:07.637Z"
+  },
+  {
+    "commodity_code": "1",
+    "commodity_name": "Beverages & tobacco",
+    "commodity_level": 0,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 10000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:07.827Z"
   },
   {
     "commodity_code": "2",
@@ -327,7 +342,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.077Z"
+    "last_updated": "2026-08-20T10:09:07.850Z"
   },
   {
     "commodity_code": "26",
@@ -342,7 +357,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.119Z"
+    "last_updated": "2026-08-20T10:09:07.893Z"
   },
   {
     "commodity_code": "5",
@@ -357,7 +372,37 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.267Z"
+    "last_updated": "2026-08-20T10:09:08.052Z"
+  },
+  {
+    "commodity_code": "5",
+    "commodity_name": "Chemicals",
+    "commodity_level": 0,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 30000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:08.052Z"
+  },
+  {
+    "commodity_code": "54",
+    "commodity_name": "Medicinal & pharmaceutical products",
+    "commodity_level": 1,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 30000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:08.113Z"
   },
   {
     "commodity_code": "59",
@@ -372,7 +417,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.444Z"
+    "last_updated": "2026-08-20T10:09:08.216Z"
   },
   {
     "commodity_code": "7",
@@ -387,7 +432,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.670Z"
+    "last_updated": "2026-08-20T10:09:08.443Z"
   },
   {
     "commodity_code": "7",
@@ -402,7 +447,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.670Z"
+    "last_updated": "2026-08-20T10:09:08.443Z"
+  },
+  {
+    "commodity_code": "7",
+    "commodity_name": "Machinery & transport equipment",
+    "commodity_level": 0,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 10000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:08.443Z"
   },
   {
     "commodity_code": "74K",
@@ -417,7 +477,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.876Z"
+    "last_updated": "2026-08-20T10:09:08.703Z"
   },
   {
     "commodity_code": "75K",
@@ -432,7 +492,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.924Z"
+    "last_updated": "2026-08-20T10:09:08.752Z"
   },
   {
     "commodity_code": "76K",
@@ -447,7 +507,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.972Z"
+    "last_updated": "2026-08-20T10:09:08.806Z"
   },
   {
     "commodity_code": "77C",
@@ -462,7 +522,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:11.993Z"
+    "last_updated": "2026-08-20T10:09:08.831Z"
+  },
+  {
+    "commodity_code": "77C",
+    "commodity_name": "Miscellaneous electrical goods (consumer)",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 10000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:08.831Z"
   },
   {
     "commodity_code": "77I",
@@ -477,7 +552,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.012Z"
+    "last_updated": "2026-08-20T10:09:08.851Z"
   },
   {
     "commodity_code": "79",
@@ -492,7 +567,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.161Z"
+    "last_updated": "2026-08-20T10:09:09.007Z"
   },
   {
     "commodity_code": "792",
@@ -507,7 +582,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.189Z"
+    "last_updated": "2026-08-20T10:09:09.038Z"
   },
   {
     "commodity_code": "792/3",
@@ -522,7 +597,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.207Z"
+    "last_updated": "2026-08-20T10:09:09.058Z"
   },
   {
     "commodity_code": "7E",
@@ -537,7 +612,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.239Z"
+    "last_updated": "2026-08-20T10:09:09.095Z"
   },
   {
     "commodity_code": "7E",
@@ -552,7 +627,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.239Z"
+    "last_updated": "2026-08-20T10:09:09.095Z"
+  },
+  {
+    "commodity_code": "7E",
+    "commodity_name": "Electrical machinery",
+    "commodity_level": 1,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 10000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.095Z"
   },
   {
     "commodity_code": "7EC",
@@ -567,7 +657,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.261Z"
+    "last_updated": "2026-08-20T10:09:09.119Z"
+  },
+  {
+    "commodity_code": "7EC",
+    "commodity_name": "Electrical machinery (consumer)",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 10000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.119Z"
   },
   {
     "commodity_code": "7EI",
@@ -582,7 +687,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.281Z"
+    "last_updated": "2026-08-20T10:09:09.141Z"
   },
   {
     "commodity_code": "7EK",
@@ -597,7 +702,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.312Z"
+    "last_updated": "2026-08-20T10:09:09.169Z"
   },
   {
     "commodity_code": "7EK",
@@ -612,7 +717,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.312Z"
+    "last_updated": "2026-08-20T10:09:09.169Z"
   },
   {
     "commodity_code": "7M",
@@ -627,7 +732,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.337Z"
+    "last_updated": "2026-08-20T10:09:09.197Z"
   },
   {
     "commodity_code": "7MK",
@@ -642,7 +747,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.407Z"
+    "last_updated": "2026-08-20T10:09:09.264Z"
   },
   {
     "commodity_code": "8",
@@ -657,7 +762,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.438Z"
+    "last_updated": "2026-08-20T10:09:09.293Z"
   },
   {
     "commodity_code": "8",
@@ -672,7 +777,37 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.438Z"
+    "last_updated": "2026-08-20T10:09:09.293Z"
+  },
+  {
+    "commodity_code": "8",
+    "commodity_name": "Miscellaneous manufactures",
+    "commodity_level": 0,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 40000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.293Z"
+  },
+  {
+    "commodity_code": "87I",
+    "commodity_name": "Scientific instruments (intermediate)",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 20000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.410Z"
   },
   {
     "commodity_code": "87K",
@@ -687,7 +822,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.568Z"
+    "last_updated": "2026-08-20T10:09:09.433Z"
   },
   {
     "commodity_code": "87K",
@@ -702,7 +837,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.568Z"
+    "last_updated": "2026-08-20T10:09:09.433Z"
   },
   {
     "commodity_code": "896",
@@ -717,7 +852,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.621Z"
+    "last_updated": "2026-08-20T10:09:09.494Z"
   },
   {
     "commodity_code": "897C",
@@ -732,7 +867,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.633Z"
+    "last_updated": "2026-08-20T10:09:09.507Z"
+  },
+  {
+    "commodity_code": "89I",
+    "commodity_name": "Other manufactures (intermediate)",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 20000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.526Z"
   },
   {
     "commodity_code": "89K",
@@ -747,7 +897,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.670Z"
+    "last_updated": "2026-08-20T10:09:09.544Z"
   },
   {
     "commodity_code": "8O",
@@ -762,7 +912,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.716Z"
+    "last_updated": "2026-08-20T10:09:09.590Z"
   },
   {
     "commodity_code": "8O",
@@ -777,7 +927,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.716Z"
+    "last_updated": "2026-08-20T10:09:09.590Z"
+  },
+  {
+    "commodity_code": "8O",
+    "commodity_name": "Other manufactures",
+    "commodity_level": 1,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 20000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.590Z"
   },
   {
     "commodity_code": "8OC",
@@ -792,7 +957,22 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.741Z"
+    "last_updated": "2026-08-20T10:09:09.616Z"
+  },
+  {
+    "commodity_code": "8OI",
+    "commodity_name": "Other miscellaneous manufactures (intermediate)",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2026-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 20000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:09.643Z"
   },
   {
     "commodity_code": "8OK",
@@ -807,7 +987,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:12.784Z"
+    "last_updated": "2026-08-20T10:09:09.665Z"
   },
   {
     "commodity_code": "1",
@@ -822,7 +1002,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.256Z"
+    "last_updated": "2026-08-20T10:09:10.164Z"
   },
   {
     "commodity_code": "2",
@@ -837,7 +1017,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.312Z"
+    "last_updated": "2026-08-20T10:09:10.223Z"
   },
   {
     "commodity_code": "26",
@@ -852,7 +1032,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.408Z"
+    "last_updated": "2026-08-20T10:09:10.321Z"
   },
   {
     "commodity_code": "5",
@@ -867,7 +1047,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.763Z"
+    "last_updated": "2026-08-20T10:09:10.689Z"
   },
   {
     "commodity_code": "5",
@@ -882,7 +1062,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.763Z"
+    "last_updated": "2026-08-20T10:09:10.689Z"
   },
   {
     "commodity_code": "54",
@@ -897,7 +1077,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:13.925Z"
+    "last_updated": "2026-08-20T10:09:10.844Z"
   },
   {
     "commodity_code": "59",
@@ -912,7 +1092,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.171Z"
+    "last_updated": "2026-08-20T10:09:11.109Z"
   },
   {
     "commodity_code": "7",
@@ -927,7 +1107,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.746Z"
+    "last_updated": "2026-08-20T10:09:11.674Z"
   },
   {
     "commodity_code": "7",
@@ -942,7 +1122,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.746Z"
+    "last_updated": "2026-08-20T10:09:11.674Z"
   },
   {
     "commodity_code": "7",
@@ -957,7 +1137,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.746Z"
+    "last_updated": "2026-08-20T10:09:11.674Z"
   },
   {
     "commodity_code": "7",
@@ -972,7 +1152,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.746Z"
+    "last_updated": "2026-08-20T10:09:11.674Z"
   },
   {
     "commodity_code": "7",
@@ -987,7 +1167,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:14.746Z"
+    "last_updated": "2026-08-20T10:09:11.674Z"
   },
   {
     "commodity_code": "74K",
@@ -1002,7 +1182,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.277Z"
+    "last_updated": "2026-08-20T10:09:12.219Z"
   },
   {
     "commodity_code": "74K",
@@ -1017,7 +1197,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.277Z"
+    "last_updated": "2026-08-20T10:09:12.219Z"
   },
   {
     "commodity_code": "75K",
@@ -1032,7 +1212,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.387Z"
+    "last_updated": "2026-08-20T10:09:12.330Z"
   },
   {
     "commodity_code": "75K",
@@ -1047,7 +1227,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.387Z"
+    "last_updated": "2026-08-20T10:09:12.330Z"
   },
   {
     "commodity_code": "76K",
@@ -1062,7 +1242,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.517Z"
+    "last_updated": "2026-08-20T10:09:12.460Z"
   },
   {
     "commodity_code": "77C",
@@ -1077,7 +1257,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.592Z"
+    "last_updated": "2026-08-20T10:09:12.518Z"
   },
   {
     "commodity_code": "77C",
@@ -1092,7 +1272,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.592Z"
+    "last_updated": "2026-08-20T10:09:12.518Z"
   },
   {
     "commodity_code": "77I",
@@ -1107,7 +1287,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:15.640Z"
+    "last_updated": "2026-08-20T10:09:12.571Z"
   },
   {
     "commodity_code": "79",
@@ -1122,7 +1302,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.010Z"
+    "last_updated": "2026-08-20T10:09:12.964Z"
   },
   {
     "commodity_code": "792",
@@ -1137,7 +1317,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.081Z"
+    "last_updated": "2026-08-20T10:09:13.035Z"
   },
   {
     "commodity_code": "792/3",
@@ -1152,7 +1332,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.124Z"
+    "last_updated": "2026-08-20T10:09:13.082Z"
   },
   {
     "commodity_code": "7E",
@@ -1167,7 +1347,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.209Z"
+    "last_updated": "2026-08-20T10:09:13.168Z"
   },
   {
     "commodity_code": "7E",
@@ -1182,7 +1362,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.209Z"
+    "last_updated": "2026-08-20T10:09:13.168Z"
   },
   {
     "commodity_code": "7E",
@@ -1197,7 +1377,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.209Z"
+    "last_updated": "2026-08-20T10:09:13.168Z"
   },
   {
     "commodity_code": "7E",
@@ -1212,7 +1392,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.209Z"
+    "last_updated": "2026-08-20T10:09:13.168Z"
   },
   {
     "commodity_code": "7EC",
@@ -1227,7 +1407,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.271Z"
+    "last_updated": "2026-08-20T10:09:13.234Z"
   },
   {
     "commodity_code": "7EC",
@@ -1242,7 +1422,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.271Z"
+    "last_updated": "2026-08-20T10:09:13.234Z"
   },
   {
     "commodity_code": "7EI",
@@ -1257,7 +1437,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.322Z"
+    "last_updated": "2026-08-20T10:09:13.360Z"
   },
   {
     "commodity_code": "7EK",
@@ -1272,7 +1452,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.397Z"
+    "last_updated": "2026-08-20T10:09:13.528Z"
   },
   {
     "commodity_code": "7EK",
@@ -1287,7 +1467,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.397Z"
+    "last_updated": "2026-08-20T10:09:13.528Z"
   },
   {
     "commodity_code": "7EK",
@@ -1302,7 +1482,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.397Z"
+    "last_updated": "2026-08-20T10:09:13.528Z"
   },
   {
     "commodity_code": "7M",
@@ -1317,7 +1497,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.472Z"
+    "last_updated": "2026-08-20T10:09:13.609Z"
   },
   {
     "commodity_code": "7M",
@@ -1332,7 +1512,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.472Z"
+    "last_updated": "2026-08-20T10:09:13.609Z"
   },
   {
     "commodity_code": "7MK",
@@ -1347,7 +1527,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.642Z"
+    "last_updated": "2026-08-20T10:09:13.784Z"
   },
   {
     "commodity_code": "7MK",
@@ -1362,7 +1542,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.642Z"
+    "last_updated": "2026-08-20T10:09:13.784Z"
   },
   {
     "commodity_code": "8",
@@ -1377,7 +1557,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1392,7 +1572,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1407,7 +1587,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1422,7 +1602,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1437,7 +1617,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1452,7 +1632,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "8",
@@ -1467,7 +1647,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.715Z"
+    "last_updated": "2026-08-20T10:09:13.860Z"
   },
   {
     "commodity_code": "87I",
@@ -1482,7 +1662,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:16.984Z"
+    "last_updated": "2026-08-20T10:09:14.142Z"
   },
   {
     "commodity_code": "87K",
@@ -1497,7 +1677,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.039Z"
+    "last_updated": "2026-08-20T10:09:14.197Z"
   },
   {
     "commodity_code": "87K",
@@ -1512,7 +1692,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.039Z"
+    "last_updated": "2026-08-20T10:09:14.197Z"
   },
   {
     "commodity_code": "87K",
@@ -1527,7 +1707,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.039Z"
+    "last_updated": "2026-08-20T10:09:14.197Z"
   },
   {
     "commodity_code": "896",
@@ -1542,7 +1722,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.172Z"
+    "last_updated": "2026-08-20T10:09:14.338Z"
   },
   {
     "commodity_code": "897C",
@@ -1557,7 +1737,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.199Z"
+    "last_updated": "2026-08-20T10:09:14.369Z"
   },
   {
     "commodity_code": "89I",
@@ -1572,7 +1752,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.239Z"
+    "last_updated": "2026-08-20T10:09:14.411Z"
   },
   {
     "commodity_code": "89K",
@@ -1587,7 +1767,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.286Z"
+    "last_updated": "2026-08-20T10:09:14.457Z"
   },
   {
     "commodity_code": "8O",
@@ -1602,7 +1782,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.400Z"
+    "last_updated": "2026-08-20T10:09:14.583Z"
   },
   {
     "commodity_code": "8O",
@@ -1617,7 +1797,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.400Z"
+    "last_updated": "2026-08-20T10:09:14.583Z"
   },
   {
     "commodity_code": "8O",
@@ -1632,7 +1812,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.400Z"
+    "last_updated": "2026-08-20T10:09:14.583Z"
   },
   {
     "commodity_code": "8O",
@@ -1647,7 +1827,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.400Z"
+    "last_updated": "2026-08-20T10:09:14.583Z"
   },
   {
     "commodity_code": "8OC",
@@ -1662,7 +1842,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.468Z"
+    "last_updated": "2026-08-20T10:09:14.661Z"
   },
   {
     "commodity_code": "8OC",
@@ -1677,7 +1857,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.468Z"
+    "last_updated": "2026-08-20T10:09:14.661Z"
   },
   {
     "commodity_code": "8OI",
@@ -1692,7 +1872,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.536Z"
+    "last_updated": "2026-08-20T10:09:14.729Z"
   },
   {
     "commodity_code": "8OK",
@@ -1707,7 +1887,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:17.587Z"
+    "last_updated": "2026-08-20T10:09:14.785Z"
   },
   {
     "commodity_code": "8",
@@ -1722,7 +1902,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.013Z"
+    "last_updated": "2026-08-20T10:09:15.264Z"
   },
   {
     "commodity_code": "896",
@@ -1737,7 +1917,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.052Z"
+    "last_updated": "2026-08-20T10:09:15.305Z"
   },
   {
     "commodity_code": "8O",
@@ -1752,7 +1932,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:18.083Z"
+    "last_updated": "2026-08-20T10:09:15.322Z"
   },
   {
     "commodity_code": "8",
@@ -1767,7 +1947,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.075Z"
+    "last_updated": "2026-08-20T10:09:16.376Z"
   },
   {
     "commodity_code": "896",
@@ -1782,7 +1962,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.205Z"
+    "last_updated": "2026-08-20T10:09:16.515Z"
   },
   {
     "commodity_code": "8O",
@@ -1797,7 +1977,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:19.268Z"
+    "last_updated": "2026-08-20T10:09:16.579Z"
   },
   {
     "commodity_code": "8",
@@ -1812,7 +1992,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:21.806Z"
+    "last_updated": "2026-08-20T10:09:19.219Z"
   },
   {
     "commodity_code": "896",
@@ -1827,7 +2007,7 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.168Z"
+    "last_updated": "2026-08-20T10:09:19.571Z"
   },
   {
     "commodity_code": "8O",
@@ -1842,6 +2022,591 @@
     "volume": null,
     "volume_unit": null,
     "data_source": "ONS",
-    "last_updated": "2026-08-07T11:06:22.314Z"
+    "last_updated": "2026-08-20T10:09:19.728Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-01-01",
+    "period_type": "annual",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.025Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-01-01",
+    "period_type": "annual",
+    "value_gbp": 6000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.025Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-01-01",
+    "period_type": "annual",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.025Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-01-01",
+    "period_type": "annual",
+    "value_gbp": 14000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.051Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-01-01",
+    "period_type": "annual",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.051Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2011-01-01",
+    "period_type": "annual",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.051Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-07-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.130Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-01-01",
+    "period_type": "quarterly",
+    "value_gbp": 13000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.207Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.207Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.207Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-10-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.207Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2011-04-01",
+    "period_type": "quarterly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.207Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-01-01",
+    "period_type": "monthly",
+    "value_gbp": 3000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.428Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-02-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.428Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.428Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2009-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-04-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-05-01",
+    "period_type": "monthly",
+    "value_gbp": 2000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2010-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-07-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-09-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "export",
+    "date": "2011-11-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.429Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-01-01",
+    "period_type": "monthly",
+    "value_gbp": 9000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-02-01",
+    "period_type": "monthly",
+    "value_gbp": 4000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2009-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-04-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-05-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2010-12-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
+  },
+  {
+    "commodity_code": "TOTAL",
+    "commodity_name": "Total Goods",
+    "commodity_level": 2,
+    "country_code": "GS",
+    "country_name": "South Georgia",
+    "flow": "import",
+    "date": "2011-06-01",
+    "period_type": "monthly",
+    "value_gbp": 1000000,
+    "volume": null,
+    "volume_unit": null,
+    "data_source": "ONS",
+    "last_updated": "2026-08-20T10:09:20.651Z"
   }
 ]
