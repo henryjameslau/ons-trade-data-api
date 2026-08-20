@@ -163,8 +163,10 @@ jobs:
         env:
           NODE_OPTIONS: --max-old-space-size=4096
         run: |
-          echo "Running parse-data..."
+          echo "Running parse-data (country-by-commodity exports + imports)..."
           npm run parse-data
+          echo "Running parse-allcountries (all countries SA totals)..."
+          npm run parse-allcountries
           echo "Running parse-services..."
           npm run parse-services
           echo "Running generate-files..."
@@ -207,6 +209,8 @@ jobs:
             git commit -m "Update ONS trade data ($DATE)
 
           Automated update: downloaded latest files from ONS and regenerated static data."
+            # Pull with rebase in case another workflow run pushed while this one ran
+            git pull --rebase origin main
             git push
             echo "Committed and pushed updated data"
           fi

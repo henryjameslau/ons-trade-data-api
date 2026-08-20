@@ -8,10 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "parse-data": "npx tsx scripts/parse-excel.ts data/parsed.json data/raw/",
+    "parse-data": "npx tsx scripts/parse-excel.ts data/parsed.json data/raw/countrybycommodityexports.xlsx data/raw/countrybycommodityimports.xlsx",
+    "parse-allcountries": "npx tsx scripts/parse-allcountries.ts data/parsed-allcountries.json",
     "parse-services": "npx tsx scripts/parse-mret.ts data/parsed-services.json data/raw/mret.csv",
-    "generate-files": "npx tsx scripts/generate-files.ts data/parsed.json data/parsed-services.json",
-    "refresh-data": "npm run parse-data && npm run parse-services && npm run generate-files"
+    "generate-files": "npx tsx scripts/generate-files.ts data/parsed.json data/parsed-allcountries.json data/parsed-services.json",
+    "refresh-data": "npm run parse-data && npm run parse-allcountries && npm run parse-services && npm run generate-files"
   },
   "devDependencies": {
     "@sveltejs/adapter-node": "^5.5.7",
