@@ -124,19 +124,39 @@ jobs:
             echo "  No change."
           fi
 
-          # ── Stable-URL files ──────────────────────────────────────────────────
-          # These filenames never change — download directly, detect changes by hash.
+          # ── Country-by-commodity exports ─────────────────────────────────────
+          # ONS may version this filename (for example, ...exportsv2.xlsx), so
+          # scrape the dataset page rather than assuming the stable URL.
+          echo "==> Detecting current countrybycommodityexports filename..."
+          PAGE_FILE=$(mktemp)
+          fetch_url \
+            "https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports" \
+            "$PAGE_FILE"
+
+          EXPORTS_URL=$(python3 -c "
+          import sys, json, re
+          html = open('$PAGE_FILE').read()
+          m = re.search(r'<script type=\"application/ld\+json\">(.*?)</script>', html, re.DOTALL)
+          data = json.loads(m.group(1))
+          for d in data.get('distribution', []):
+              if d.get('encodingFormat') == 'xlsx':
+                  print(d['contentUrl']); sys.exit(0)
+          sys.exit(1)
+          ")
+          rm -f "$PAGE_FILE"
+          echo "  Current file: $(basename "$EXPORTS_URL" | cut -d'?' -f1)"
+
+          # Keep the repository filename stable because the parser references it.
           # A 3s pause between each request keeps us well within ONS rate limits.
 
           echo "==> Downloading countrybycommodityexports.xlsx..."
           sleep 3
           OLD=$(sha256sum data/raw/countrybycommodityexports.xlsx 2>/dev/null | awk '{print $1}' || echo none)
-          fetch_url \
-            "https://www.ons.gov.uk/file?uri=/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports/current/countrybycommodityexports.xlsx" \
-            data/raw/countrybycommodityexports.xlsx
+          fetch_url "$EXPORTS_URL" data/raw/countrybycommodityexports.xlsx
           NEW=$(sha256sum data/raw/countrybycommodityexports.xlsx | awk '{print $1}')
           [ "$OLD" != "$NEW" ] && { echo "  Changed."; FILES_CHANGED=true; } || echo "  Unchanged."
 
+          # ── Stable-URL files ──────────────────────────────────────────────────
           echo "==> Downloading countrybycommodityimports.xlsx..."
           sleep 3
           OLD=$(sha256sum data/raw/countrybycommodityimports.xlsx 2>/dev/null | awk '{print $1}' || echo none)

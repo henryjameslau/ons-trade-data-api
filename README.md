@@ -307,7 +307,7 @@ A GitHub Actions workflow (`.github/workflows/update-data.yml`) runs every **wee
 | Dataset | File | ONS page |
 |---|---|---|
 | Trade in goods: all countries SA | `allcountries*.xlsx` (date-named) | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradeallcountriesseasonallyadjusted) |
-| Country-by-commodity exports | `countrybycommodityexports.xlsx` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports) |
+| Country-by-commodity exports | `countrybycommodityexports.xlsx` (ONS may version the download filename) | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityexports) |
 | Country-by-commodity imports | `countrybycommodityimports.xlsx` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/uktradecountrybycommodityimports) |
 | UK trade time series (MRET) | `mret.csv` | [link](https://www.ons.gov.uk/economy/nationalaccounts/balanceofpayments/datasets/tradeingoodsmretsallbopeu2013timeseriesspreadsheet) |
 
