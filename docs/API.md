@@ -1,10 +1,10 @@
 # ONS Trade Data API Documentation
 
-## Base URL
+## Static data base URL
 
 ```
-http://localhost:5173/api      (Development)
-https://your-domain.com/api    (Production)
+http://localhost:5173/data      (Development)
+https://your-domain.com/data    (Production)
 ```
 
 ## Response Format
@@ -38,49 +38,49 @@ All responses are JSON. Successful responses return HTTP 200, errors return appr
 ### 1. Metadata Endpoints
 
 #### 1.1 Get Schema
-**Endpoint:** `GET /api/meta/schema`
+**Endpoint:** `GET /data/meta/schema.json`
 
 Returns information about the data schema, version, and metadata.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/meta/schema
+curl http://localhost:5173/data/meta/schema.json
 ```
 
 ---
 
 #### 1.2 Get Commodities
-**Endpoint:** `GET /api/meta/commodities`
+**Endpoint:** `GET /data/meta/commodities.json`
 
 Returns all commodity codes with their names and hierarchy levels.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/meta/commodities | jq '.'
+curl http://localhost:5173/data/meta/commodities.json | jq '.'
 ```
 
 ---
 
 #### 1.3 Get Countries
-**Endpoint:** `GET /api/meta/countries`
+**Endpoint:** `GET /data/meta/countries.json`
 
 Returns all country codes with their full names.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/meta/countries
+curl http://localhost:5173/data/meta/countries.json
 ```
 
 ---
 
 #### 1.4 Get Time Periods
-**Endpoint:** `GET /api/meta/periods`
+**Endpoint:** `GET /data/meta/time-periods.json`
 
 Returns an array of all available time periods in the dataset.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/meta/periods
+curl http://localhost:5173/data/meta/time-periods.json
 ```
 
 ---
@@ -88,38 +88,40 @@ curl http://localhost:5173/api/meta/periods
 ### 2. Trade Data Endpoints
 
 #### 2.1 Get Trade by Commodity
-**Endpoint:** `GET /api/trade-by-commodity/{commodity_code}`
+**Endpoint:** `GET /data/trade-by-commodity/{commodity_code}.json`
 
 Returns all trade records for a specific commodity.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/trade-by-commodity/SITC_28
+curl http://localhost:5173/data/trade-by-commodity/28.json
+curl http://localhost:5173/data/trade-by-commodity/ts_total.json
 ```
 
 ---
 
 #### 2.2 Get Trade by Country
-**Endpoint:** `GET /api/trade-by-country/{country_code}`
+**Endpoint:** `GET /data/trade-by-country/{country_code}.json`
 
 Returns all trade records for a specific country.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/trade-by-country/US
-curl http://localhost:5173/api/trade-by-country/de  # Case-insensitive
+curl http://localhost:5173/data/trade-by-country/us.json
+curl http://localhost:5173/data/trade-by-country/eu.json  # MRET EU goods aggregate
+curl http://localhost:5173/data/trade-by-country/neu.json # MRET non-EU goods aggregate
 ```
 
 ---
 
 #### 2.3 Get Trade by Period
-**Endpoint:** `GET /api/trade-by-period/{date}`
+**Endpoint:** `GET /data/trade-by-period/{date}.json`
 
 Returns all trade records for a specific time period.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/trade-by-period/2025-12
+curl http://localhost:5173/data/trade-by-period/2025-12-01.json
 ```
 
 ---
@@ -127,25 +129,25 @@ curl http://localhost:5173/api/trade-by-period/2025-12
 ### 3. Aggregated Analysis Endpoints
 
 #### 3.1 Get Top Imports
-**Endpoint:** `GET /api/top-imports/{period}`
+**Endpoint:** `GET /data/top-imports/{period}.json`
 
 Returns the top 100 import records by trade value.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/top-imports/all-time
+curl http://localhost:5173/data/top-imports/all-time.json
 ```
 
 ---
 
 #### 3.2 Get Top Exports
-**Endpoint:** `GET /api/top-exports/{period}`
+**Endpoint:** `GET /data/top-exports/{period}.json`
 
 Returns the top 100 export records by trade value.
 
 **Example:**
 ```bash
-curl http://localhost:5173/api/top-exports/all-time
+curl http://localhost:5173/data/top-exports/all-time.json
 ```
 
 ---

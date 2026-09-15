@@ -3,7 +3,7 @@
  *
  * Parses data/raw/mret.csv — the ONS "Monthly value of UK exports and imports
  * of goods and services" time-series dataset — and extracts Trade in Services
- * records into the same NDJSON format used by parse-excel.ts.
+ * plus the EU/non-EU goods series used by the UK Trade bulletin.
  *
  * mret.csv structure:
  *   Row 1  – Title (human-readable series names)
@@ -26,7 +26,7 @@ import * as readline from 'readline';
 // Types
 // ---------------------------------------------------------------------------
 
-interface ServiceRecord {
+interface MretRecord {
   commodity_code: string;
   commodity_name: string;
   country_code: string;
@@ -36,7 +36,7 @@ interface ServiceRecord {
   date: string;
   period_type: 'annual' | 'quarterly' | 'monthly';
   measure: 'CP' | 'CVM' | 'IDEF';
-  data_type: 'services';
+  data_type: 'goods' | 'services';
 }
 
 interface ColumnMeta {
@@ -48,6 +48,9 @@ interface ColumnMeta {
   measure: 'CP' | 'CVM' | 'IDEF';
   /** Multiply raw value by this factor — CP/CVM columns are in £m */
   scale: number;
+  country_code: string;
+  country_name: string;
+  data_type: 'goods' | 'services';
 }
 
 // ---------------------------------------------------------------------------
@@ -67,7 +70,23 @@ const QUARTER_MAP: Record<string, string> = {
 const METADATA_ROWS = 5; // PreUnit, Unit, Release Date, Next Release, Important Notes
 
 // ---------------------------------------------------------------------------
-// Date parsing
+// Goods series
+// ---------------------------------------------------------------------------
+
+/**
+ * Seasonally adjusted EU/non-EU goods series excluding precious metals.
+ * Values are in £ millions and are converted to £ in the generated API files.
+ */
+const GOODS_CDID_MAP: Record<string, Omit<ColumnMeta, 'index' | 'cdid'>> = {
+  FSL4: { commodity_code: 'GOODS_EU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'EU', country_name: 'EU', flow: 'export', measure: 'CP', scale: 1_000_000, data_type: 'goods' },
+  FSL5: { commodity_code: 'GOODS_EU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'EU', country_name: 'EU', flow: 'import', measure: 'CP', scale: 1_000_000, data_type: 'goods' },
+  FSL7: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'NEU', country_name: 'Non-EU', flow: 'export', measure: 'CP', scale: 1_000_000, data_type: 'goods' },
+  FSL8: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'NEU', country_name: 'Non-EU', flow: 'import', measure: 'CP', scale: 1_000_000, data_type: 'goods' },
+  JIM8: { commodity_code: 'GOODS_EU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'EU', country_name: 'EU', flow: 'export', measure: 'CVM', scale: 1_000_000, data_type: 'goods' },
+  JIM7: { commodity_code: 'GOODS_EU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'EU', country_name: 'EU', flow: 'import', measure: 'CVM', scale: 1_000_000, data_type: 'goods' },
+  JIN3: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'NEU', country_name: 'Non-EU', flow: 'export', measure: 'CVM', scale: 1_000_000, data_type: 'goods' },
+  JIN2: { commodity_code: 'GOODS_NONEU', commodity_name: 'Total Goods ex Precious Metals', country_code: 'NEU', country_name: 'Non-EU', flow: 'import', measure: 'CVM', scale: 1_000_000, data_type: 'goods' },
+};
 
 // ---------------------------------------------------------------------------
 // Date parsing
@@ -224,13 +243,24 @@ async function parseMretCSV(inputFile: string): Promise<ServiceRecord[]> {
     columns.push({
       index: i,
       cdid: cdidRow[i] || '',
+      country_code: 'WW',
+      country_name: 'World',
+      data_type: 'services',
       ...parsed,
     });
   }
 
-  console.log(`Found ${columns.length} Trade in Services columns to extract`);
+  for (let i = 1; i < cdidRow.length; i++) {
+    const parsed = GOODS_CDID_MAP[cdidRow[i]];
+    if (parsed) columns.push({ index: i, cdid: cdidRow[i], ...parsed });
+  }
 
-  const records: ServiceRecord[] = [];
+  const serviceColumnCount = columns.filter(column => column.data_type === 'services').length;
+  const goodsColumnCount = columns.length - serviceColumnCount;
+  console.log(`Found ${serviceColumnCount} Trade in Services columns to extract`);
+  console.log(`Found ${goodsColumnCount} EU/non-EU goods columns to extract`);
+
+  const records: MretRecord[] = [];
 
   // Data starts after title row (0), CDID row (1), and METADATA_ROWS rows
   const dataStartIndex = 2 + METADATA_ROWS;
@@ -255,14 +285,14 @@ async function parseMretCSV(inputFile: string): Promise<ServiceRecord[]> {
       records.push({
         commodity_code: col.commodity_code,
         commodity_name: col.commodity_name,
-        country_code: 'WW',
-        country_name: 'World',
+        country_code: col.country_code,
+        country_name: col.country_name,
         flow: col.flow,
         value: numValue * col.scale,
         date,
         period_type,
         measure: col.measure,
-        data_type: 'services',
+        data_type: col.data_type,
       });
     }
   }

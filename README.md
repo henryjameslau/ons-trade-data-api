@@ -30,7 +30,7 @@ This project pre-processes ONS trade data into JSON files and ships a **client-s
 ├── scripts/
 │   ├── parse-excel.ts            # Country-by-commodity Excel parser
 │   ├── parse-allcountries.ts     # All-countries SA Excel parser
-│   ├── parse-mret.ts             # MRET CSV (trade in services) parser
+│   ├── parse-mret.ts             # MRET goods and services time-series parser
 │   └── generate-files.ts         # Data aggregation + index generation
 ├── data/                          # Generated JSON data files
 │   ├── meta/
@@ -83,7 +83,7 @@ The raw ONS files live in `data/raw/` and are committed to the repository so the
 | `countrybycommodityexports.xlsx` | Monthly exports by country × commodity | `parse-excel.ts` |
 | `countrybycommodityimports.xlsx` | Monthly imports by country × commodity | `parse-excel.ts` |
 | `allcountries*.xlsx` | Annual/quarterly/monthly totals for all countries (SA) | `parse-allcountries.ts` |
-| `mret.csv` | UK trade in services time series | `parse-mret.ts` |
+| `mret.csv` | UK trade in goods and services time series | `parse-mret.ts` |
 
 ### Running the pipeline
 
@@ -94,7 +94,7 @@ npm run parse-data
 # Parse all-countries seasonally adjusted file
 npm run parse-allcountries
 
-# Parse trade-in-services CSV
+# Parse MRET goods and services series
 npm run parse-services
 
 # Generate all aggregated static/data/ JSON files
@@ -108,6 +108,11 @@ This creates pre-aggregated JSON files served as static assets, organised by:
 - **Commodity** (`static/data/trade-by-commodity/{code}.json`)
 - **Country** (`static/data/trade-by-country/{code}.json`)
 - **Time period** (`static/data/trade-by-period/{date}.json`)
+
+MRET series use the same structure. In particular, the pipeline creates
+`trade-by-country/eu.json`, `trade-by-country/neu.json`, and
+`trade-by-commodity/ts_total.json`, so clients can request the focused series
+they need instead of downloading the full source CSV.
 - **Top results** (`static/data/top-imports/`, `static/data/top-exports/`)
 - **Meta index** (`static/data/meta/index.json`) — compact per-country lookup
 
@@ -299,7 +304,7 @@ A GitHub Actions workflow (`.github/workflows/update-data.yml`) runs every **wee
 1. **Checks for new ONS files** — scrapes each dataset page for the current download URL and compares against `data/raw/` (filename comparison for the date-named `allcountries*.xlsx`; SHA-256 hash for stable-named files)
 2. **Downloads updated files** if anything changed
 3. **Re-runs the full processing pipeline** — `parse-data` → `parse-allcountries` → `parse-services` → `generate-files`
-4. **Validates output** — checks `static/data/meta/schema.json` has ≥ 100,000 records; fails the run if not
+4. **Validates output** — checks the record count and required MRET API components; fails the run if any are missing
 5. **Commits and pushes** updated `data/raw/` and `static/data/` back to `main`
 
 ### Data sources monitored
@@ -343,4 +348,3 @@ Contributions welcome! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request
-

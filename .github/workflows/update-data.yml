@@ -212,6 +212,17 @@ jobs:
             exit 1
           fi
 
+          for REQUIRED_FILE in \
+            static/data/trade-by-country/eu.json \
+            static/data/trade-by-country/neu.json \
+            static/data/trade-by-commodity/ts_total.json
+          do
+            if [ ! -s "$REQUIRED_FILE" ]; then
+              echo "ERROR: Required MRET API component missing or empty: $REQUIRED_FILE"
+              exit 1
+            fi
+          done
+
           echo "Validation passed: $TOTAL_RECORDS records"
 
       - name: Commit and push updated data

@@ -236,5 +236,7 @@
   "VU": "Vanuatu",
   "NU": "Niue Island",
   "TK": "Tokelau Islands",
-  "WW": "World"
+  "WW": "World",
+  "EU": "EU",
+  "NEU": "Non-EU"
 }

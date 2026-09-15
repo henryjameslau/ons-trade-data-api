@@ -8,11 +8,7 @@
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
-    "strict": true,
-    "paths": {
-      "$lib": ["src/lib"],
-      "$lib/*": ["src/lib/*"]
-    }
+    "strict": true
   },
   "include": ["src/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules", "dist"]

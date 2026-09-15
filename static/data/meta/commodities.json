@@ -514,5 +514,13 @@
   "TS_MANUFACTURING_AND_MAINTENANCE_SERVICES": {
     "name": "Manufacturing and Maintenance Services",
     "level": 2
+  },
+  "GOODS_EU": {
+    "name": "Total Goods ex Precious Metals",
+    "level": 2
+  },
+  "GOODS_NONEU": {
+    "name": "Total Goods ex Precious Metals",
+    "level": 2
   }
 }

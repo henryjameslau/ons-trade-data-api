@@ -1,17 +1,15 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { Plot, Line } from 'svelteplot';
-  import mretUrl from '../../data/raw/mret.csv?url';
 
   // ── Chart data ────────────────────────────────────────────────────────────
   type Point = { date: Date; value: number };
   type ChartRecord = {
     date: string;
-    dataType: 'goods' | 'services';
-    region: 'EU' | 'Non-EU' | 'World';
+    period_type: 'annual' | 'quarterly' | 'monthly';
     flow: 'import' | 'export';
     measure: 'CP' | 'CVM';
-    value: number;
+    value_gbp: number;
   };
 
   let fig1ExportsEuData: Point[] = [];
@@ -38,68 +36,6 @@
   let latestDataDate: string = '';
 
   const ROLLING_MONTH_COUNT = 37;
-  const MONTHS: Record<string, string> = {
-    JAN: '01', FEB: '02', MAR: '03', APR: '04', MAY: '05', JUN: '06',
-    JUL: '07', AUG: '08', SEP: '09', OCT: '10', NOV: '11', DEC: '12'
-  };
-  const SERIES: Record<string, Omit<ChartRecord, 'date' | 'value'>> = {
-    FSL4: { dataType: 'goods', region: 'EU', flow: 'export', measure: 'CP' },
-    FSL5: { dataType: 'goods', region: 'EU', flow: 'import', measure: 'CP' },
-    FSL7: { dataType: 'goods', region: 'Non-EU', flow: 'export', measure: 'CP' },
-    FSL8: { dataType: 'goods', region: 'Non-EU', flow: 'import', measure: 'CP' },
-    JIM8: { dataType: 'goods', region: 'EU', flow: 'export', measure: 'CVM' },
-    JIM7: { dataType: 'goods', region: 'EU', flow: 'import', measure: 'CVM' },
-    JIN3: { dataType: 'goods', region: 'Non-EU', flow: 'export', measure: 'CVM' },
-    JIN2: { dataType: 'goods', region: 'Non-EU', flow: 'import', measure: 'CVM' },
-    IKBB: { dataType: 'services', region: 'World', flow: 'export', measure: 'CP' },
-    IKBC: { dataType: 'services', region: 'World', flow: 'import', measure: 'CP' },
-    IKBE: { dataType: 'services', region: 'World', flow: 'export', measure: 'CVM' },
-    IKBF: { dataType: 'services', region: 'World', flow: 'import', measure: 'CVM' }
-  };
-
-  function parseCsvLine(line: string): string[] {
-    const fields: string[] = [];
-    let value = '';
-    let quoted = false;
-
-    for (const char of line) {
-      if (char === '"') {
-        quoted = !quoted;
-      } else if (char === ',' && !quoted) {
-        fields.push(value.trim());
-        value = '';
-      } else {
-        value += char;
-      }
-    }
-    fields.push(value.trim());
-    return fields;
-  }
-
-  function parseChartRecords(csv: string): ChartRecord[] {
-    const lines = csv.split(/\r?\n/);
-    const cdids = parseCsvLine(lines[1]);
-    const columns = cdids.flatMap((cdid, index) =>
-      SERIES[cdid] ? [{ index, series: SERIES[cdid] }] : []
-    );
-    const records: ChartRecord[] = [];
-
-    for (const line of lines.slice(7)) {
-      const fields = parseCsvLine(line);
-      const dateMatch = fields[0]?.match(/^(\d{4}) ([A-Z]{3})$/);
-      if (!dateMatch || !MONTHS[dateMatch[2]]) continue;
-      const date = `${dateMatch[1]}-${MONTHS[dateMatch[2]]}-01`;
-
-      for (const { index, series } of columns) {
-        const value = Number(fields[index]);
-        if (fields[index] && !Number.isNaN(value)) {
-          records.push({ ...series, date, value: value / 1000 });
-        }
-      }
-    }
-
-    return records;
-  }
 
   function parseDate(iso: string): Date {
     return new Date(iso);
@@ -144,14 +80,19 @@
 
   onMount(async () => {
     try {
-      const response = await fetch(mretUrl);
-      if (!response.ok) throw new Error('Failed to load chart data');
-      const chartRecords = parseChartRecords(await response.text());
-
       // ── Goods data (Figures 1 & 2) ────────────────────────────────────
-      const goodsRaw = chartRecords.filter((record) => record.dataType === 'goods');
-      const euRaw = goodsRaw.filter((record) => record.region === 'EU');
-      const nonEuRaw = goodsRaw.filter((record) => record.region === 'Non-EU');
+      const [euResponse, nonEuResponse] = await Promise.all([
+        fetch('/data/trade-by-country/eu.json'),
+        fetch('/data/trade-by-country/neu.json')
+      ]);
+      if (!euResponse.ok || !nonEuResponse.ok) throw new Error('Failed to load goods data');
+      const euRaw: ChartRecord[] = (await euResponse.json()).filter(
+        (record: ChartRecord) => record.period_type === 'monthly'
+      );
+      const nonEuRaw: ChartRecord[] = (await nonEuResponse.json()).filter(
+        (record: ChartRecord) => record.period_type === 'monthly'
+      );
+      const goodsRaw = [...euRaw, ...nonEuRaw];
 
       // Derive latest monthly date for header display
       const allDates = goodsRaw.map((record) => record.date).sort();
@@ -165,7 +106,7 @@
       const byDate = (a: Point, b: Point) => +a.date - +b.date;
 
       function toPoint(record: ChartRecord): Point {
-        return { date: parseDate(record.date), value: record.value };
+        return { date: parseDate(record.date), value: record.value_gbp / 1e9 };
       }
 
       function filterSeries(
@@ -198,19 +139,22 @@
       fig2NonEuImportsCvmData = filterSeries(nonEuRaw, 'import', 'CVM');
 
       // ── Services data (Figure 5) ──────────────────────────────────────
+      const servicesResponse = await fetch('/data/trade-by-commodity/ts_total.json');
+      if (!servicesResponse.ok) throw new Error('Failed to load services data');
+      const servicesMonthlyAll: ChartRecord[] = (await servicesResponse.json()).filter(
+        (record: ChartRecord) => record.period_type === 'monthly'
+      );
+
       const fig5ExportsCp: Point[] = [];
       const fig5ExportsCvm: Point[] = [];
       const fig5ImportsCp: Point[] = [];
       const fig5ImportsCvm: Point[] = [];
 
-      const servicesMonthlyAll = chartRecords.filter(
-        (record) => record.dataType === 'services'
-      );
       const latestServiceDates = latestMonthlyDateSet(servicesMonthlyAll);
 
       for (const r of servicesMonthlyAll) {
         if (latestServiceDates.has(r.date)) {
-          const point: Point = { date: parseDate(r.date), value: r.value };
+          const point: Point = { date: parseDate(r.date), value: r.value_gbp / 1e9 };
           if (r.flow === 'export' && r.measure === 'CP') fig5ExportsCp.push(point);
           if (r.flow === 'export' && r.measure === 'CVM') fig5ExportsCvm.push(point);
           if (r.flow === 'import' && r.measure === 'CP') fig5ImportsCp.push(point);
