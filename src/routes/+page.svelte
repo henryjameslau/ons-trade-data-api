@@ -1,9 +1,18 @@
 <script lang="ts">
   import { onMount } from 'svelte';
   import { Plot, Line } from 'svelteplot';
+  import mretUrl from '../../data/raw/mret.csv?url';
 
   // ── Chart data ────────────────────────────────────────────────────────────
   type Point = { date: Date; value: number };
+  type ChartRecord = {
+    date: string;
+    dataType: 'goods' | 'services';
+    region: 'EU' | 'Non-EU' | 'World';
+    flow: 'import' | 'export';
+    measure: 'CP' | 'CVM';
+    value: number;
+  };
 
   let fig1ExportsEuData: Point[] = [];
   let fig1ExportsNonEuData: Point[] = [];
@@ -28,7 +37,69 @@
   let error = '';
   let latestDataDate: string = '';
 
-  const ROLLING_MONTH_COUNT = 36;
+  const ROLLING_MONTH_COUNT = 37;
+  const MONTHS: Record<string, string> = {
+    JAN: '01', FEB: '02', MAR: '03', APR: '04', MAY: '05', JUN: '06',
+    JUL: '07', AUG: '08', SEP: '09', OCT: '10', NOV: '11', DEC: '12'
+  };
+  const SERIES: Record<string, Omit<ChartRecord, 'date' | 'value'>> = {
+    FSL4: { dataType: 'goods', region: 'EU', flow: 'export', measure: 'CP' },
+    FSL5: { dataType: 'goods', region: 'EU', flow: 'import', measure: 'CP' },
+    FSL7: { dataType: 'goods', region: 'Non-EU', flow: 'export', measure: 'CP' },
+    FSL8: { dataType: 'goods', region: 'Non-EU', flow: 'import', measure: 'CP' },
+    JIM8: { dataType: 'goods', region: 'EU', flow: 'export', measure: 'CVM' },
+    JIM7: { dataType: 'goods', region: 'EU', flow: 'import', measure: 'CVM' },
+    JIN3: { dataType: 'goods', region: 'Non-EU', flow: 'export', measure: 'CVM' },
+    JIN2: { dataType: 'goods', region: 'Non-EU', flow: 'import', measure: 'CVM' },
+    IKBB: { dataType: 'services', region: 'World', flow: 'export', measure: 'CP' },
+    IKBC: { dataType: 'services', region: 'World', flow: 'import', measure: 'CP' },
+    IKBE: { dataType: 'services', region: 'World', flow: 'export', measure: 'CVM' },
+    IKBF: { dataType: 'services', region: 'World', flow: 'import', measure: 'CVM' }
+  };
+
+  function parseCsvLine(line: string): string[] {
+    const fields: string[] = [];
+    let value = '';
+    let quoted = false;
+
+    for (const char of line) {
+      if (char === '"') {
+        quoted = !quoted;
+      } else if (char === ',' && !quoted) {
+        fields.push(value.trim());
+        value = '';
+      } else {
+        value += char;
+      }
+    }
+    fields.push(value.trim());
+    return fields;
+  }
+
+  function parseChartRecords(csv: string): ChartRecord[] {
+    const lines = csv.split(/\r?\n/);
+    const cdids = parseCsvLine(lines[1]);
+    const columns = cdids.flatMap((cdid, index) =>
+      SERIES[cdid] ? [{ index, series: SERIES[cdid] }] : []
+    );
+    const records: ChartRecord[] = [];
+
+    for (const line of lines.slice(7)) {
+      const fields = parseCsvLine(line);
+      const dateMatch = fields[0]?.match(/^(\d{4}) ([A-Z]{3})$/);
+      if (!dateMatch || !MONTHS[dateMatch[2]]) continue;
+      const date = `${dateMatch[1]}-${MONTHS[dateMatch[2]]}-01`;
+
+      for (const { index, series } of columns) {
+        const value = Number(fields[index]);
+        if (fields[index] && !Number.isNaN(value)) {
+          records.push({ ...series, date, value: value / 1000 });
+        }
+      }
+    }
+
+    return records;
+  }
 
   function parseDate(iso: string): Date {
     return new Date(iso);
@@ -73,47 +144,50 @@
 
   onMount(async () => {
     try {
+      const response = await fetch(mretUrl);
+      if (!response.ok) throw new Error('Failed to load chart data');
+      const chartRecords = parseChartRecords(await response.text());
+
       // ── Goods data (Figures 1 & 2) ────────────────────────────────────
-      // Uses trade-by-country aggregate files (EU and non-EU) which contain
-      // ONS SA goods data excluding precious metals, matching the UK Trade bulletin.
-      const [euRes, nonEuRes] = await Promise.all([
-        fetch('/data/trade-by-country/eu.json'),
-        fetch('/data/trade-by-country/neu.json'),
-      ]);
-      if (!euRes.ok || !nonEuRes.ok) throw new Error('Failed to load goods data');
-      const euRaw: any[] = await euRes.json();
-      const nonEuRaw: any[] = await nonEuRes.json();
+      const goodsRaw = chartRecords.filter((record) => record.dataType === 'goods');
+      const euRaw = goodsRaw.filter((record) => record.region === 'EU');
+      const nonEuRaw = goodsRaw.filter((record) => record.region === 'Non-EU');
 
       // Derive latest monthly date for header display
-      const allMonthly = [...euRaw, ...nonEuRaw].filter((r) => r.period_type === 'monthly');
-      const allDates = allMonthly.map((r) => r.date).sort();
+      const allDates = goodsRaw.map((record) => record.date).sort();
       if (allDates.length > 0) {
         const d = new Date(allDates[allDates.length - 1]);
         latestDataDate = d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
       }
 
-      // Filter to latest 36 months
-      const latestDates = latestMonthlyDateSet(allMonthly);
+      // Match the 37-month range used by the ONS reference figures.
+      const latestDates = latestMonthlyDateSet(goodsRaw);
       const byDate = (a: Point, b: Point) => +a.date - +b.date;
 
-      function toPoint(r: any): Point {
-        return { date: parseDate(r.date), value: r.value_gbp / 1e9 };
+      function toPoint(record: ChartRecord): Point {
+        return { date: parseDate(record.date), value: record.value };
       }
 
-      function filterSeries(data: any[], flow: string, measure: string): Point[] {
-        return data
-          .filter((r) => r.period_type === 'monthly' && r.flow === flow && r.measure === measure && latestDates.has(r.date))
+      function filterSeries(
+        records: ChartRecord[],
+        flow: 'import' | 'export',
+        measure: 'CP' | 'CVM'
+      ): Point[] {
+        return records
+          .filter((record) =>
+            record.flow === flow &&
+            record.measure === measure &&
+            latestDates.has(record.date)
+          )
           .map(toPoint)
           .sort(byDate);
       }
 
-      // Figure 1: CP only (matching ONS bulletin fig 1)
       fig1ExportsEuData    = filterSeries(euRaw,    'export', 'CP');
       fig1ExportsNonEuData = filterSeries(nonEuRaw, 'export', 'CP');
       fig1ImportsEuData    = filterSeries(euRaw,    'import', 'CP');
       fig1ImportsNonEuData = filterSeries(nonEuRaw, 'import', 'CP');
 
-      // Figure 2: CP + CVM for EU and Non-EU (matching ONS bulletin fig 2)
       fig2EuExportsCpData     = filterSeries(euRaw,    'export', 'CP');
       fig2EuExportsCvmData    = filterSeries(euRaw,    'export', 'CVM');
       fig2EuImportsCpData     = filterSeries(euRaw,    'import', 'CP');
@@ -124,26 +198,19 @@
       fig2NonEuImportsCvmData = filterSeries(nonEuRaw, 'import', 'CVM');
 
       // ── Services data (Figure 5) ──────────────────────────────────────
-      const svcRes = await fetch('/data/trade-by-commodity/ts_total.json');
-      if (!svcRes.ok) throw new Error('Failed to load services data');
-      const svcRaw: any[] = await svcRes.json();
-
       const fig5ExportsCp: Point[] = [];
       const fig5ExportsCvm: Point[] = [];
       const fig5ImportsCp: Point[] = [];
       const fig5ImportsCvm: Point[] = [];
 
-      const servicesMonthlyAll = svcRaw.filter(
-        (r) =>
-          r.period_type === 'monthly' &&
-          r.country_code === 'WW' &&
-          (r.measure === 'CP' || r.measure === 'CVM')
+      const servicesMonthlyAll = chartRecords.filter(
+        (record) => record.dataType === 'services'
       );
       const latestServiceDates = latestMonthlyDateSet(servicesMonthlyAll);
 
       for (const r of servicesMonthlyAll) {
         if (latestServiceDates.has(r.date)) {
-          const point: Point = { date: parseDate(r.date), value: r.value_gbp / 1e9 };
+          const point: Point = { date: parseDate(r.date), value: r.value };
           if (r.flow === 'export' && r.measure === 'CP') fig5ExportsCp.push(point);
           if (r.flow === 'export' && r.measure === 'CVM') fig5ExportsCvm.push(point);
           if (r.flow === 'import' && r.measure === 'CP') fig5ImportsCp.push(point);
@@ -193,7 +260,7 @@
     <section class="chart-section">
       <h2>Figure 1: EU and non-EU goods exports and imports</h2>
       <p class="chart-subtitle">
-        EU and non-EU goods imports and exports, excluding precious metals, current prices, seasonally adjusted, latest 3 years
+        EU and non-EU goods imports and exports, excluding precious metals, current prices, seasonally adjusted, July 2023 to July 2026
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">EU</span>
@@ -261,7 +328,7 @@
     <section class="chart-section">
       <h2>Figure 2: Imports and exports of goods, EU and non-EU</h2>
       <p class="chart-subtitle">
-        Imports and exports of goods, excluding precious metals, current prices and chained volume measures, seasonally adjusted, latest 3 years
+        Imports and exports of goods, excluding precious metals, current prices and chained volume measures, seasonally adjusted, July 2023 to July 2026
       </p>
       <div class="legend">
         <span class="legend-item" style="--c:#206095">Exports CP</span>
