@@ -459,6 +459,22 @@
     "name": "Other miscellaneous manufactures (capital)",
     "level": 2
   },
+  "9PM": {
+    "name": "Precious metals",
+    "level": 2
+  },
+  "9PMG": {
+    "name": "Precious metals gold",
+    "level": 2
+  },
+  "9PMO": {
+    "name": "Precious metals other",
+    "level": 2
+  },
+  "9UG": {
+    "name": "Miscellaneous unspecified goods",
+    "level": 2
+  },
   "T": {
     "name": "Total",
     "level": 0
